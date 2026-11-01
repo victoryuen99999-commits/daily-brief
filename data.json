@@ -1,0 +1,5083 @@
+{
+ "generated_at": "2026-11-01T20:58:48+08:00",
+ "generated_ts": 1793537928.18135,
+ "guides": {
+  "money": [
+   {
+    "n": "產品化服務（你接單、AI 交付）",
+    "rows": [
+     [
+      "首筆收入",
+      "1–2 星期",
+      "hi"
+     ],
+     [
+      "實數",
+      "一單 2,000–8,000 HKD 起；人手只需 10–20 分鐘"
+     ],
+     [
+      "門檻",
+      "要有一項你做得到、講得出的專業（機電／BMS／工程文件）"
+     ],
+     [
+      "AI 幫手",
+      "交付 90–95%"
+     ],
+     [
+      "風險",
+      "低：先收訂金，唔壓貨",
+      "lo"
+     ],
+     [
+      "出處",
+      "2026-10 服務定價觀察"
+     ]
+    ]
+   },
+   {
+    "n": "專業模板／數位產品（Gumroad・Etsy）",
+    "rows": [
+     [
+      "首筆收入",
+      "2–6 星期",
+      "hi"
+     ],
+     [
+      "實數",
+      "平台中位數 US$72/月；44% 產品收入為 0；首 90 天 US$50–300/月；第 12 個月 US$1,000+"
+     ],
+     [
+      "門檻",
+      "窄專業市場（工程估算表、點表模板）比大眾模板好賣，可定價 US$50–199"
+     ],
+     [
+      "AI 幫手",
+      "生產 85–90%"
+     ],
+     [
+      "風險",
+      "中：上架免費＝冇流量，難在推廣",
+      "mid"
+     ],
+     [
+      "出處",
+      "Gumroad／Etsy 公開統計"
+     ]
+    ]
+   },
+   {
+    "n": "手機／限量品炒賣（差價）",
+    "rows": [
+     [
+      "首筆收入",
+      "即日",
+      "hi"
+     ],
+     [
+      "實數",
+      "收益 = 回收價 − 成本 − 車費；單機差價通常幾百至一、兩千"
+     ],
+     [
+      "門檻",
+      "要本金、要即時價（先達回收價／Apple 取貨名額）"
+     ],
+     [
+      "AI 幫手",
+      "代查價、代監察名額 80%；落單付款要你本人"
+     ],
+     [
+      "風險",
+      "高：價格即日可反轉，壓貨最痛",
+      "hi"
+     ],
+     [
+      "出處",
+      "本機價格監察實測"
+     ]
+    ]
+   },
+   {
+    "n": "穩定幣／存款收息（資本換收入）",
+    "rows": [
+     [
+      "首筆收入",
+      "即時",
+      "hi"
+     ],
+     [
+      "實數",
+      "3.8–5.0% APY；每月 500 HKD 需本金 12–16 萬"
+     ],
+     [
+      "門檻",
+      "要有閒置本金；穩定幣冇存款保障"
+     ],
+     [
+      "AI 幫手",
+      "近乎 100%（設定一次）"
+     ],
+     [
+      "風險",
+      "中：對手方／合約風險",
+      "mid"
+     ],
+     [
+      "出處",
+      "Sky／Kraken／Aave 2026-10 報價"
+     ]
+    ]
+   },
+   {
+    "n": "Crypto 空投（airdrop farming）",
+    "rows": [
+     [
+      "首筆收入",
+      "6–12 個月",
+      "hi"
+     ],
+     [
+      "實數",
+      "有效時薪 US$5–25；中位農夫 US$2,000–15,000/年，需 100–400 小時"
+     ],
+     [
+      "門檻",
+      "本金 US$500–5,000，要長期操作多錢包"
+     ],
+     [
+      "AI 幫手",
+      "60–70%（記錄、腳本、稅務整理）"
+     ],
+     [
+      "風險",
+      "高：Sybil 過濾可一夜清零",
+      "hi"
+     ],
+     [
+      "出處",
+      "空投收益統計"
+     ]
+    ]
+   },
+   {
+    "n": "開源賞金（Algora 等）",
+    "rows": [
+     [
+      "首筆收入",
+      "2–8 星期",
+      "hi"
+     ],
+     [
+      "實數",
+      "每單 US$50–2,500，實測平均 US$7.82/小時（競爭 PR 8–158 個，合併率約 15%）"
+     ],
+     [
+      "門檻",
+      "要識該專案技術棧"
+     ],
+     [
+      "AI 幫手",
+      "70%（但市場已被 agent 淹沒）"
+     ],
+     [
+      "風險",
+      "中：做白工機會大",
+      "mid"
+     ],
+     [
+      "出處",
+      "Algora 實測"
+     ]
+    ]
+   },
+   {
+    "n": "無人出鏡 YouTube／內容",
+    "rows": [
+     [
+      "首筆收入",
+      "6–24 個月",
+      "hi"
+     ],
+     [
+      "實數",
+      "要 1,000 訂閱 + 4,000 小時；>90% 頻道到唔到 1,000 訂閱"
+     ],
+     [
+      "門檻",
+      "要 3–5 條／週，每條 3–8 小時"
+     ],
+     [
+      "AI 幫手",
+      "70–80%（腳本、剪輯、配音）"
+     ],
+     [
+      "風險",
+      "高：有案例 150 天燒 US$26,311、收 US$15,218",
+      "hi"
+     ],
+     [
+      "出處",
+      "變現門檻公開數據"
+     ]
+    ]
+   },
+   {
+    "n": "Print on demand（印圖 T 恤等）",
+    "rows": [
+     [
+      "首筆收入",
+      "6–18 個月",
+      "hi"
+     ],
+     [
+      "實數",
+      "服飾淨利 15–20%；要見錢通常半年以上"
+     ],
+     [
+      "門檻",
+      "設計 + 廣告費"
+     ],
+     [
+      "AI 幫手",
+      "85%"
+     ],
+     [
+      "風險",
+      "中：廣告費食利潤",
+      "mid"
+     ],
+     [
+      "出處",
+      "行業平均值"
+     ]
+    ]
+   },
+   {
+    "n": "Amazon KDP 電子書",
+    "rows": [
+     [
+      "首筆收入",
+      "3–12 個月",
+      "hi"
+     ],
+     [
+      "實數",
+      "飽和；首書預算 US$3,700–4,700（大部分係廣告）；新書每格式每週限 2 本"
+     ],
+     [
+      "門檻",
+      "要廣告預算 + 耐性"
+     ],
+     [
+      "AI 幫手",
+      "80%"
+     ],
+     [
+      "風險",
+      "高：九個月近零收入屬常見",
+      "hi"
+     ],
+     [
+      "出處",
+      "KDP 實測案例"
+     ]
+    ]
+   },
+   {
+    "n": "GPU 硬件出租（Vast.ai）",
+    "rows": [
+     [
+      "首筆收入",
+      "2–4 星期",
+      "hi"
+     ],
+     [
+      "實數",
+      "4090 半載出租：扣 25% 平台費及電費後月淨 HK$479，折舊 HK$520 → 負數"
+     ],
+     [
+      "門檻",
+      "只出租你已經有嘅卡；唔好為此買卡"
+     ],
+     [
+      "AI 幫手",
+      "100%（被動）"
+     ],
+     [
+      "風險",
+      "高：新戶上座率 10–25%",
+      "hi"
+     ],
+     [
+      "出處",
+      "Vast.ai + 中電 2026 電價"
+     ]
+    ]
+   },
+   {
+    "n": "微任務／AI 標註（Toloka・Appen）",
+    "rows": [
+     [
+      "首筆收入",
+      "1–3 星期",
+      "hi"
+     ],
+     [
+      "實數",
+      "US$2–14/小時；部分「專家」項目低過最低工資"
+     ],
+     [
+      "門檻",
+      "要真人身份認證，AI 代做 0%"
+     ],
+     [
+      "AI 幫手",
+      "0%（平台會封號，而且自動化唔會多賺）"
+     ],
+     [
+      "風險",
+      "低金額、低風險",
+      "lo"
+     ],
+     [
+      "出處",
+      "平台公開費率"
+     ]
+    ]
+   }
+  ],
+  "health": [
+   {
+    "n": "每小時起身走 2 分鐘",
+    "rows": [
+     [
+      "做幾多",
+      "久坐每 30–60 分鐘起身 2 分鐘（行去斟水／行樓梯一層）",
+      "hi"
+     ],
+     [
+      "為何有效",
+      "打斷久坐可改善餐後血糖同腰圍；久坐時間本身係獨立風險因子"
+     ],
+     [
+      "幾時做",
+      "工作時，用手機每小時震一次"
+     ],
+     [
+      "證據",
+      "WHO 2020 體能活動指引；久坐中斷研究（短期代謝改善）"
+     ],
+     [
+      "最低要求",
+      "一日 4 次就夠，唔需要換運動服"
+     ]
+    ]
+   },
+   {
+    "n": "固定起床時間，睡 7–9 小時",
+    "rows": [
+     [
+      "做幾多",
+      "成人每晚 7–9 小時，起床時間固定在 ±30 分鐘內",
+      "hi"
+     ],
+     [
+      "為何有效",
+      "睡眠時長同記憶固化、情緒調節、免疫力、代謝都有關；固定起床時間比固定入睡時間更容易做到"
+     ],
+     [
+      "幾時做",
+      "今晚開始：先固定起床，睡意會自己追上"
+     ],
+     [
+      "證據",
+      "AASM／Sleep Research Society 成人睡眠共識（≥7 小時）；睡眠與記憶固化文獻"
+     ],
+     [
+      "最低要求",
+      "只做一件事：明天同今日同一個時間起身"
+     ]
+    ]
+   },
+   {
+    "n": "早上見光 10–20 分鐘",
+    "rows": [
+     [
+      "做幾多",
+      "起身後 1 小時內，戶外或窗邊 10–20 分鐘，唔戴太陽眼鏡",
+      "hi"
+     ],
+     [
+      "為何有效",
+      "晨光校準生理時鐘，令晚上較準時有睡意，亦影響日間情緒同警覺度"
+     ],
+     [
+      "幾時做",
+      "早餐前後；陰天都有用，室內燈光通常唔夠"
+     ],
+     [
+      "證據",
+      "晝夜節律與光暴露研究；光照治療對季節性抑鬱有實證"
+     ],
+     [
+      "最低要求",
+      "返工路途中段唔好全程遮光／戴帽"
+     ]
+    ]
+   },
+   {
+    "n": "每週 2 次肌力訓練",
+    "rows": [
+     [
+      "做幾多",
+      "每週 2 次，每次 20–30 分鐘，練大肌群（深蹲、推、拉、髖伸）",
+      "hi"
+     ],
+     [
+      "為何有效",
+      "肌力同全因死亡率、跌倒風險、血糖控制、老年自理能力都有關；30 歲後肌肉每十年流失 3–8%"
+     ],
+     [
+      "幾時做",
+      "固定兩個時段（例如星期二、五），唔好靠「有時間就做」"
+     ],
+     [
+      "證據",
+      "WHO 2020 指引：成人每週 ≥2 天肌力訓練"
+     ],
+     [
+      "最低要求",
+      "10 分鐘：深蹲 3×10、掌上壓 3×8、平板支撐 3×20 秒"
+     ]
+    ]
+   },
+   {
+    "n": "每日 5 份蔬果",
+    "rows": [
+     [
+      "做幾多",
+      "一日 400 克左右（約 5 份：3 份菜 2 份水果）",
+      "hi"
+     ],
+     [
+      "為何有效",
+      "蔬果攝取量同心血管病、部分癌症、全因死亡率呈反向關係"
+     ],
+     [
+      "幾時做",
+      "每餐加一份，唔需要一次食齊"
+     ],
+     [
+      "證據",
+      "WHO／WCRF 建議每日 ≥400 克蔬果"
+     ],
+     [
+      "最低要求",
+      "午餐同晚餐各加一手掌份量嘅菜"
+     ]
+    ]
+   },
+   {
+    "n": "3 分鐘呼吸練習",
+    "rows": [
+     [
+      "做幾多",
+      "吸 4 秒、呼 6 秒，做 3 分鐘（約 18 次）",
+      "hi"
+     ],
+     [
+      "為何有效",
+      "慢而長的呼氣提高副交感神經活動，即時降低心率同主觀緊張；對急性焦慮有短期效果"
+     ],
+     [
+      "幾時做",
+      "開會前、被人激到、睡前"
+     ],
+     [
+      "證據",
+      "慢呼吸／心率變異度研究；短期正念介入對焦慮的中等強度證據"
+     ],
+     [
+      "最低要求",
+      "一次 6 個呼吸就夠，唔需要墊同 app"
+     ]
+    ]
+   },
+   {
+    "n": "每日一次真人對話",
+    "rows": [
+     [
+      "做幾多",
+      "每日一次 5 分鐘以上嘅真人對話（見面或電話，唔係打字）",
+      "hi"
+     ],
+     [
+      "為何有效",
+      "社交連結同死亡風險、抑鬱、免疫力相關；孤獨嘅健康風險可比吸煙"
+     ],
+     [
+      "幾時做",
+      "食飯時間，或收工前 5 分鐘打一個電話"
+     ],
+     [
+      "證據",
+      "美國醫務總監 2023 孤獨與孤立報告；社交連結與死亡率 meta-analysis"
+     ],
+     [
+      "最低要求",
+      "今日主動問一個人「你今日點呀」"
+     ]
+    ]
+   },
+   {
+    "n": "睡前一小時調暗",
+    "rows": [
+     [
+      "做幾多",
+      "睡前 60 分鐘：燈調暗、螢幕轉夜間模式、唔睇工作訊息",
+      "hi"
+     ],
+     [
+      "為何有效",
+      "強光同訊息刺激延遲入睡、減少深睡；儀式化嘅睡前流程令入睡更快"
+     ],
+     [
+      "幾時做",
+      "由「刷牙時間」倒數一小時"
+     ],
+     [
+      "證據",
+      "睡前光暴露與褪黑素抑制研究；睡眠衛生指引"
+     ],
+     [
+      "最低要求",
+      "叉電位置搬離床頭"
+     ]
+    ]
+   },
+   {
+    "n": "寫低今日三件好事",
+    "rows": [
+     [
+      "做幾多",
+      "每晚寫 3 件具體嘅好事同「為何會發生」",
+      "hi"
+     ],
+     [
+      "為何有效",
+      "持續一週已見情緒改善，效果可維持數月；比寫「感恩」空泛字句有效，關鍵係寫原因"
+     ],
+     [
+      "幾時做",
+      "睡前，同刷牙綁埋一齊"
+     ],
+     [
+      "證據",
+      "Seligman 2005 正向心理學隨機對照試驗（three good things）"
+     ],
+     [
+      "最低要求",
+      "3 行字，手機備忘錄都可以"
+     ]
+    ]
+   }
+  ],
+  "study": [
+   {
+    "n": "主動回憶：合上書自己講一次",
+    "rows": [
+     [
+      "做法",
+      "讀完一節，合上書／關掉講義，用白紙寫出或講出重點，再對答案補漏",
+      "hi"
+     ],
+     [
+      "為何有效",
+      "提取記憶本身會強化記憶（testing effect），比重讀有效得多；同一時間內，自我測驗嘅保留率約係重讀兩倍"
+     ],
+     [
+      "幾時用",
+      "任何要記住嘅內容；尤其證照、技術文件、語言"
+     ],
+     [
+      "證據",
+      "Roediger & Karpicke 2006（testing effect）；Dunlosky 2013 教學法回顧列為高效度"
+     ],
+     [
+      "最小起步",
+      "每讀完一段問自己：呢段講咩？講唔出就返去讀"
+     ]
+    ]
+   },
+   {
+    "n": "間隔重複（Anki／卡片）",
+    "rows": [
+     [
+      "做法",
+      "把要記嘅知識做成問答卡，隔 1 日、3 日、7 日、21 日重溫",
+      "hi"
+     ],
+     [
+      "為何有效",
+      "遺忘曲線下，喺就快忘記之前重溫，記憶保持最有效率；比集中溫習省一半以上時間"
+     ],
+     [
+      "幾時用",
+      "詞彙、法規條文、BACnet 點位、公式"
+     ],
+     [
+      "證據",
+      "Cepeda 2006 meta-analysis（spacing effect）；Dunlosky 2013 高效度方法之一"
+     ],
+     [
+      "最小起步",
+      "今日先做 10 張卡，唔需要一次建全套"
+     ]
+    ]
+   },
+   {
+    "n": "交錯練習：混住練唔同題型",
+    "rows": [
+     [
+      "做法",
+      "一次練習入面交替處理唔同類型題目，唔好一個類型練到熟才換",
+      "hi"
+     ],
+     [
+      "為何有效",
+      "交錯迫使你每次判斷「呢題係邊類、用邊個方法」，呢個判斷力才係實戰要嘅（interleaving）"
+     ],
+     [
+      "幾時用",
+      "數學、電路、程式、診斷類工作"
+     ],
+     [
+      "證據",
+      "Rohrer & Taylor 2007；Dunlosky 2013"
+     ],
+     [
+      "最小起步",
+      "練習時把兩三種題目洗牌"
+     ]
+    ]
+   },
+   {
+    "n": "費曼技巧：講到外行明白",
+    "rows": [
+     [
+      "做法",
+      "用最簡單嘅字寫／講一次，唔用行話；卡住嘅位置就係你未真明嘅位置，返去補",
+      "hi"
+     ],
+     [
+      "為何有效",
+      "把知識重新組織成因果鏈，暴露缺口；生成式解釋（self-explanation）有實證提升理解"
+     ],
+     [
+      "幾時用",
+      "準備講解、寫報告、面試前"
+     ],
+     [
+      "證據",
+      "self-explanation 研究；Chi 2008 回顧"
+     ],
+     [
+      "最小起步",
+      "用 5 句向一個唔識嘅人解釋你今日學咗咩"
+     ]
+    ]
+   },
+   {
+    "n": "刻意練習：針對弱點 + 即時回饋",
+    "rows": [
+     [
+      "做法",
+      "揀一個具體弱點，做剛好超出能力嘅練習，每做完就有回饋（對答案／師傅／錄影自己）",
+      "hi"
+     ],
+     [
+      "為何有效",
+      "重複已識嘅東西唔會進步；進步來自邊緣難度＋回饋修正"
+     ],
+     [
+      "幾時用",
+      "任何技能：焊接、寫程式、談判、英文口語"
+     ],
+     [
+      "證據",
+      "Ericsson 刻意練習研究（注意：對專家表現的解釋力有爭議，但對技能訓練有效）"
+     ],
+     [
+      "最小起步",
+      "今日錄一段 2 分鐘自己嘅表現，睇一次"
+     ]
+    ]
+   },
+   {
+    "n": "先輸出，後輸入",
+    "rows": [
+     [
+      "做法",
+      "睇資料前先做一題／先寫一版，再對照正確答案",
+      "hi"
+     ],
+     [
+      "為何有效",
+      "先嘗試（即使錯）會令之後接收嘅資訊更容易被記住（pretesting effect），亦令你知要睇邊部分"
+     ],
+     [
+      "幾時用",
+      "學新工具、新標準、新軟件"
+     ],
+     [
+      "證據",
+      "pretesting effect 研究（Richland 2009 等）"
+     ],
+     [
+      "最小起步",
+      "開文件前先猜答案寫低"
+     ]
+    ]
+   },
+   {
+    "n": "筆記改成問題庫",
+    "rows": [
+     [
+      "做法",
+      "唔好抄原文；每條筆記寫成一個問題 + 一句答案，之後直接當卡片用",
+      "hi"
+     ],
+     [
+      "為何有效",
+      "抄寫係低效編碼；寫成問題即刻變成可測試嘅材料，接上主動回憶同間隔重複"
+     ],
+     [
+      "幾時用",
+      "上課、睇規格書、開會"
+     ],
+     [
+      "證據",
+      "筆記組織方式與學習成效研究（生成式筆記優於逐字抄錄）"
+     ],
+     [
+      "最小起步",
+      "下次開會把 3 條筆記改寫成 3 條問題"
+     ]
+    ]
+   },
+   {
+    "n": "90 分鐘深度時段",
+    "rows": [
+     [
+      "做法",
+      "每日一段 90 分鐘：電話靜音、通知關掉、只做一件事",
+      "hi"
+     ],
+     [
+      "為何有效",
+      "切換成本高，碎片時間做唔到深度理解；注意力恢復需要真正離開任務"
+     ],
+     [
+      "幾時做",
+      "一日最清醒嘅時段（多數人係上午）"
+     ],
+     [
+      "證據",
+      "task-switching 成本研究；深度工作實踐報告"
+     ],
+     [
+      "最小起步",
+      "明日 25 分鐘無通知，只做最難嗰件事"
+     ]
+    ]
+   },
+   {
+    "n": "學完就睡，唔好通宵",
+    "rows": [
+     [
+      "做法",
+      "重要內容學完，至少留 6 小時睡眠；唔好靠通宵衝刺",
+      "hi"
+     ],
+     [
+      "為何有效",
+      "睡眠期間海馬體重播並鞏固新記憶；睡眠不足直接損害編碼同提取"
+     ],
+     [
+      "幾時用",
+      "考試／匯報前一晚"
+     ],
+     [
+      "證據",
+      "睡眠與記憶固化研究（Walker 等）"
+     ],
+     [
+      "最小起步",
+      "今晚 23:30 收機，早上早 45 分鐘起身補溫習"
+     ]
+    ]
+   }
+  ]
+ },
+ "health": [
+  {
+   "src": "香港電台",
+   "sec": "hk",
+   "ok": false,
+   "err": "URLError",
+   "n": 0,
+   "cached": false
+  },
+  {
+   "src": "明報要聞",
+   "sec": "hk",
+   "ok": false,
+   "err": "URLError",
+   "n": 0,
+   "cached": false
+  },
+  {
+   "src": "香港電台財經",
+   "sec": "hk",
+   "ok": true,
+   "n": 10
+  },
+  {
+   "src": "中新網即時",
+   "sec": "cn",
+   "ok": true,
+   "n": 18
+  },
+  {
+   "src": "中新網要聞",
+   "sec": "cn",
+   "ok": true,
+   "n": 15
+  },
+  {
+   "src": "明報中國",
+   "sec": "cn",
+   "ok": true,
+   "n": 12
+  },
+  {
+   "src": "中央社兩岸",
+   "sec": "cn",
+   "ok": true,
+   "n": 12
+  },
+  {
+   "src": "BBC 中文",
+   "sec": "intl",
+   "ok": true,
+   "n": 15
+  },
+  {
+   "src": "紐約時報中文",
+   "sec": "intl",
+   "ok": true,
+   "n": 12
+  },
+  {
+   "src": "中央社國際",
+   "sec": "intl",
+   "ok": true,
+   "n": 12
+  },
+  {
+   "src": "香港電台國際",
+   "sec": "intl",
+   "ok": true,
+   "n": 12
+  },
+  {
+   "src": "德國之聲",
+   "sec": "intl",
+   "ok": true,
+   "n": 12
+  },
+  {
+   "src": "Reddit r/sidehustle",
+   "sec": "money",
+   "ok": true,
+   "n": 10
+  },
+  {
+   "src": "Hacker News",
+   "sec": "money",
+   "ok": true,
+   "n": 6
+  },
+  {
+   "src": "Hacker News",
+   "sec": "money",
+   "ok": true,
+   "n": 6
+  },
+  {
+   "src": "Product Hunt",
+   "sec": "money",
+   "ok": true,
+   "n": 12
+  },
+  {
+   "src": "明報經濟",
+   "sec": "money",
+   "ok": true,
+   "n": 12
+  },
+  {
+   "src": "香港電台財經",
+   "sec": "money",
+   "ok": true,
+   "n": 10
+  },
+  {
+   "src": "FT 中文網",
+   "sec": "money",
+   "ok": true,
+   "n": 8
+  },
+  {
+   "src": "ScienceDaily 健康",
+   "sec": "health",
+   "ok": true,
+   "n": 8
+  },
+  {
+   "src": "ScienceDaily 大腦",
+   "sec": "health",
+   "ok": true,
+   "n": 8
+  },
+  {
+   "src": "Heho 健康",
+   "sec": "health",
+   "ok": true,
+   "n": 8
+  },
+  {
+   "src": "泛科學",
+   "sec": "health",
+   "ok": true,
+   "n": 6
+  },
+  {
+   "src": "政府新聞公報",
+   "sec": "health",
+   "ok": true,
+   "n": 4
+  },
+  {
+   "src": "阮一峰週刊",
+   "sec": "study",
+   "ok": true,
+   "n": 3
+  },
+  {
+   "src": "Scott H Young",
+   "sec": "study",
+   "ok": true,
+   "n": 6
+  },
+  {
+   "src": "Ness Labs",
+   "sec": "study",
+   "ok": true,
+   "n": 6
+  },
+  {
+   "src": "Learning Scientists",
+   "sec": "study",
+   "ok": true,
+   "n": 6
+  },
+  {
+   "src": "The Marginalian",
+   "sec": "study",
+   "ok": true,
+   "n": 5
+  }
+ ],
+ "sections": {
+  "money": {
+   "items": [
+    {
+     "t": "Free Faceless Channel Video Maker",
+     "l": "https://www.reddit.com/r/sidehustle/comments/1xl0xs8/free_faceless_channel_video_maker/",
+     "s": "Reddit r/sidehustle",
+     "d": "2026-11-01T19:39:25+08:00",
+     "ts": 1793533165.0,
+     "x": "I made a tool with AI to make them AI Generated Niche videos without Any paywall would anyone be interested?? submitted by /u/Glittering-Fennel815 [li",
+     "g": "網民討論"
+    },
+    {
+     "t": "I Play Non DND ttrpgs For a Living.",
+     "l": "https://www.reddit.com/r/sidehustle/comments/1xji33g/i_play_non_dnd_ttrpgs_for_a_living/",
+     "s": "Reddit r/sidehustle",
+     "d": "2026-10-30T23:15:08+08:00",
+     "ts": 1793373308.0,
+     "x": "While I often say I play DnD for a living, I actually play everything but. Daggerheart, Blades in the Dark, Cyberpunk Red, Vampire the Masquerade, etc",
+     "g": "網民討論"
+    },
+    {
+     "t": "remote flexible side hustle",
+     "l": "https://www.reddit.com/r/sidehustle/comments/1xj7eyh/remote_flexible_side_hustle/",
+     "s": "Reddit r/sidehustle",
+     "d": "2026-10-30T13:55:58+08:00",
+     "ts": 1793339758.0,
+     "x": "I have about 2–3 hours free every day and I’m looking for realistic ways to earn a little extra income online. I’m not expecting to get rich , just so",
+     "g": "網民討論"
+    },
+    {
+     "t": "The Hottest New Side Hustle Is Stripping Copper Wire and Posting About It",
+     "l": "https://www.wired.com/story/the-hottest-new-side-hustle-is-stripping-copper-wire-and-posting-about-it/",
+     "s": "Hacker News",
+     "d": "2026-10-30T06:47:08+08:00",
+     "ts": 1793314028.0,
+     "x": "",
+     "g": "實戰案例"
+    },
+    {
+     "t": "Anything i can do online if i have next to no skills?",
+     "l": "https://www.reddit.com/r/sidehustle/comments/1xiydal/anything_i_can_do_online_if_i_have_next_to_no/",
+     "s": "Reddit r/sidehustle",
+     "d": "2026-10-30T06:31:27+08:00",
+     "ts": 1793313087.0,
+     "x": "I think i dont have any skills that i can earn money from, but computers are sorta my small side hobby but i havent really done it in some time sense ",
+     "g": "網民討論"
+    },
+    {
+     "t": "Extra $$$ as a student with limited time???",
+     "l": "https://www.reddit.com/r/sidehustle/comments/1xixjlb/extra_as_a_student_with_limited_time/",
+     "s": "Reddit r/sidehustle",
+     "d": "2026-10-30T05:58:15+08:00",
+     "ts": 1793311095.0,
+     "x": "Current (unemployed) med student with a minus $102928 income. Turns out I still have expenses (a lot in this economy) and everyone in my household is ",
+     "g": "網民討論"
+    },
+    {
+     "t": "Any Creative Ideas to Make a Stable $200-300/wk?",
+     "l": "https://www.reddit.com/r/sidehustle/comments/1xi7yam/any_creative_ideas_to_make_a_stable_200300wk/",
+     "s": "Reddit r/sidehustle",
+     "d": "2026-10-29T10:24:08+08:00",
+     "ts": 1793240648.0,
+     "x": "Hello, I'm looking for something I can do that maybe someone else here has had success in that would fit in with my particular skillset and schedule. ",
+     "g": "網民討論"
+    },
+    {
+     "t": "Tax Questions for CPA",
+     "l": "https://www.reddit.com/r/sidehustle/comments/1xhyg2b/tax_questions_for_cpa/",
+     "s": "Reddit r/sidehustle",
+     "d": "2026-10-29T03:46:59+08:00",
+     "ts": 1793216819.0,
+     "x": "Hello, I am a CPA and wanted to get everyone’s insight on what scares them the most about taxes around side hustles. Feel free to type anything below!",
+     "g": "網民討論"
+    },
+    {
+     "t": "side hustle or second job?",
+     "l": "https://www.reddit.com/r/sidehustle/comments/1xhpk1n/side_hustle_or_second_job/",
+     "s": "Reddit r/sidehustle",
+     "d": "2026-10-28T22:26:56+08:00",
+     "ts": 1793197616.0,
+     "x": "Not looking for sympathy, just explaining my situation: Due to compulsive gambling I have recently found myself in $6000 of credit card debt (online c",
+     "g": "網民討論"
+    },
+    {
+     "t": "Sidehustle slowchat: What were your wins and fails this week?",
+     "l": "https://www.reddit.com/r/sidehustle/comments/1xh31jo/sidehustle_slowchat_what_were_your_wins_and_fails/",
+     "s": "Reddit r/sidehustle",
+     "d": "2026-10-28T04:00:13+08:00",
+     "ts": 1793131213.0,
+     "x": "submitted by /u/ARoyaleWithCheese [link] [留言]",
+     "g": "網民討論"
+    },
+    {
+     "t": "Any weird remote side hustles out there?",
+     "l": "https://www.reddit.com/r/sidehustle/comments/1xgjosr/any_weird_remote_side_hustles_out_there/",
+     "s": "Reddit r/sidehustle",
+     "d": "2026-10-27T13:02:10+08:00",
+     "ts": 1793077330.0,
+     "x": "I recently tore my ACL and won’t be able to get surgery on it until January. In the meantime, I’m unable to work at my current job due to the physical",
+     "g": "網民討論"
+    },
+    {
+     "t": "Writing GPU kernels in Rust: how I made speakrs 60× faster than pyannote",
+     "l": "https://avencera.com/blog/writing-gpu-kernels-in-rust-speakrs-60x-faster-than-pyannote",
+     "s": "Hacker News",
+     "d": "2026-10-29T02:07:38+08:00",
+     "ts": 1793210858.0,
+     "x": "",
+     "g": "收入故事"
+    },
+    {
+     "t": "How I made it possible to pretrain a 1B LLM on 6GB VRAM",
+     "l": "https://huggingface.co/blog/RitishReal/1b-petrain-llm-in-4gb-vram",
+     "s": "Hacker News",
+     "d": "2026-10-27T02:59:20+08:00",
+     "ts": 1793041160.0,
+     "x": "",
+     "g": "收入故事"
+    },
+    {
+     "t": "How I made a benchmark mined from my own repo that agreed with FrontierCode",
+     "l": "https://www.stet.sh/blog/benchmark-agreed-with-frontier-code",
+     "s": "Hacker News",
+     "d": "2026-10-21T22:10:18+08:00",
+     "ts": 1792591818.0,
+     "x": "",
+     "g": "收入故事"
+    },
+    {
+     "t": "agentmash",
+     "l": "https://www.producthunt.com/products/agentmash",
+     "s": "Product Hunt",
+     "d": "2026-11-01T02:08:19+08:00",
+     "ts": 1793470099.0,
+     "x": "open-source multiplayer AI for teams' coding agents",
+     "g": "新產品"
+    },
+    {
+     "t": "ernd",
+     "l": "https://www.producthunt.com/products/ernd",
+     "s": "Product Hunt",
+     "d": "2026-10-31T16:07:30+08:00",
+     "ts": 1793434050.0,
+     "x": "The credit card for the AI stack",
+     "g": "新產品"
+    },
+    {
+     "t": "AC Bridge",
+     "l": "https://www.producthunt.com/products/ac-bridge",
+     "s": "Product Hunt",
+     "d": "2026-10-31T12:20:01+08:00",
+     "ts": 1793420401.0,
+     "x": "Your smart lights show when Claude Code or Codex needs you.",
+     "g": "新產品"
+    },
+    {
+     "t": "Godwit",
+     "l": "https://www.producthunt.com/products/godwit",
+     "s": "Product Hunt",
+     "d": "2026-10-31T11:45:26+08:00",
+     "ts": 1793418326.0,
+     "x": "An open-source, AI-native email client",
+     "g": "新產品"
+    },
+    {
+     "t": "AwaitIO",
+     "l": "https://www.producthunt.com/products/awaitio",
+     "s": "Product Hunt",
+     "d": "2026-10-31T08:15:52+08:00",
+     "ts": 1793405752.0,
+     "x": "Write a TypeScript function, get an admin screen",
+     "g": "新產品"
+    },
+    {
+     "t": "Pluto Door",
+     "l": "https://www.producthunt.com/products/pluto-door",
+     "s": "Product Hunt",
+     "d": "2026-10-31T06:10:44+08:00",
+     "ts": 1793398244.0,
+     "x": "SSH client with an AI agent and a desktop for every server",
+     "g": "新產品"
+    },
+    {
+     "t": "Agnos",
+     "l": "https://www.producthunt.com/products/agnos",
+     "s": "Product Hunt",
+     "d": "2026-10-31T04:02:49+08:00",
+     "ts": 1793390569.0,
+     "x": "Clean documents for AI, and see what was removed",
+     "g": "新產品"
+    },
+    {
+     "t": "Secret Key",
+     "l": "https://www.producthunt.com/products/secret-key",
+     "s": "Product Hunt",
+     "d": "2026-10-31T02:54:54+08:00",
+     "ts": 1793386494.0,
+     "x": "Let your family unlock your passwords if you can't",
+     "g": "新產品"
+    },
+    {
+     "t": "ChainPoints",
+     "l": "https://www.producthunt.com/products/chainpoints",
+     "s": "Product Hunt",
+     "d": "2026-10-31T01:51:42+08:00",
+     "ts": 1793382702.0,
+     "x": "Flight Prices in Your Points, on Google Flights",
+     "g": "新產品"
+    },
+    {
+     "t": "Chorin: Ora et Labora",
+     "l": "https://www.producthunt.com/products/chorin-ora-et-labora",
+     "s": "Product Hunt",
+     "d": "2026-10-30T23:04:03+08:00",
+     "ts": 1793372643.0,
+     "x": "Build a real medieval abbey, from 1258 to today",
+     "g": "新產品"
+    },
+    {
+     "t": "Screen Studio 4.0",
+     "l": "https://www.producthunt.com/products/screen-studio",
+     "s": "Product Hunt",
+     "d": "2026-10-30T22:42:02+08:00",
+     "ts": 1793371322.0,
+     "x": "Glass Loupe, Camera Cutout, Edit by Transcript, and more",
+     "g": "新產品"
+    },
+    {
+     "t": "SKI",
+     "l": "https://www.producthunt.com/products/ski",
+     "s": "Product Hunt",
+     "d": "2026-10-30T15:45:39+08:00",
+     "ts": 1793346339.0,
+     "x": "Voice-first coding harness",
+     "g": "新產品"
+    },
+    {
+     "t": "陳茂波稱本周舉辦兩項國際金融盛事 將公布系列措施和合作計劃",
+     "l": "https://news.rthk.hk/rthk/ch/component/k2/1876126-20261101.htm",
+     "s": "香港電台財經",
+     "d": "2026-11-01T12:52:24+08:00",
+     "ts": 1793508744.0,
+     "x": "財政司司長陳茂波表示，本周二將公布第三季本地生產總值預先估計數字，隨著經濟保持良好勢頭，全年經濟增長預測可望上調。他又說兩項國際金融盛事「香港金融科技周」和「國際金融領袖投資峰會」，以及相關活動明天同步展開，將匯聚數百位國際金融領袖，屆時將公布一系列措施和合作計劃。 談及本港經濟表現，陳茂波在網誌表",
+     "g": "財經"
+    },
+    {
+     "t": "英特爾挫28% 華府持股價值蒸發936億 AI半導體股大震倉 美股三大指數全跌",
+     "l": "https://news.mingpao.com/pns/%e7%b6%93%e6%bf%9f/article/20261101/s00004/1793463929344/%e8%8b%b1%e7%89%b9%e7%88%be%e6%8c%ab28-%e8%8f%af%e5%ba%9c%e6%8c%81%e8%82%a1%e5%83%b9%e5%80%bc%e8%92%b8%e7%99%bc936%e5%84%84-ai%e5%8d%8a%e5%b0%8e%e9%ab%94%e8%82%a1%e5%a4%a7%e9%9c%87%e5%80%89-%e7%be%8e%e8%82%a1%e4%b8%89%e5%a4%a7%e6%8c%87%e6%95%b8%e5%85%a8%e8%b7%8c",
+     "s": "明報經濟",
+     "d": "2026-11-01T04:30:00+08:00",
+     "ts": 1793478600.0,
+     "x": "【明報專訊】上周五美股三大指數全線回落，其中科技股業績令市場失望，納斯達克指數跌近2.9%最多，插穿所有短、中期移動平均線，包括10天線，形勢更弱。晶片股遭洗倉，其中英特爾（美：INTC）插水逾28%，創逾40年最大單日跌幅，股價險守10天線；有份注資的美國政府現所持有的股份蒸發約120億美元（約9",
+     "g": "財經"
+    },
+    {
+     "t": "資金轉債市避險 美長短債息回落",
+     "l": "https://news.mingpao.com/pns/%e7%b6%93%e6%bf%9f/article/20261101/s00004/1793463930055/%e8%b3%87%e9%87%91%e8%bd%89%e5%82%b5%e5%b8%82%e9%81%bf%e9%9a%aa-%e7%be%8e%e9%95%b7%e7%9f%ad%e5%82%b5%e6%81%af%e5%9b%9e%e8%90%bd",
+     "s": "明報經濟",
+     "d": "2026-11-01T04:30:00+08:00",
+     "ts": 1793478600.0,
+     "x": "【明報專訊】美國上周五科技股大震倉的同時，資金轉往債市避險，暫時扯低長短債息，因此美匯轉弱。儘管市場力量壓低債券收益率，10月議息後，包括達拉斯聯儲銀行行長洛根（Lorie Logan）在內的3名美聯儲官員仍支持進一步加息，同時主張採取漸進的貨幣緊縮政策額，儘量減少對金融市場和經濟的衝擊。",
+     "g": "財經"
+    },
+    {
+     "t": "幣安被黑客盜竊 比特幣曾失守7.7萬美元後回升",
+     "l": "https://news.mingpao.com/pns/%e7%b6%93%e6%bf%9f/article/20261101/s00004/1793463930161/%e5%b9%a3%e5%ae%89%e8%a2%ab%e9%bb%91%e5%ae%a2%e7%9b%9c%e7%ab%8a-%e6%af%94%e7%89%b9%e5%b9%a3%e6%9b%be%e5%a4%b1%e5%ae%887-7%e8%90%ac%e7%be%8e%e5%85%83%e5%be%8c%e5%9b%9e%e5%8d%87",
+     "s": "明報經濟",
+     "d": "2026-11-01T04:30:00+08:00",
+     "ts": 1793478600.0,
+     "x": "【明報專訊】幣安被黑客盜竊比特幣，市值高達63億美元，消息震撼虛擬幣圈。影響所及，比特幣曾經跌破7.7萬美元，為過去一個月以來首次，至昨日重返7.7萬美元關口並微升。儘管幣安保證客戶財產安全，但是彭博引述虛擬貨幣存儲公司Ballet Global Inc.創始人Bobby Lee表示，幣安遭狙擊而被",
+     "g": "財經"
+    },
+    {
+     "t": "瑅海3日累收逾4800票 超購33倍",
+     "l": "https://news.mingpao.com/pns/%e7%b6%93%e6%bf%9f/article/20261101/s00004/1793463930375/%e7%91%85%e6%b5%b73%e6%97%a5%e7%b4%af%e6%94%b6%e9%80%be4800%e7%a5%a8-%e8%b6%85%e8%b3%bc33%e5%80%8d",
+     "s": "明報經濟",
+     "d": "2026-11-01T04:30:00+08:00",
+     "ts": 1793478600.0,
+     "x": "【明報專訊】新盤市場持續熱鬧，市區兩新盤收票反應不俗。由信置（0083）、招商局置地（0978）及市建局合發展的紅磡瑅海，樓花期長約22個月，過去3日累積收逾4800票，以首兩張價單138伙計，超購逾33倍，料日內公布銷售安排。另恒地（0012）旗下已獲批入伙紙的大角嘴利奧坊6期逸里1號，對外開放示",
+     "g": "財經"
+    },
+    {
+     "t": "美聯：今年首10月物業註冊「量額」創5年同期新高",
+     "l": "https://news.mingpao.com/pns/%e7%b6%93%e6%bf%9f/article/20261101/s00004/1793463930545/%e7%be%8e%e8%81%af-%e4%bb%8a%e5%b9%b4%e9%a6%9610%e6%9c%88%e7%89%a9%e6%a5%ad%e8%a8%bb%e5%86%8a%e3%80%8c%e9%87%8f%e9%a1%8d%e3%80%8d%e5%89%b55%e5%b9%b4%e5%90%8c%e6%9c%9f%e6%96%b0%e9%ab%98",
+     "s": "明報經濟",
+     "d": "2026-11-01T04:30:00+08:00",
+     "ts": 1793478600.0,
+     "x": "【明報專訊】本港樓市交投持續暢旺，整體物業註冊量亦創新高。據美聯物業研究中心綜合土地註冊處資料顯示，截至10月29日，今年整體物業（包括一手私樓、二手住宅、一手公營房屋、工商舖、純車位及其他等）註冊量共錄74,368宗，較去年首10個月64,582宗高出約15.2%；涉及金額達6078億元，亦較去年",
+     "g": "財經"
+    },
+    {
+     "t": "內地上月製造業PMI報49.3 回落至收縮區間",
+     "l": "https://news.mingpao.com/pns/%e7%b6%93%e6%bf%9f/article/20261101/s00004/1793463930657/%e5%85%a7%e5%9c%b0%e4%b8%8a%e6%9c%88%e8%a3%bd%e9%80%a0%e6%a5%adpmi%e5%a0%b149-3-%e5%9b%9e%e8%90%bd%e8%87%b3%e6%94%b6%e7%b8%ae%e5%8d%80%e9%96%93",
+     "s": "明報經濟",
+     "d": "2026-11-01T04:30:00+08:00",
+     "ts": 1793478600.0,
+     "x": "【明報專訊】國家統計局昨公布，10月製造業採購經理指數（PMI）回落至收縮區間49.3，較上月處於擴張區間的50.1下降0.8，反映製造業景氣水平有所回落。該數字低於市場預期的49.9，並是近3個月的低位。",
+     "g": "財經"
+    },
+    {
+     "t": "香港電訊據報同意停美業務",
+     "l": "https://news.mingpao.com/pns/%e7%b6%93%e6%bf%9f/article/20261101/s00004/1793463930765/%e9%a6%99%e6%b8%af%e9%9b%bb%e8%a8%8a%e6%93%9a%e5%a0%b1%e5%90%8c%e6%84%8f%e5%81%9c%e7%be%8e%e6%a5%ad%e5%8b%99",
+     "s": "明報經濟",
+     "d": "2026-11-01T04:30:00+08:00",
+     "ts": 1793478600.0,
+     "x": "【明報專訊】據路透社報道，電訊盈科（0008）旗下香港電訊（6823）已同意停止在美國境內提供國際及本地電訊服務。香港電訊須於30天內向美國聯邦通訊委員會（FCC）提交停止服務申請，並須在2027年9月1日前全面終止美國業務。這為香港首次有電訊商，需要停止在美國進行業務運作。",
+     "g": "財經"
+    },
+    {
+     "t": "美零售商疑用AI 不同客賣不同價",
+     "l": "https://news.mingpao.com/pns/%e7%b6%93%e6%bf%9f/article/20261101/s00004/1793463930969/%e7%be%8e%e9%9b%b6%e5%94%ae%e5%95%86%e7%96%91%e7%94%a8ai-%e4%b8%8d%e5%90%8c%e5%ae%a2%e8%b3%a3%e4%b8%8d%e5%90%8c%e5%83%b9",
+     "s": "明報經濟",
+     "d": "2026-11-01T04:30:00+08:00",
+     "ts": 1793478600.0,
+     "x": "【明報專訊】人工智能愈來愈普及，美國消費者開始懷疑各大商店正運用科技，按照消費者個別需要與背景，抬高產品價格，情况橫跨零售業、餐飲業、叫車服務等行業，在社交媒體亦陸續出現類似帖文引發熱議。去年有智庫找來逾400名用家測試，同一時間於同一平台就同一貨品下單，價格竟因人而異，相差最多逾兩成。各大零售商否",
+     "g": "財經"
+    },
+    {
+     "t": "電商對AI代理取態不一 亞馬遜禁用 沃爾瑪藉AI工具吸客",
+     "l": "https://news.mingpao.com/pns/%e7%b6%93%e6%bf%9f/article/20261101/s00004/1793463931392/%e9%9b%bb%e5%95%86%e5%b0%8dai%e4%bb%a3%e7%90%86%e5%8f%96%e6%85%8b%e4%b8%8d%e4%b8%80-%e4%ba%9e%e9%a6%ac%e9%81%9c%e7%a6%81%e7%94%a8-%e6%b2%83%e7%88%be%e7%91%aa%e8%97%89ai%e5%b7%a5%e5%85%b7%e5%90%b8%e5%ae%a2",
+     "s": "明報經濟",
+     "d": "2026-11-01T04:30:00+08:00",
+     "ts": 1793478600.0,
+     "x": "【明報專訊】AI代理興起，為繁忙的都市人代勞購物，對消費者而言可節省時間，但對電商來說，則未知是否好事。有外媒報道，電商對AI代理取態不一，有重視生態系統的電商拒絕多家AI代理，亦有電商開門歡迎AI代理，聲稱刺激顧客下單效果理想，惟現時走向仍有待觀察。",
+     "g": "財經"
+    },
+    {
+     "t": "張宗永：消失中的方向盤",
+     "l": "https://news.mingpao.com/pns/%e7%b6%93%e6%bf%9f/article/20261101/s00004/1793463931620/%e5%bc%b5%e5%ae%97%e6%b0%b8-%e6%b6%88%e5%a4%b1%e4%b8%ad%e7%9a%84%e6%96%b9%e5%90%91%e7%9b%a4",
+     "s": "明報經濟",
+     "d": "2026-11-01T04:30:00+08:00",
+     "ts": 1793478600.0,
+     "x": "【明報專訊】香港網約車條例出台在即，大眾正討論這對的士司機生計的衝擊。然而，真正的巨浪其實還在後頭。在美中兩大AI領先國，無人駕駛出租車（Robotaxi）已日漸普及，這才是傳統司機真正的「喪鐘」。",
+     "g": "財經"
+    },
+    {
+     "t": "薛偉傑：AI＋3D打印 重塑逝者遺容",
+     "l": "https://news.mingpao.com/pns/%e7%b6%93%e6%bf%9f/article/20261101/s00004/1793463931923/%e8%96%9b%e5%81%89%e5%82%91-ai-3d%e6%89%93%e5%8d%b0-%e9%87%8d%e5%a1%91%e9%80%9d%e8%80%85%e9%81%ba%e5%ae%b9",
+     "s": "明報經濟",
+     "d": "2026-11-01T04:30:00+08:00",
+     "ts": 1793478600.0,
+     "x": "【明報專訊】安顏科技服務有限公司（OnAn Technology Service Limited Company）創辦人徐沛慈表示，該公司研發了一個結合人工智能（AI）和高精度3D打印技術的方案，可以令逝世者「重現」生前良好狀態時容貌，以最美和最安詳方式告別世界，讓家屬留低體面的記憶，減少傷感和遺憾",
+     "g": "財經"
+    },
+    {
+     "t": "馮其十：內地研究政策利率「換錨」 調控框架對標全球主要央行",
+     "l": "https://news.mingpao.com/pns/%e7%b6%93%e6%bf%9f/article/20261101/s00004/1793463932125/%e9%a6%ae%e5%85%b6%e5%8d%81-%e5%85%a7%e5%9c%b0%e7%a0%94%e7%a9%b6%e6%94%bf%e7%ad%96%e5%88%a9%e7%8e%87%e3%80%8c%e6%8f%9b%e9%8c%a8%e3%80%8d-%e8%aa%bf%e6%8e%a7%e6%a1%86%e6%9e%b6%e5%b0%8d%e6%a8%99%e5%85%a8%e7%90%83%e4%b8%bb%e8%a6%81%e5%a4%ae%e8%a1%8c",
+     "s": "明報經濟",
+     "d": "2026-11-01T04:30:00+08:00",
+     "ts": 1793478600.0,
+     "x": "【明報專訊】內地主要政策利率的錨點，將從7天挪向隔夜。中國人民銀行近期公開表示，研究擇機把人行公開市場主要操作品種的期限切換為隔夜，公開市場隔夜回購利率將相應成為主要政策利率。",
+     "g": "財經"
+    },
+    {
+     "t": "報道指香港電訊同意終止在美相關業務 公司稱繼續遵守監管規定",
+     "l": "https://news.rthk.hk/rthk/ch/component/k2/1876058-20261031.htm",
+     "s": "香港電台財經",
+     "d": "2026-10-31T15:18:46+08:00",
+     "ts": 1793431126.0,
+     "x": "路透社報道，電訊盈科旗下的香港電訊已同意，終止在美國的業務，香港電訊必須在30天內，向美國聯邦通訊委員會提交停止服務的申請，明年9月1日之前，停止在美國境內提供國際及境內電訊服務，而美國當局將不再推進撤銷營運許可的程序。 香港電訊回覆查詢時確認，與美國當局取得共識，對方亦已終止在去年10月發出的「陳",
+     "g": "財經"
+    },
+    {
+     "t": "港股ADR個別發展 滙控跌逾1%",
+     "l": "https://news.rthk.hk/rthk/ch/component/k2/1876027-20261031.htm",
+     "s": "香港電台財經",
+     "d": "2026-10-31T07:36:38+08:00",
+     "ts": 1793403398.0,
+     "x": "港股美國預託證券(ADR)個別發展。 滙控ADR較本港昨日收市價跌逾1%。建行及阿里巴巴ADR跌近1%。 美團及友邦ADR升約0.3%至0.5%。 編輯：李意琴",
+     "g": "財經"
+    },
+    {
+     "t": "日圓兌美元靠穩 比特幣跌2.6% 幣安遭到黑客盜竊",
+     "l": "https://news.rthk.hk/rthk/ch/component/k2/1876026-20261031.htm",
+     "s": "香港電台財經",
+     "d": "2026-10-31T07:36:23+08:00",
+     "ts": 1793403383.0,
+     "x": "美元指數曾升至102以上，但未能企穩，較早時變動不大，報101.95。 日圓兌美元報157.51日圓，上升0.11%。日本央行維持利率不變。 英鎊兌美元上升0.15%，報1.3396美元。 歐元兌美元跌0.12%至1.1168美元。 比特幣跌下跌約2.6%，至77000美元以下。全球最大加密貨幣交易",
+     "g": "財經"
+    },
+    {
+     "t": "金價急跌逾3% 失守3900美元",
+     "l": "https://news.rthk.hk/rthk/ch/component/k2/1876025-20261031.htm",
+     "s": "香港電台財經",
+     "d": "2026-10-31T06:21:51+08:00",
+     "ts": 1793398911.0,
+     "x": "金價顯著下跌，失守每盎司3900美元，白銀、鉑金和鈀金等亦跌至技術性超賣。 現貨金創1年新低，較早時報每盎司3875美元，跌3.62%。 12月紐約期金收報每盎司3898.9美元，下跌3.3%。 分析指，科技股大幅下挫，或引發黃金等避險資產被迫平倉，並導致保證金被追收。 編輯：李意琴",
+     "g": "財經"
+    },
+    {
+     "t": "油價10月累升逾13%至15%",
+     "l": "https://news.rthk.hk/rthk/ch/component/k2/1876024-20261031.htm",
+     "s": "香港電台財經",
+     "d": "2026-10-31T06:11:08+08:00",
+     "ts": 1793398268.0,
+     "x": "國際油價升逾2%，市場擔心美國中期選舉後伊朗局勢可能升級，加上霍爾木茲海峽有油輪遇襲，加劇供應不足的風險。 12月倫敦布蘭特期油收報每桶117.64美元，上升2.76美元，升幅2.4% 12月紐約期油收報104.12美元，上升2.12美元，升幅近2.1% 。 10月布蘭特期油累計升13.6%，紐約期",
+     "g": "財經"
+    },
+    {
+     "t": "英特爾重挫近29% 納指跌近2.9% 10月跌逾5%",
+     "l": "https://news.rthk.hk/rthk/ch/component/k2/1876023-20261031.htm",
+     "s": "香港電台財經",
+     "d": "2026-10-31T06:09:35+08:00",
+     "ts": 1793398175.0,
+     "x": "美股3大指數顯著下跌，英特爾及亞馬遜季度業績令人失望，加劇市場對人工智能相關領域巨額資本支出的擔憂，科技股被拋售，納指創6月初以來最大單日跌幅。資金轉向防禦性板塊。 納斯達克指數收報25437點，跌747點，跌幅2.86% 。標普500指數收報7580點，跌140點，跌幅1.82% 。道瓊斯指數收報",
+     "g": "財經"
+    },
+    {
+     "t": "歐洲3大指數個別發展",
+     "l": "https://news.rthk.hk/rthk/ch/component/k2/1876022-20261031.htm",
+     "s": "香港電台財經",
+     "d": "2026-10-31T05:43:03+08:00",
+     "ts": 1793396583.0,
+     "x": "歐洲3大指數收市個別發展。 英國富時100指數收報10729點，升7點，升幅0.07%。 法國CAC指數收報7969點，跌不足1點。 德國DAX指數收報25818點，跌221點，跌幅0.85%。 10月英股升逾1%，德股升2.46%，法股升0.06%。 編輯：李意琴",
+     "g": "財經"
+    },
+    {
+     "t": "內地明年起規定信託產品不得保證最低收益或設置預期收益率",
+     "l": "https://news.rthk.hk/rthk/ch/component/k2/1876008-20261030.htm",
+     "s": "香港電台財經",
+     "d": "2026-10-30T22:45:09+08:00",
+     "ts": 1793371509.0,
+     "x": "國家金融監督管理總局發布資產管理信託管理辦法，明確信託公司管理信託產品，不得以任何方式向投資者承諾本金不受損失，或保證最低收益，不得設置預期收益率，新規定將於明年1月起實施。 當局嚴禁開展違規通道業務、嚴禁開展資金池業務，要求信託公司對不同信託產品單獨管理、單獨建帳、單獨核算，不得以信託產品名義開展",
+     "g": "財經"
+    },
+    {
+     "t": "領展以23億元出售旺角「T.O.P」物業",
+     "l": "https://news.rthk.hk/rthk/ch/component/k2/1876010-20261030.htm",
+     "s": "香港電台財經",
+     "d": "2026-10-30T22:11:18+08:00",
+     "ts": 1793369478.0,
+     "x": "領展宣布，以23億元出售旺角彌敦道700號全部權益，亦即「T.O.P This is Our Place」，買家為本地投資者Han Bliss Global Limited。 領展將簽訂資產管理協議，預計明年首季完成交易，其後繼續管理物業，出售所得擬用於回購基金單位、營運資金、投資核心資產組合。 領",
+     "g": "財經"
+    }
+   ],
+   "sources": [
+    "FT 中文網",
+    "Hacker News",
+    "Product Hunt",
+    "Reddit r/sidehustle",
+    "明報經濟",
+    "香港電台財經"
+   ],
+   "stale": false
+  },
+  "health": {
+   "items": [
+    {
+     "t": "Scientists discover a hidden driver of high cholesterol and a way to stop it",
+     "l": "https://www.sciencedaily.com/releases/2026/10/261030003003.htm",
+     "s": "ScienceDaily 健康",
+     "d": "2026-11-01T09:57:50+08:00",
+     "ts": 1793498270.0,
+     "x": "Scientists have uncovered a hidden mechanism that allows high-cholesterol diets to undermine the body's natural cholesterol defenses, and blocking it ",
+     "g": "研究"
+    },
+    {
+     "t": "Scientists finally discover how a common gut bacterium can trigger colon cancer",
+     "l": "https://www.sciencedaily.com/releases/2026/10/261031012912.htm",
+     "s": "ScienceDaily 健康",
+     "d": "2026-10-31T21:49:23+08:00",
+     "ts": 1793454563.0,
+     "x": "Scientists at Johns Hopkins have uncovered a crucial missing link between a common gut bacterium and colorectal cancer, solving a mystery that has puz",
+     "g": "研究"
+    },
+    {
+     "t": "Scientists discover a bacterial defense so strange they thought it was broken",
+     "l": "https://www.sciencedaily.com/releases/2026/10/261029072123.htm",
+     "s": "ScienceDaily 健康",
+     "d": "2026-10-31T18:38:30+08:00",
+     "ts": 1793443110.0,
+     "x": "Scientists have discovered a bizarre bacterial defense system that works almost completely backward from anything seen before. Unlike typical bacteria",
+     "g": "研究"
+    },
+    {
+     "t": "衞生防護中心錄得一宗兒童感染流感嚴重個案",
+     "l": "https://www.info.gov.hk/gia/general/202610/31/P2026103100371.htm",
+     "s": "政府新聞公報",
+     "d": "2026-10-31T16:39:08+08:00",
+     "ts": 1793435948.0,
+     "x": "衞生署衞生防護中心（中心）今日（十月三十一日）錄得一宗兒童感染流感嚴重個案。中心呼籲市民不要輕視流感，盡快接種季節性流感疫苗，特別是高風險群組，以預防季節性流感重症及其併發症，保障自己和家人健康。此外，市民亦應時刻保持良好的個人和環境衞生，以預防流感及其他呼吸道疾病。 個案涉及一名有長期病患的七歲女",
+     "g": "官方"
+    },
+    {
+     "t": "A surprising vitamin A discovery is changing what scientists know about vision",
+     "l": "https://www.sciencedaily.com/releases/2026/10/261028234813.htm",
+     "s": "ScienceDaily 健康",
+     "d": "2026-10-31T12:31:41+08:00",
+     "ts": 1793421101.0,
+     "x": "Scientists at Johns Hopkins University have uncovered a surprising process that helps humans develop sharp vision before birth, challenging decades of",
+     "g": "研究"
+    },
+    {
+     "t": "A simple blood test could reveal Alzheimer’s risk 10 years before symptoms",
+     "l": "https://www.sciencedaily.com/releases/2026/10/261029072142.htm",
+     "s": "ScienceDaily 健康",
+     "d": "2026-10-31T08:59:52+08:00",
+     "ts": 1793408392.0,
+     "x": "A major international study found that a simple blood test could help predict Alzheimer’s-related cognitive decline years before symptoms appear, with",
+     "g": "研究"
+    },
+    {
+     "t": "Type 2 diabetes breakthrough as 54% achieve remission in just 6 months",
+     "l": "https://www.sciencedaily.com/releases/2026/10/261029072129.htm",
+     "s": "ScienceDaily 健康",
+     "d": "2026-10-30T20:12:46+08:00",
+     "ts": 1793362366.0,
+     "x": "A promising new study suggests that more than half of younger adults with type 2 diabetes could achieve remission in just six months through a combina",
+     "g": "研究"
+    },
+    {
+     "t": "Why some “lower-risk” childhood cancers turn deadly",
+     "l": "https://www.sciencedaily.com/releases/2026/10/261028232717.htm",
+     "s": "ScienceDaily 健康",
+     "d": "2026-10-30T18:15:28+08:00",
+     "ts": 1793355328.0,
+     "x": "Scientists have uncovered hidden aggressive cancer cells in children whose tumors were previously considered lower risk, revealing why some cases of r",
+     "g": "研究"
+    },
+    {
+     "t": "醫院管理局回應個人資料私隱專員公署調查報告",
+     "l": "https://www.info.gov.hk/gia/general/202610/30/P2026103000342.htm",
+     "s": "政府新聞公報",
+     "d": "2026-10-30T17:45:00+08:00",
+     "ts": 1793353500.0,
+     "x": "下稿代醫院管理局發出： ​醫院管理局（醫管局）發言人今日（十月三十日）表示，知悉個人資料私隱專員公署（公署）早前就今年四月九龍東醫院聯網一宗懷疑病人資料被盜取及非法上載至第三方平台的事件完成調查，並於今日發表調查報告。醫管局接納有關調查結果及建議，並會嚴肅跟進和採取適當行動。本局亦會持續加強資訊系統",
+     "g": "官方"
+    },
+    {
+     "t": "醫院管理局發布最新一期《風險通報》",
+     "l": "https://www.info.gov.hk/gia/general/202610/30/P2026103000424.htm",
+     "s": "政府新聞公報",
+     "d": "2026-10-30T16:00:00+08:00",
+     "ts": 1793347200.0,
+     "x": "下稿代醫院管理局發出： ​醫院管理局（醫管局）今日（十月三十日）出版第83期《風險通報》（《通報》）季刊，進一步加強公立醫院通報及監察具警示作用的醫療風險事件，以改善公立醫院的安全水平。 今期《通報》臚列了公立醫院在二○二六年第二季（四月至六月）呈報的八宗醫療風險警示事件，分別是五宗手術／介入程序後",
+     "g": "官方"
+    },
+    {
+     "t": "食安中心公布九月份食物安全報告",
+     "l": "https://www.info.gov.hk/gia/general/202610/30/P2026102900331.htm",
+     "s": "政府新聞公報",
+     "d": "2026-10-30T15:00:00+08:00",
+     "ts": 1793343600.0,
+     "x": "食物環境衞生署食物安全中心（中心）今日（十月三十日）公布上月食物安全報告，結果顯示在約七千個檢測的食物樣本中（包括網購食品），除較早前公布的四個樣本外，其餘樣本全部通過檢測，整體合格率為百分之九十九點九。 中心發言人表示，中心對約一千九百個食物樣本作微生物檢測和約五千一百個樣本進行化學及輻射水平檢測",
+     "g": "官方"
+    },
+    {
+     "t": "Scientists discover why chronic back pain feels so personal",
+     "l": "https://www.sciencedaily.com/releases/2026/10/261028232706.htm",
+     "s": "ScienceDaily 健康",
+     "d": "2026-10-30T08:26:37+08:00",
+     "ts": 1793319997.0,
+     "x": "A surprising discovery at UC San Diego suggests that chronic lower back pain may become deeply embedded in the brain's sense of personal identity. Res",
+     "g": "研究"
+    },
+    {
+     "t": "A single brain signal may explain schizophrenia's most puzzling symptoms",
+     "l": "https://www.sciencedaily.com/releases/2026/10/261028232659.htm",
+     "s": "ScienceDaily 大腦",
+     "d": "2026-10-29T21:14:52+08:00",
+     "ts": 1793279692.0,
+     "x": "Scientists have identified a weakened brain signal that may connect several seemingly unrelated symptoms of schizophrenia, including sensory processin",
+     "g": "心理"
+    },
+    {
+     "t": "Six popular sugar substitutes linked to faster brain aging",
+     "l": "https://www.sciencedaily.com/releases/2026/10/261028234238.htm",
+     "s": "ScienceDaily 大腦",
+     "d": "2026-10-29T21:04:04+08:00",
+     "ts": 1793279044.0,
+     "x": "A study of nearly 13,000 adults found that people consuming the most artificial sweeteners experienced a 62% faster decline in memory and thinking ski",
+     "g": "心理"
+    },
+    {
+     "t": "Less than 42 minutes of bright daylight linked to higher dementia risk",
+     "l": "https://www.sciencedaily.com/releases/2026/10/261028232707.htm",
+     "s": "ScienceDaily 大腦",
+     "d": "2026-10-29T19:30:32+08:00",
+     "ts": 1793273432.0,
+     "x": "Getting more daylight could be linked to a surprisingly powerful benefit for brain health. In a study of more than 87,000 adults, researchers found th",
+     "g": "心理"
+    },
+    {
+     "t": "Your blood pressure could be dangerous even when your numbers look normal",
+     "l": "https://www.sciencedaily.com/releases/2026/10/261027063814.htm",
+     "s": "ScienceDaily 大腦",
+     "d": "2026-10-29T11:54:37+08:00",
+     "ts": 1793246077.0,
+     "x": "Researchers have discovered a small group of brain cells that prevents dangerous blood pressure swings, even when average readings appear normal. The ",
+     "g": "心理"
+    },
+    {
+     "t": "The autistic brain processes faces differently than scientists thought",
+     "l": "https://www.sciencedaily.com/releases/2026/10/261027063824.htm",
+     "s": "ScienceDaily 大腦",
+     "d": "2026-10-28T11:02:38+08:00",
+     "ts": 1793156558.0,
+     "x": "A major new study reveals that autistic children’s brains process faces differently, and those differences may begin earlier than scientists previousl",
+     "g": "心理"
+    },
+    {
+     "t": "Scientists discover a surprising clue to why some brains resist Alzheimer’s",
+     "l": "https://www.sciencedaily.com/releases/2026/10/261025222538.htm",
+     "s": "ScienceDaily 大腦",
+     "d": "2026-10-27T12:02:26+08:00",
+     "ts": 1793073746.0,
+     "x": "Why do some people stay mentally sharp even when their brains show signs of Alzheimer’s disease? Scientists in the Netherlands may have uncovered an i",
+     "g": "心理"
+    },
+    {
+     "t": "擊退乳癌大魔王！「智慧導彈」ADC新藥精準打擊三陰性乳癌，台灣實績超越國際",
+     "l": "https://pansci.asia/archives/382475",
+     "s": "泛科學",
+     "d": "2026-10-29T17:44:36+08:00",
+     "ts": 1793267076.0,
+     "x": "三陰性乳癌惡性度高，傳統化療副作用大。「智慧導彈」Trop-2 ADC藥物能精準毒殺癌細胞，台灣患者存活期更達18個月，超越國際數據。醫師盼未來能爭取第一線使用，讓病友兼顧療效與生活品質。",
+     "g": "科普"
+    },
+    {
+     "t": "牙齦長血泡、腿冒紅點？當心免疫性血小板低下症(ITP)拉警報，擺脫類固醇依賴有新解！",
+     "l": "https://pansci.asia/archives/382449",
+     "s": "泛科學",
+     "d": "2026-10-27T08:00:54+08:00",
+     "ts": 1793059254.0,
+     "x": "牙齦長血泡、腿部冒紅點？當心是「免疫性血小板低下症」的出血警訊。若類固醇治療易復發，現有TPO-RA等二線藥物能直接刺激血小板生成，助患者擺脫出血危機與類固醇依賴。",
+     "g": "科普"
+    },
+    {
+     "t": "跨越山海的電力之路：臺灣如何連成「全島一網」？",
+     "l": "https://pansci.asia/archives/382498",
+     "s": "泛科學",
+     "d": "2026-10-26T19:00:00+08:00",
+     "ts": 1793012400.0,
+     "x": "臺灣的「全島一網」並非一夕成形。從 1934 年日月潭第一發電所帶動的西部 154kV 幹線、戰後翻越中央山脈的東西聯絡線，到恆春、臺東併入主電網、超高壓「三路六迴」骨幹成形，再到 2021 年臺澎海纜併網，一條條輸電線路讓原本分散的供電系統逐漸連成一體。",
+     "g": "科普"
+    },
+    {
+     "t": "瘦瘦針只是開頭？一次打十種的「抗老胜肽」風潮，是醫學奇蹟還是拿身體當白老鼠？",
+     "l": "https://pansci.asia/archives/382402",
+     "s": "泛科學",
+     "d": "2026-10-24T10:01:16+08:00",
+     "ts": 1792807276.0,
+     "x": "近年來，印度甚至辦起了「打針派對」，菜單上不是調酒，而是一杯杯號稱能抗老、修復、增強體能的「胜肽雞尾酒」，最後驚動主管機關發函才緊急喊停。打針，正從過去「生病才做」的治療手段，變成現代人「想變更好就做」的日常保養。但先別急著心動，看懂背後的科學證據與風險，才不會花了錢又傷身。",
+     "g": "科普"
+    },
+    {
+     "t": "害怕心臟二次開刀？「經導管瓣中瓣手術」免開胸，高齡瓣膜退化患者的新救星！",
+     "l": "https://pansci.asia/archives/382454",
+     "s": "泛科學",
+     "d": "2026-10-22T08:01:33+08:00",
+     "ts": 1792627293.0,
+     "x": "生物瓣膜退化卻害怕二次開胸？「經導管瓣中瓣手術」讓患者免開胸、免停心跳即可置換新瓣膜。這項微創技術傷口小、恢復快，更獲健保條件給付，為高齡心臟病患帶來全新曙光。",
+     "g": "科普"
+    },
+    {
+     "t": "醫療器材怎麼挑不踩雷？3步驟破除價格迷思，選對真正適合你的醫材！",
+     "l": "https://pansci.asia/archives/382395",
+     "s": "泛科學",
+     "d": "2026-10-20T08:00:44+08:00",
+     "ts": 1792454444.0,
+     "x": "挑選醫療器材不是越貴越好！本文教你透過「釐清自身需求」、「看懂品質安全資訊」及「與專業團隊討論」3個關鍵步驟，打破價格迷思，聰明選出最適合自己的醫材產品。",
+     "g": "科普"
+    },
+    {
+     "t": "健康日曆｜永遠不要提前焦慮，生活無非是見招拆招",
+     "l": "https://heho.com.tw/archives/388530",
+     "s": "Heho 健康",
+     "d": "2026-11-01T00:01:00+08:00",
+     "ts": 1793462460.0,
+     "x": "今天是 11 月 1 日，時序正式進入深秋，正是東方養生特別強調「收斂、養藏」的時節，與其讓思緒到處亂飛，不如學著把心定下來，把精力留給今天。 以東方哲學的觀點來看，「見招拆招」其實是一種最高級的 能量保養 。 我們每個人每天的精力和氣血都是有限的，如果總是去想「明天萬一出包怎麼辦」或是「等一下會不",
+     "g": "中文"
+    },
+    {
+     "t": "健康日曆｜糖果來，煩惱退，快樂翻倍！（萬聖節）",
+     "l": "https://heho.com.tw/archives/388527",
+     "s": "Heho 健康",
+     "d": "2026-10-31T00:31:00+08:00",
+     "ts": 1793377860.0,
+     "x": "今天是 10 月 31 日萬聖節，除了變裝搗蛋，這也是一年之中最能光明正大吃糖、搞怪的日子，讓我們藉著這個充滿魔力的節日，把平時的壓力通通趕走吧！ 為什麼萬聖節的變裝和討糖活動能讓人感到特別放鬆？ 從心理學角度來看，這是一種透過 節慶儀式感 (Ritualistic Behavior) 帶來的療癒過",
+     "g": "中文"
+    },
+    {
+     "t": "戒指變緊、衣袖塞不下？改善乳癌康復後的隱形殺手「淋巴水腫」",
+     "l": "https://heho.com.tw/archives/388626",
+     "s": "Heho 健康",
+     "d": "2026-10-30T11:44:17+08:00",
+     "ts": 1793331857.0,
+     "x": "隨著乳癌篩檢普及與精準醫療進步，乳癌患者的存活率大幅提高，但術後引發的「淋巴水腫」往往成為癌友生活品質的隱形殺手，許多患者在面臨腋下淋巴結廓清或放射線治療後，常出現手臂腫脹、緊繃甚至沉重感；過往觀念多認為只能消極配戴壓力袖套或等到嚴重時才開刀，但國泰綜合醫院整形外科主治醫師羅世倫指出，現代醫學已進入",
+     "g": "中文"
+    },
+    {
+     "t": "秋天特別容易餓？中醫師解析食慾變化原因、掌握飲食原則，實現「聰明吃」",
+     "l": "https://heho.com.tw/archives/388655",
+     "s": "Heho 健康",
+     "d": "2026-10-30T11:39:53+08:00",
+     "ts": 1793331593.0,
+     "x": "夏天看到油膩食物可能提不起興趣，到了轉涼的秋天，明明活動量沒有增加，食慾卻默默變好，因此，秋天也被稱為「食慾之秋」。從中醫角度來看，胃口的變化也與季節轉換有關。 秋天特別容易餓的原因？ 五甲馬光中醫診所主治醫師邱雅笙表示，中醫理論講求「人與天地相參」，自然的節氣變化會直接影響人體臟腑。「脾胃為後天之",
+     "g": "中文"
+    },
+    {
+     "t": "中風帶來癱瘓、失能危機！專家推「中風行動 888」期搶救家庭、擺脫長照陰霾",
+     "l": "https://heho.com.tw/archives/388641",
+     "s": "Heho 健康",
+     "d": "2026-10-30T10:40:33+08:00",
+     "ts": 1793328033.0,
+     "x": "中風最殘酷的地方往往不是死亡，而是「活著卻癱瘓、失能」！依據健保與公衛統計，台灣每年新增約 4.5 萬名缺血性腦中風個案，其中高達 50 至 60% 會演變成重度失能，更是國內長照需求的最主要成因。 60 歲的會計事務所主管阿禕，是家裡的重大經濟支柱。在一個平凡不過的午後，當時他正坐在辦公桌前核對帳",
+     "g": "中文"
+    },
+    {
+     "t": "換季別急著把棉被拿出來蓋！醫師提醒：留意居家「黴菌毒素」暴露風險",
+     "l": "https://heho.com.tw/archives/387903",
+     "s": "Heho 健康",
+     "d": "2026-10-30T10:00:00+08:00",
+     "ts": 1793325600.0,
+     "x": "天氣開始轉涼，不少人會把收在衣櫃、儲藏室裡的厚衣物、棉被拿出來使用。不過，這些換季用品即使表面看起來乾淨，也可能藏有黴菌或孢子。 尤其台灣氣候相對潮濕，衣櫃、儲藏室、浴室、牆面與家具等處，可能因通風不佳、漏水或濕氣累積而成為黴菌滋生的環境。醫師提醒，換季時不要只看「有沒有發黴」，更重要的是從濕度、通",
+     "g": "中文"
+    },
+    {
+     "t": "健康日曆｜TGIF效應：大腦在預期週末時會提前釋放多巴胺，產生特別愉快的「Friday feeling」",
+     "l": "https://heho.com.tw/archives/388522",
+     "s": "Heho 健康",
+     "d": "2026-10-30T00:30:00+08:00",
+     "ts": 1793291400.0,
+     "x": "TGIF 效應：大腦在預期即將到來的週末假期時，會提前釋放多巴胺，產生特別愉快、有幹勁的『Friday feeling』。 —— 出自心理學與神經科學界。 明天就是週末了！這種「期待週末到來」的心情，是不是讓今天的你工作起來特別有精神，甚至比真正放假還要開心呢？ 為什麼我們會在假日前夕充滿幹勁？ 這",
+     "g": "中文"
+    },
+    {
+     "t": "乳癌切乳術後找回自信？醫建議 1 手術方式，將小腹贅肉重塑自然挺拔胸型",
+     "l": "https://heho.com.tw/archives/388628",
+     "s": "Heho 健康",
+     "d": "2026-10-29T17:35:22+08:00",
+     "ts": 1793266522.0,
+     "x": "40 歲王女士確診乳癌後，除了擔心疾病治療，更害怕乳房切除後帶來的身體改變及心理衝擊。經醫療團隊評估後，選擇接受乳房切除手術的同時，進行深下腹動脈穿通枝皮瓣手術（DIEP）乳房重建。 收治個案的奇美醫院整形外科主治醫師張哲睿表示，王女士原以為大手術會痛到無法下床，沒想到術後隔天就能循序漸進下床活動。",
+     "g": "中文"
+    }
+   ],
+   "sources": [
+    "Heho 健康",
+    "ScienceDaily 健康",
+    "ScienceDaily 大腦",
+    "政府新聞公報",
+    "泛科學"
+   ],
+   "stale": false
+  },
+  "study": {
+   "items": [
+    {
+     "t": "科技爱好者周刊（第 417 期）：不要让 AI 代表你",
+     "l": "http://www.ruanyifeng.com/blog/2026/10/weekly-issue-417.html",
+     "s": "阮一峰週刊",
+     "d": "2026-10-30T08:13:03+08:00",
+     "ts": 1793319183.0,
+     "x": "这里记录每周值得分享的科技内容，周五发布。...",
+     "g": "週刊"
+    },
+    {
+     "t": "GUEST POST: Premature Cognitive Offloading: The Developmental Blind Spot in K-12 AI Integration",
+     "l": "https://www.learningscientists.org/blog/2026/10/29-1",
+     "s": "Learning Scientists",
+     "d": "2026-10-29T22:30:00+08:00",
+     "ts": 1793284200.0,
+     "x": "When evaluating how the education sector manages generative artificial intelligence, the data reveals a critical misalignment between policy and devel",
+     "g": "學習科學"
+    },
+    {
+     "t": "Should You Study The Solutions Or Solve Problems?",
+     "l": "https://www.scotthyoung.com/blog/2026/10/28/solving-hard-problems/",
+     "s": "Scott H Young",
+     "d": "2026-10-29T04:42:05+08:00",
+     "ts": 1793220125.0,
+     "x": "Watch the video of this essay. Learning requires effort. But not all effort is useful for learning. Consider the following situation. You have some pr",
+     "g": "學習方法"
+    },
+    {
+     "t": "科技爱好者周刊（第 416 期）：编程已经面目全非",
+     "l": "http://www.ruanyifeng.com/blog/2026/10/weekly-issue-416.html",
+     "s": "阮一峰週刊",
+     "d": "2026-10-23T08:06:16+08:00",
+     "ts": 1792713976.0,
+     "x": "这里记录每周值得分享的科技内容，周五发布。...",
+     "g": "週刊"
+    },
+    {
+     "t": "Wellness and Learning",
+     "l": "https://www.learningscientists.org/blog/2026/10/22-1",
+     "s": "Learning Scientists",
+     "d": "2026-10-23T04:54:37+08:00",
+     "ts": 1792702477.0,
+     "x": "While we spend a good deal of time talking about learning strategies and how to balance note-taking, content review, and active retrieval practice, al",
+     "g": "學習科學"
+    },
+    {
+     "t": "The Key to Creating Learning Projects You’ll Finish",
+     "l": "https://www.scotthyoung.com/blog/2026/10/21/the-key-to-creating-learning-projects-youll-finish/",
+     "s": "Scott H Young",
+     "d": "2026-10-22T04:25:47+08:00",
+     "ts": 1792614347.0,
+     "x": "My three-step process for self-directed learning projects you'll actually complete. The post The Key to Creating Learning Projects You’ll Finish appea",
+     "g": "學習方法"
+    },
+    {
+     "t": "Digest #186: Talking about Learning Styles",
+     "l": "https://www.learningscientists.org/blog/2026/10/15",
+     "s": "Learning Scientists",
+     "d": "2026-10-16T09:00:00+08:00",
+     "ts": 1792112400.0,
+     "x": "As a learning expert, I (Megan) still get asked about learning styles all the time. Recently I was chatting with a colleague and was excited to tell h",
+     "g": "學習科學"
+    },
+    {
+     "t": "科技爱好者周刊（第 415 期）：3D 版《看不见的城市》",
+     "l": "http://www.ruanyifeng.com/blog/2026/10/weekly-issue-415.html",
+     "s": "阮一峰週刊",
+     "d": "2026-10-16T08:02:56+08:00",
+     "ts": 1792108976.0,
+     "x": "这里记录每周值得分享的科技内容，周五发布。...",
+     "g": "週刊"
+    },
+    {
+     "t": "The Best Way to Take Notes",
+     "l": "https://www.scotthyoung.com/blog/2026/10/13/best-way-take-notes/",
+     "s": "Scott H Young",
+     "d": "2026-10-14T06:35:17+08:00",
+     "ts": 1791930917.0,
+     "x": "The best way to take notes may be the method that uses the least technology. I'll explain why notes still matter and how to learn better with them. Th",
+     "g": "學習方法"
+    },
+    {
+     "t": "The Simple Method That Boosts Memory by 50%",
+     "l": "https://www.scotthyoung.com/blog/2026/10/06/boost-memory-50-percent/",
+     "s": "Scott H Young",
+     "d": "2026-10-07T05:33:47+08:00",
+     "ts": 1791322427.0,
+     "x": "Effective learning doesn't need to be complicated. Here's a simple trick that outperforms mind-maps. The post The Simple Method That Boosts Memory by ",
+     "g": "學習方法"
+    },
+    {
+     "t": "Anatomy of Medical School",
+     "l": "https://www.learningscientists.org/blog/2026/10/2/anatomy-of-medical-school",
+     "s": "Learning Scientists",
+     "d": "2026-10-02T21:00:21+08:00",
+     "ts": 1790946021.0,
+     "x": "Cover image by Tara Winstead By Althea Need Kaminske I work as a Medical Education Learning Specialist (MELS) at a large medical school in the US. My ",
+     "g": "學習科學"
+    },
+    {
+     "t": "Reach the Top 1% of Your Field (Deliberate Practice)",
+     "l": "https://www.scotthyoung.com/blog/2026/09/30/deliberate-practice/",
+     "s": "Scott H Young",
+     "d": "2026-10-01T00:54:51+08:00",
+     "ts": 1790787291.0,
+     "x": "Revisiting one of the most influential theories of mastery and professional excellence. The post Reach the Top 1% of Your Field (Deliberate Practice) ",
+     "g": "學習方法"
+    },
+    {
+     "t": "GUEST POST: When the Body Enters the Classroom: Using Embodied Cognition to Teach Abstract Mathematics",
+     "l": "https://www.learningscientists.org/blog/2026/9/25-1",
+     "s": "Learning Scientists",
+     "d": "2026-09-25T20:17:22+08:00",
+     "ts": 1790338642.0,
+     "x": "Most teachers have experienced the same situation: a student can read a large number correctly but struggles to explain why each digit has a different",
+     "g": "學習科學"
+    },
+    {
+     "t": "You Should Care Less About Practical Advice",
+     "l": "https://www.scotthyoung.com/blog/2026/09/21/you-should-care-less-about-practical-advice/",
+     "s": "Scott H Young",
+     "d": "2026-09-22T02:58:23+08:00",
+     "ts": 1790017103.0,
+     "x": "Most readers prefer useful advice to abstract theory. They shouldn't. The post You Should Care Less About Practical Advice appeared first on Scott H Y",
+     "g": "學習方法"
+    },
+    {
+     "t": "Varying Retrieval Practice to Promote Transfer of Learning: A Set of Experiments",
+     "l": "https://www.learningscientists.org/blog/2026/9/17",
+     "s": "Learning Scientists",
+     "d": "2026-09-18T09:24:52+08:00",
+     "ts": 1789694692.0,
+     "x": "In today’s post, I’m covering a set of experiments published by Andrew Butler and colleagues (1) titled Retrieving and Applying Knowledge to Different",
+     "g": "學習科學"
+    },
+    {
+     "t": "Meteor of Joy: The Young People’s Chorus of New York City Sings Bird Divinations",
+     "l": "https://www.themarginalian.org/2026/10/31/meteor-of-joy-paola-prestini/",
+     "s": "The Marginalian",
+     "d": "2026-11-01T02:01:08+08:00",
+     "ts": 1793469668.0,
+     "x": "Children know the deepest truths about life, the elemental knowledge we unlearn in the act of living, those inarticulable truths music alone helps us ",
+     "g": "思考"
+    },
+    {
+     "t": "Albert Camus on the Three Antidotes to the Absurdity of Life",
+     "l": "https://www.themarginalian.org/2026/10/31/albert-camus-interview-absurd/",
+     "s": "The Marginalian",
+     "d": "2026-10-31T20:34:44+08:00",
+     "ts": 1793450084.0,
+     "x": "\"In a world whose absurdity appears to be so impenetrable, we simply must reach a greater degree of understanding among men, a greater sincerity.\"",
+     "g": "思考"
+    },
+    {
+     "t": "Music and the Body: Richard Powers on the Power of Song",
+     "l": "https://www.themarginalian.org/2026/10/31/richard-powers-music/",
+     "s": "The Marginalian",
+     "d": "2026-10-31T19:33:17+08:00",
+     "ts": 1793446397.0,
+     "x": "\"The use of music is to remind us how short a time we have a body.\"",
+     "g": "思考"
+    },
+    {
+     "t": "Halloween’s Lost Heroes: Michael Pollan on Radical Gardening and the Insurgent Botanical Origin of the Broomstick in Flying-Witch Legends",
+     "l": "https://www.themarginalian.org/2026/10/30/michael-pollan-witch-broomstick/",
+     "s": "The Marginalian",
+     "d": "2026-10-31T00:41:25+08:00",
+     "ts": 1793378485.0,
+     "x": "\"For most of their history... gardens have been more concerned with the power of plants than with their beauty — with the power, that is, to change us",
+     "g": "思考"
+    },
+    {
+     "t": "Truth, Fact, and the Patterning of Reality: Virginia Woolf on How We Come to Know the World",
+     "l": "https://www.themarginalian.org/2026/10/30/virginia-woolf-truth/",
+     "s": "The Marginalian",
+     "d": "2026-10-31T00:38:17+08:00",
+     "ts": 1793378297.0,
+     "x": "The great myth is that truth is an emergent property of fact, that it bubbles up from the bottom of reality once the mind attains enough fathoms of fa",
+     "g": "思考"
+    },
+    {
+     "t": "Never forget what matters with Dr David Urbansky, founder of Linkflare",
+     "l": "https://nesslabs.com/linkflare-featured-tool?utm_source=rss&utm_medium=rss&utm_campaign=linkflare-featured-tool",
+     "s": "Ness Labs",
+     "d": "2026-09-08T17:45:00+08:00",
+     "ts": 1788860700.0,
+     "x": "FEATURED TOOL Welcome to this edition of our Tools for Thought series, where we interview founders on a mission to help us think better and work smart",
+     "g": "思考"
+    },
+    {
+     "t": "Evidence-grounded AI writing with Jim Lau, founder of Flowing",
+     "l": "https://nesslabs.com/flowing-featured-tool?utm_source=rss&utm_medium=rss&utm_campaign=flowing-featured-tool",
+     "s": "Ness Labs",
+     "d": "2026-08-20T21:23:40+08:00",
+     "ts": 1787232220.0,
+     "x": "FEATURED TOOL Welcome to this edition of our Tools for Thought series, where we interview founders on a mission to help us think better and work smart",
+     "g": "思考"
+    }
+   ],
+   "sources": [
+    "Learning Scientists",
+    "Ness Labs",
+    "Scott H Young",
+    "The Marginalian",
+    "阮一峰週刊"
+   ],
+   "stale": false
+  },
+  "hk": {
+   "items": [
+    {
+     "t": "陳茂波稱本周舉辦兩項國際金融盛事 將公布系列措施和合作計劃",
+     "l": "https://news.rthk.hk/rthk/ch/component/k2/1876126-20261101.htm",
+     "s": "香港電台財經",
+     "d": "2026-11-01T12:52:24+08:00",
+     "ts": 1793508744.0,
+     "x": "財政司司長陳茂波表示，本周二將公布第三季本地生產總值預先估計數字，隨著經濟保持良好勢頭，全年經濟增長預測可望上調。他又說兩項國際金融盛事「香港金融科技周」和「國際金融領袖投資峰會」，以及相關活動明天同步展開，將匯聚數百位國際金融領袖，屆時將公布一系列措施和合作計劃。 談及本港經濟表現，陳茂波在網誌表",
+     "g": ""
+    },
+    {
+     "t": "報道指香港電訊同意終止在美相關業務 公司稱繼續遵守監管規定",
+     "l": "https://news.rthk.hk/rthk/ch/component/k2/1876058-20261031.htm",
+     "s": "香港電台財經",
+     "d": "2026-10-31T15:18:46+08:00",
+     "ts": 1793431126.0,
+     "x": "路透社報道，電訊盈科旗下的香港電訊已同意，終止在美國的業務，香港電訊必須在30天內，向美國聯邦通訊委員會提交停止服務的申請，明年9月1日之前，停止在美國境內提供國際及境內電訊服務，而美國當局將不再推進撤銷營運許可的程序。 香港電訊回覆查詢時確認，與美國當局取得共識，對方亦已終止在去年10月發出的「陳",
+     "g": ""
+    },
+    {
+     "t": "港股ADR個別發展 滙控跌逾1%",
+     "l": "https://news.rthk.hk/rthk/ch/component/k2/1876027-20261031.htm",
+     "s": "香港電台財經",
+     "d": "2026-10-31T07:36:38+08:00",
+     "ts": 1793403398.0,
+     "x": "港股美國預託證券(ADR)個別發展。 滙控ADR較本港昨日收市價跌逾1%。建行及阿里巴巴ADR跌近1%。 美團及友邦ADR升約0.3%至0.5%。 編輯：李意琴",
+     "g": ""
+    },
+    {
+     "t": "日圓兌美元靠穩 比特幣跌2.6% 幣安遭到黑客盜竊",
+     "l": "https://news.rthk.hk/rthk/ch/component/k2/1876026-20261031.htm",
+     "s": "香港電台財經",
+     "d": "2026-10-31T07:36:23+08:00",
+     "ts": 1793403383.0,
+     "x": "美元指數曾升至102以上，但未能企穩，較早時變動不大，報101.95。 日圓兌美元報157.51日圓，上升0.11%。日本央行維持利率不變。 英鎊兌美元上升0.15%，報1.3396美元。 歐元兌美元跌0.12%至1.1168美元。 比特幣跌下跌約2.6%，至77000美元以下。全球最大加密貨幣交易",
+     "g": ""
+    },
+    {
+     "t": "金價急跌逾3% 失守3900美元",
+     "l": "https://news.rthk.hk/rthk/ch/component/k2/1876025-20261031.htm",
+     "s": "香港電台財經",
+     "d": "2026-10-31T06:21:51+08:00",
+     "ts": 1793398911.0,
+     "x": "金價顯著下跌，失守每盎司3900美元，白銀、鉑金和鈀金等亦跌至技術性超賣。 現貨金創1年新低，較早時報每盎司3875美元，跌3.62%。 12月紐約期金收報每盎司3898.9美元，下跌3.3%。 分析指，科技股大幅下挫，或引發黃金等避險資產被迫平倉，並導致保證金被追收。 編輯：李意琴",
+     "g": ""
+    },
+    {
+     "t": "油價10月累升逾13%至15%",
+     "l": "https://news.rthk.hk/rthk/ch/component/k2/1876024-20261031.htm",
+     "s": "香港電台財經",
+     "d": "2026-10-31T06:11:08+08:00",
+     "ts": 1793398268.0,
+     "x": "國際油價升逾2%，市場擔心美國中期選舉後伊朗局勢可能升級，加上霍爾木茲海峽有油輪遇襲，加劇供應不足的風險。 12月倫敦布蘭特期油收報每桶117.64美元，上升2.76美元，升幅2.4% 12月紐約期油收報104.12美元，上升2.12美元，升幅近2.1% 。 10月布蘭特期油累計升13.6%，紐約期",
+     "g": ""
+    },
+    {
+     "t": "英特爾重挫近29% 納指跌近2.9% 10月跌逾5%",
+     "l": "https://news.rthk.hk/rthk/ch/component/k2/1876023-20261031.htm",
+     "s": "香港電台財經",
+     "d": "2026-10-31T06:09:35+08:00",
+     "ts": 1793398175.0,
+     "x": "美股3大指數顯著下跌，英特爾及亞馬遜季度業績令人失望，加劇市場對人工智能相關領域巨額資本支出的擔憂，科技股被拋售，納指創6月初以來最大單日跌幅。資金轉向防禦性板塊。 納斯達克指數收報25437點，跌747點，跌幅2.86% 。標普500指數收報7580點，跌140點，跌幅1.82% 。道瓊斯指數收報",
+     "g": ""
+    },
+    {
+     "t": "歐洲3大指數個別發展",
+     "l": "https://news.rthk.hk/rthk/ch/component/k2/1876022-20261031.htm",
+     "s": "香港電台財經",
+     "d": "2026-10-31T05:43:03+08:00",
+     "ts": 1793396583.0,
+     "x": "歐洲3大指數收市個別發展。 英國富時100指數收報10729點，升7點，升幅0.07%。 法國CAC指數收報7969點，跌不足1點。 德國DAX指數收報25818點，跌221點，跌幅0.85%。 10月英股升逾1%，德股升2.46%，法股升0.06%。 編輯：李意琴",
+     "g": ""
+    },
+    {
+     "t": "內地明年起規定信託產品不得保證最低收益或設置預期收益率",
+     "l": "https://news.rthk.hk/rthk/ch/component/k2/1876008-20261030.htm",
+     "s": "香港電台財經",
+     "d": "2026-10-30T22:45:09+08:00",
+     "ts": 1793371509.0,
+     "x": "國家金融監督管理總局發布資產管理信託管理辦法，明確信託公司管理信託產品，不得以任何方式向投資者承諾本金不受損失，或保證最低收益，不得設置預期收益率，新規定將於明年1月起實施。 當局嚴禁開展違規通道業務、嚴禁開展資金池業務，要求信託公司對不同信託產品單獨管理、單獨建帳、單獨核算，不得以信託產品名義開展",
+     "g": ""
+    },
+    {
+     "t": "領展以23億元出售旺角「T.O.P」物業",
+     "l": "https://news.rthk.hk/rthk/ch/component/k2/1876010-20261030.htm",
+     "s": "香港電台財經",
+     "d": "2026-10-30T22:11:18+08:00",
+     "ts": 1793369478.0,
+     "x": "領展宣布，以23億元出售旺角彌敦道700號全部權益，亦即「T.O.P This is Our Place」，買家為本地投資者Han Bliss Global Limited。 領展將簽訂資產管理協議，預計明年首季完成交易，其後繼續管理物業，出售所得擬用於回購基金單位、營運資金、投資核心資產組合。 領",
+     "g": ""
+    }
+   ],
+   "sources": [
+    "香港電台財經"
+   ],
+   "stale": false
+  },
+  "cn": {
+   "items": [
+    {
+     "t": "中共打貪鎖定領導幹部身邊人 加強核查家庭異常財產",
+     "l": "https://www.cna.com.tw/news/acn/202611010154.aspx",
+     "s": "中央社兩岸",
+     "d": "2026-11-01T20:27:37+08:00",
+     "ts": 1793536057.0,
+     "x": "（中央社台北1日電）中共20屆五中全會日前通過全面從嚴治黨相關決定，其中要求加強對領導幹部及其家屬的監督，重點查處「一把手」、年輕幹部及領導幹部家族式腐敗，並對家庭財產和支出明顯超出正常收入的情況進行查核。",
+     "g": ""
+    },
+    {
+     "t": "香港国际机场获颁多个国际奖项",
+     "l": "https://www.chinanews.com.cn/dwq/2026/11-01/10724447.shtml",
+     "s": "中新網即時",
+     "d": "2026-11-01T19:54:42+08:00",
+     "ts": 1793534082.0,
+     "x": "中新网香港11月1日电 香港机场管理局(简称“机管局”)1日公布，在第13届“Payload Asia Awards”中，香港国际机场获颁两项殊荣，包括机场组别最高荣誉“年度全球最佳机场”，以及“年度最佳航空货运技术供应商”。",
+     "g": ""
+    },
+    {
+     "t": "支持粤港澳大湾区国际科技创新中心建设相关举措发布",
+     "l": "https://www.chinanews.com.cn/dwq/2026/11-01/10724453.shtml",
+     "s": "中新網即時",
+     "d": "2026-11-01T19:50:42+08:00",
+     "ts": 1793533842.0,
+     "x": "中新社广州11月1日电 (记者 王坚)中国相关国家部委及中央单位协同推出的粤港澳大湾区国际科技创新中心支持举措11月1日在2026大湾区科学论坛开幕式上发布。其中多项举措支持粤港澳三地科技产业跨境深度融合。",
+     "g": ""
+    },
+    {
+     "t": "刘建国：治水是史前长江中下游定居农业聚落重要社会活动",
+     "l": "https://www.chinanews.com.cn/gn/2026/11-01/10724456.shtml",
+     "s": "中新網即時",
+     "d": "2026-11-01T19:47:25+08:00",
+     "ts": 1793533645.0,
+     "x": "中新网湖北荆门11月1日电 (记者 孙自法)史前治水与中华早期文明演进有何关联？中国社会科学院考古研究所刘建国研究员直言，治水是史前长江中下游地区定居农业聚落的一项重要社会活动，并对史前聚落的形态产生重要影响。",
+     "g": ""
+    },
+    {
+     "t": "614家科创板公司完成三季报披露 净利润同比增约4.7倍",
+     "l": "https://www.chinanews.com.cn/cj/2026/11-01/10724454.shtml",
+     "s": "中新網即時",
+     "d": "2026-11-01T19:45:01+08:00",
+     "ts": 1793533501.0,
+     "x": "中新社上海11月1日电 (高志苗)记者11月1日从上海证券交易所获悉，截至目前，614家科创板公司完成2026年三季报披露(另有3家多地上市红筹企业将于11月披露)，合计实现营业收入15148.92亿元(人民币，下同)，同比增长41.88%；净利润2235.2亿元，同比增长474.56%；扣非后净利",
+     "g": ""
+    },
+    {
+     "t": "上海发布数据跨境流动基础设施 依托区块链支撑企业合规出海",
+     "l": "https://www.chinanews.com.cn/cj/2026/11-01/10724455.shtml",
+     "s": "中新網即時",
+     "d": "2026-11-01T19:43:45+08:00",
+     "ts": 1793533425.0,
+     "x": "中新网上海11月1日电 (记者 许婧)第三届区块链创新高峰论坛10月31日在上海举办。作为2026全球数商大会配套活动，论坛对外发布数据跨境流动基础设施，同步推出六大跨境业务场景、揭牌虹桥跨境授信融资服务站点，一批生态签约、行业标准集中落地，聚焦解决企业跨境经营中的可信数据流通难题。",
+     "g": ""
+    },
+    {
+     "t": "（国际观察）高油价等多重因素推动俄罗斯卢布“逆势走强”",
+     "l": "https://www.chinanews.com.cn/gj/2026/11-01/10724443.shtml",
+     "s": "中新網即時",
+     "d": "2026-11-01T19:38:59+08:00",
+     "ts": 1793533139.0,
+     "x": "中新社莫斯科11月1日电(记者 田冰)11月1日，俄罗斯央行官方网站显示1美元兑换80.56卢布，与10月底汇率基本持平。10月，卢布汇率明显走强，从85.71成功稳固在80关口。市场关注点也随之从“卢布持续走强的逻辑何在”转向“未来存在何种变量”。",
+     "g": ""
+    },
+    {
+     "t": "以杭州马拉松为窗：在奔跑中读懂一座城",
+     "l": "https://www.chinanews.com.cn/ty/2026/11-01/10724452.shtml",
+     "s": "中新網即時",
+     "d": "2026-11-01T19:38:49+08:00",
+     "ts": 1793533129.0,
+     "x": "中新网杭州11月1日电(张煜欢)11月1日，2026杭州马拉松在黄龙体育中心鸣枪开跑，约3万名跑者踏上赛道，用脚步铺开一幅流动的城市长卷。",
+     "g": ""
+    },
+    {
+     "t": "合成生物学产业化如何突围？院士建言走好自主创新之路",
+     "l": "https://www.chinanews.com.cn/gn/2026/11-01/10724450.shtml",
+     "s": "中新網即時",
+     "d": "2026-11-01T19:35:27+08:00",
+     "ts": 1793532927.0,
+     "x": "中新网北京11月1日电 题：合成生物学产业化如何突围？院士建言走好自主创新之路",
+     "g": ""
+    },
+    {
+     "t": "浙江深耕新型婚育文化建设：搭起幸福桥 共育和美家",
+     "l": "https://www.chinanews.com.cn/sh/2026/11-01/10724448.shtml",
+     "s": "中新網即時",
+     "d": "2026-11-01T19:34:43+08:00",
+     "ts": 1793532883.0,
+     "x": "中新网杭州11月1日电(张煜欢)红绸轻展，礼乐和鸣。11月1日，一场简约庄重的集体婚礼在浙江杭州举行，一对对新人以雅致仪式许下相守之约，没有繁复排场，只留真诚祝福。这场由浙江省妇联主办的2026年“浙里幸福荟”集体婚礼融入宋韵美学，将家国同庆、婚事简办的理念娓娓道来，生动诠释了婚育新风的独特魅力。",
+     "g": ""
+    },
+    {
+     "t": "从“场景机会”到出海保障 第六届长沙“企业家日”活动举行",
+     "l": "https://www.chinanews.com.cn/cj/2026/11-01/10724446.shtml",
+     "s": "中新網即時",
+     "d": "2026-11-01T19:32:35+08:00",
+     "ts": 1793532755.0,
+     "x": "中新网长沙11月1日电 (刘曼)11月1日，以“培优育强·星城远航”为主题的第六届长沙“企业家日”活动举行，集中发布系列服务清单、“长e企”平台、“五星服务行动”等，致力让企业发展有空间、创新有支撑、出海有保障。",
+     "g": ""
+    },
+    {
+     "t": "前壹傳媒行政總裁張劍虹判刑後首露面 以更生人身分訪深圳",
+     "l": "https://www.cna.com.tw/news/acn/202611010144.aspx",
+     "s": "中央社兩岸",
+     "d": "2026-11-01T19:31:15+08:00",
+     "ts": 1793532675.0,
+     "x": "（中央社台北1日電）因違反香港國安法中「串謀勾結外國勢力」罪被判囚的前壹傳媒集團行政總裁張劍虹，原定2028年3月出獄，近日他以更生人身分參加港府安排的中國大陸體驗團。港媒報導，據了解，張劍虹現在已獲釋。",
+     "g": ""
+    },
+    {
+     "t": "2026斯巴达勇士儿童赛杭州站落幕",
+     "l": "https://www.chinanews.com.cn/ty/2026/11-01/10724445.shtml",
+     "s": "中新網即時",
+     "d": "2026-11-01T19:27:34+08:00",
+     "ts": 1793532454.0,
+     "x": "中新网杭州11月1日电(肖健)10月31日至11月1日，2026斯巴达勇士儿童赛杭州站举行，赛事共吸引超过3000名来自国内各地的小勇士参赛。经过激烈的角逐，精英组各年龄段冠军均有归属。13-14岁组男女子冠军由陈宥廷(28:38)和DeCeuster Lynne(32:46)获得，11-12岁组男",
+     "g": ""
+    },
+    {
+     "t": "世界杰出华人颁奖典礼在香港举行",
+     "l": "https://www.chinanews.com.cn/tp/2026/11-01/10724440.shtml",
+     "s": "中新網即時",
+     "d": "2026-11-01T19:26:20+08:00",
+     "ts": 1793532380.0,
+     "x": "图为香港艺人胡枫（中）获得世界杰出华人终身成就奖。中新网记者 陈永诺 摄 图为香港艺人梁家辉（中）获得世界杰出华人奖。中新网记者 陈永诺 摄 图为中银国际高级顾问林广兆（中）获得世界杰出华人崇高荣誉大奖。中新网记者 陈永诺 摄 图为香港艺人曾志伟（中）获得世界杰出华人奖。中新网记者 陈永诺 摄",
+     "g": ""
+    },
+    {
+     "t": "浙VA，让城乡球友“打成一片”",
+     "l": "https://www.chinanews.com.cn/ty/2026/11-01/10724442.shtml",
+     "s": "中新網即時",
+     "d": "2026-11-01T19:24:46+08:00",
+     "ts": 1793532286.0,
+     "x": "中新网金华11月1日电(张煜欢 郦琪琛 章程)10月30日至11月1日，2026年浙江省城乡气排球公开赛(浙VA)总决赛在浙江金华磐安文体中心举行，54支队伍会师山城，争夺年度荣誉。",
+     "g": ""
+    },
+    {
+     "t": "第十一届世界妈祖文化论坛在福建湄洲岛开幕",
+     "l": "https://www.chinanews.com.cn/tp/2026/11-01/10724437.shtml",
+     "s": "中新網即時",
+     "d": "2026-11-01T19:24:00+08:00",
+     "ts": 1793532240.0,
+     "x": "11月1日，第十一届世界妈祖文化论坛在“妈祖故里”福建莆田湄洲岛开幕。本届论坛紧扣永久总主题“大爱和平·文明互鉴”，以“四海安澜·爱创未来”为年度主题，设置一个核心主论坛、十大专题分论坛及多项配套活动，并在马来西亚、新加坡、法国等国家及港澳台地区设立13个分会场。图为“妈祖”海洋预报数值模式2.0版",
+     "g": ""
+    },
+    {
+     "t": "西安举办警营开放日活动",
+     "l": "https://www.chinanews.com.cn/tp/2026/11-01/10724432.shtml",
+     "s": "中新網即時",
+     "d": "2026-11-01T19:22:22+08:00",
+     "ts": 1793532142.0,
+     "x": "11月1日，西安公安“警心守护 乐享长安”第四届警营开放日在大明宫国家遗址公园举办，各类警用装备集中亮相，吸引众多市民到场体验打卡。图为现场展出的警用装备。中新社记者 梅镱泷 摄 11月1日，西安公安“警心守护 乐享长安”第四届警营开放日在大明宫国家遗址公园举办，各类警用装备集中亮相，吸引众多市民到",
+     "g": ""
+    },
+    {
+     "t": "沈阳故宫2026年参观人数已突破600万人次",
+     "l": "https://www.chinanews.com.cn/cul/2026/11-01/10724441.shtml",
+     "s": "中新網即時",
+     "d": "2026-11-01T19:21:46+08:00",
+     "ts": 1793532106.0,
+     "x": "中新社沈阳11月1日电 (记者 韩宏)沈阳故宫博物院11月1日发布消息称，截至11月1日，沈阳故宫博物院今年接待参观人数突破600万人次，创历史新高，已超过2025年全年参观人数，参观人数同比增长14.76%。",
+     "g": ""
+    },
+    {
+     "t": "128名制鞋能手在河南商丘展开比拼",
+     "l": "https://www.chinanews.com.cn/tp/2026/11-01/10724427.shtml",
+     "s": "中新網即時",
+     "d": "2026-11-01T19:20:10+08:00",
+     "ts": 1793532010.0,
+     "x": "11月1日，河南商丘，2025年至2026年全国行业职业技能竞赛——第二届全国皮革行业职业技能竞赛（制鞋工）全国总决赛开赛，来自国内9大赛区的128名制鞋能手围绕鞋面划裁、鞋帮缝制、鞋体整型等一线制鞋工序展开比拼。图为职工组参赛选手在竞赛现场进行制鞋实操比拼。中新社发 李恒 摄 11月1日，河南商丘",
+     "g": ""
+    },
+    {
+     "t": "河南郑州：东盟好物吸引市民选购",
+     "l": "https://www.chinanews.com.cn/tp/2026/11-01/10724421.shtml",
+     "s": "中新網即時",
+     "d": "2026-11-01T19:19:14+08:00",
+     "ts": 1793531954.0,
+     "x": "11月1日，河南郑州，一位主播在郑东新区龙湖金融岛东盟好物市集进行直播，向消费者推介东南亚特色商品。作为2026中国（河南）—东盟粮农合作发展大会的系列活动之一，东盟好物市集集中展示和展销来自泰国、马来西亚、印度尼西亚、越南、柬埔寨等国的特色商品，涵盖乳胶制品、护肤洗护用品、咖啡、坚果、糕点等多个品",
+     "g": ""
+    },
+    {
+     "t": "东西问丨许通元：走过百年，马华文学为何仍有生命力？",
+     "l": "https://www.chinanews.com.cn/dxw/2026/11-01/10724418.shtml",
+     "s": "中新網要聞",
+     "d": "2026-11-01T19:07:15+08:00",
+     "ts": 1793531235.0,
+     "x": "中新社吉隆坡11月1日电 题：走过百年，马华文学为何仍有生命力？",
+     "g": ""
+    },
+    {
+     "t": "中国驻俄罗斯大使馆提醒：切勿在俄非法采金",
+     "l": "https://www.chinanews.com.cn/hr/2026/11-01/10724413.shtml",
+     "s": "中新網要聞",
+     "d": "2026-11-01T18:44:18+08:00",
+     "ts": 1793529858.0,
+     "x": "中新网11月1日电 据中国驻俄罗斯大使馆微信公众号消息，中国驻俄罗斯大使馆1日发布关于切勿在俄非法采金的提醒。",
+     "g": ""
+    },
+    {
+     "t": "10月中国百城新房价格继续上涨 二手房价下跌",
+     "l": "https://www.chinanews.com.cn/cj/2026/11-01/10724408.shtml",
+     "s": "中新網要聞",
+     "d": "2026-11-01T18:33:17+08:00",
+     "ts": 1793529197.0,
+     "x": "中新社北京11月1日电 (记者 庞无忌)10月，中国主要城市房地产市场延续新房价格稳中微升、二手房价下跌态势。",
+     "g": ""
+    },
+    {
+     "t": "前三季度中国物流业总收入达11.1万亿元 保持扩张态势",
+     "l": "https://www.chinanews.com.cn/cj/2026/11-01/10724321.shtml",
+     "s": "中新網要聞",
+     "d": "2026-11-01T16:17:48+08:00",
+     "ts": 1793521068.0,
+     "x": "中新社北京11月1日电 (记者 阮煜琳)中国物流与采购联合会11月1日发布的数据显示，中国物流业总收入保持扩张态势。前三季度全国物流业总收入达11.1万亿元(人民币，下同)，同比增长4.3%。",
+     "g": ""
+    },
+    {
+     "t": "學者：中共五中全會提「黨內民主」對習近平隱晦批評",
+     "l": "https://www.cna.com.tw/news/acn/202611010099.aspx",
+     "s": "中央社兩岸",
+     "d": "2026-11-01T16:12:37+08:00",
+     "ts": 1793520757.0,
+     "x": "（中央社記者陳鎧妤台北1日電）中共五中全會落幕。資深中國觀察家、美國智庫詹姆士敦基金會（Jamestown Foundation）研究員林和立向中央社表示，全會公報對黨內民主等議題的討論「出人意料地詳細」，在中共總書記習近平以推行「集權」著稱、不考慮民主的背景下，公報對習近平一人統治有所「隱晦批評」",
+     "g": ""
+    },
+    {
+     "t": "LGBT影展「北京愛酷電影週」突取消 外媒：遭警方施壓",
+     "l": "https://www.cna.com.tw/news/acn/202611010065.aspx",
+     "s": "中央社兩岸",
+     "d": "2026-11-01T13:30:20+08:00",
+     "ts": 1793511020.0,
+     "x": "（中央社台北1日電）中國唯一聚焦LGBT議題、有25年歷史的北京酷兒影展（現稱愛酷電影週）原定10月30日舉行，卻在前一天深夜突然發布聲明取消。外媒指是因為遭到警方施壓。同日，武漢柏林電影週亦宣布緊急延期。",
+     "g": ""
+    },
+    {
+     "t": "北京A級商辦租金8年來幾腰斬 無AI企業進駐商辦空置率大增",
+     "l": "https://www.cna.com.tw/news/acn/202611010064.aspx",
+     "s": "中央社兩岸",
+     "d": "2026-11-01T13:18:17+08:00",
+     "ts": 1793510297.0,
+     "x": "（中央社台北1日電）港媒報導，受中國經濟表現疲弱影響，首都北京的A級商辦第3季的租金已較2018年的高峰值大跌49.1%，幾近腰斬。至於商辦空置率則呈K型分化，屬科技業聚落的中關村受AI需求帶動，當季商辦空置率降至5.6%，但CBD（中心商業區）地段商辦空置率卻攀升至20.4%，超過20%的國際警戒",
+     "g": ""
+    },
+    {
+     "t": "朱鶴新遞補中委被「跳過」仍主持會議 學者：仕途恐到頂",
+     "l": "https://www.cna.com.tw/news/acn/202611010030.aspx",
+     "s": "中央社兩岸",
+     "d": "2026-11-01T10:56:03+08:00",
+     "ts": 1793501763.0,
+     "x": "（中央社台北1日電）中國人民銀行副行長、國家外匯管理局局長朱鶴新，在中共五中全會遞補中央委員時被「跳過」，但10月30日仍主持外匯管理局黨組會議。學者指出，候補委員遞補時被跳過並不必然意味著涉案落馬，但仕途可能已到頂。",
+     "g": ""
+    },
+    {
+     "t": "多毒株活跃，今年流感季提前！最新提示→",
+     "l": "https://www.chinanews.com.cn/jk/2026/11-01/10724147.shtml",
+     "s": "中新網要聞",
+     "d": "2026-11-01T09:00:02+08:00",
+     "ts": 1793494802.0,
+     "x": "天气渐冷，正是流感高发季节。今年流行的流感毒株有什么新变化？流感疫苗还管用吗？",
+     "g": ""
+    },
+    {
+     "t": "从“秒回”到“慢递”：年轻人为何重新爱上笔友？",
+     "l": "https://www.chinanews.com.cn/cul/2026/11-01/10724144.shtml",
+     "s": "中新網要聞",
+     "d": "2026-11-01T08:52:02+08:00",
+     "ts": 1793494322.0,
+     "x": "从“秒回”到“慢递”：我们为何重新爱上笔友",
+     "g": ""
+    },
+    {
+     "t": "中东部地区有大风降温 四川盆地江淮江南北部有中到大雨",
+     "l": "https://www.chinanews.com.cn/sh/2026/11-01/10724131.shtml",
+     "s": "中新網要聞",
+     "d": "2026-11-01T08:27:19+08:00",
+     "ts": 1793492839.0,
+     "x": "中新网11月1日电 据中央气象台网站消息，预计11月1日冷空气继续影响我国，中东部有大风降温，渤海、黄海和东海海域风力较大，关注对海陆交通、人体健康等的影响；未来三天，四川盆地、黄淮、江淮等地多降雨，关注对交通运输、城市运行、农业生产等的不利影响。",
+     "g": ""
+    },
+    {
+     "t": "载人月球探测工程采用“两次发射、环月对接”方案",
+     "l": "https://www.chinanews.com.cn/gn/2026/11-01/10724130.shtml",
+     "s": "中新網要聞",
+     "d": "2026-11-01T08:11:32+08:00",
+     "ts": 1793491892.0,
+     "x": "记者从10月31日开幕的第七届载人航天学术大会了解到，我国载人月球探测工程采用“两次发射、环月对接”方案，工程登月阶段任务各项研制建设工作正在扎实稳步推进。",
+     "g": ""
+    },
+    {
+     "t": "英特爾挫28% 華府持股價值蒸發936億 AI半導體股大震倉 美股三大指數全跌",
+     "l": "https://news.mingpao.com/pns/%e7%b6%93%e6%bf%9f/article/20261101/s00004/1793463929344/%e8%8b%b1%e7%89%b9%e7%88%be%e6%8c%ab28-%e8%8f%af%e5%ba%9c%e6%8c%81%e8%82%a1%e5%83%b9%e5%80%bc%e8%92%b8%e7%99%bc936%e5%84%84-ai%e5%8d%8a%e5%b0%8e%e9%ab%94%e8%82%a1%e5%a4%a7%e9%9c%87%e5%80%89-%e7%be%8e%e8%82%a1%e4%b8%89%e5%a4%a7%e6%8c%87%e6%95%b8%e5%85%a8%e8%b7%8c",
+     "s": "明報中國",
+     "d": "2026-11-01T04:30:00+08:00",
+     "ts": 1793478600.0,
+     "x": "【明報專訊】上周五美股三大指數全線回落，其中科技股業績令市場失望，納斯達克指數跌近2.9%最多，插穿所有短、中期移動平均線，包括10天線，形勢更弱。晶片股遭洗倉，其中英特爾（美：INTC）插水逾28%，創逾40年最大單日跌幅，股價險守10天線；有份注資的美國政府現所持有的股份蒸發約120億美元（約9",
+     "g": ""
+    },
+    {
+     "t": "資金轉債市避險 美長短債息回落",
+     "l": "https://news.mingpao.com/pns/%e7%b6%93%e6%bf%9f/article/20261101/s00004/1793463930055/%e8%b3%87%e9%87%91%e8%bd%89%e5%82%b5%e5%b8%82%e9%81%bf%e9%9a%aa-%e7%be%8e%e9%95%b7%e7%9f%ad%e5%82%b5%e6%81%af%e5%9b%9e%e8%90%bd",
+     "s": "明報中國",
+     "d": "2026-11-01T04:30:00+08:00",
+     "ts": 1793478600.0,
+     "x": "【明報專訊】美國上周五科技股大震倉的同時，資金轉往債市避險，暫時扯低長短債息，因此美匯轉弱。儘管市場力量壓低債券收益率，10月議息後，包括達拉斯聯儲銀行行長洛根（Lorie Logan）在內的3名美聯儲官員仍支持進一步加息，同時主張採取漸進的貨幣緊縮政策額，儘量減少對金融市場和經濟的衝擊。",
+     "g": ""
+    },
+    {
+     "t": "幣安被黑客盜竊 比特幣曾失守7.7萬美元後回升",
+     "l": "https://news.mingpao.com/pns/%e7%b6%93%e6%bf%9f/article/20261101/s00004/1793463930161/%e5%b9%a3%e5%ae%89%e8%a2%ab%e9%bb%91%e5%ae%a2%e7%9b%9c%e7%ab%8a-%e6%af%94%e7%89%b9%e5%b9%a3%e6%9b%be%e5%a4%b1%e5%ae%887-7%e8%90%ac%e7%be%8e%e5%85%83%e5%be%8c%e5%9b%9e%e5%8d%87",
+     "s": "明報中國",
+     "d": "2026-11-01T04:30:00+08:00",
+     "ts": 1793478600.0,
+     "x": "【明報專訊】幣安被黑客盜竊比特幣，市值高達63億美元，消息震撼虛擬幣圈。影響所及，比特幣曾經跌破7.7萬美元，為過去一個月以來首次，至昨日重返7.7萬美元關口並微升。儘管幣安保證客戶財產安全，但是彭博引述虛擬貨幣存儲公司Ballet Global Inc.創始人Bobby Lee表示，幣安遭狙擊而被",
+     "g": ""
+    },
+    {
+     "t": "瑅海3日累收逾4800票 超購33倍",
+     "l": "https://news.mingpao.com/pns/%e7%b6%93%e6%bf%9f/article/20261101/s00004/1793463930375/%e7%91%85%e6%b5%b73%e6%97%a5%e7%b4%af%e6%94%b6%e9%80%be4800%e7%a5%a8-%e8%b6%85%e8%b3%bc33%e5%80%8d",
+     "s": "明報中國",
+     "d": "2026-11-01T04:30:00+08:00",
+     "ts": 1793478600.0,
+     "x": "【明報專訊】新盤市場持續熱鬧，市區兩新盤收票反應不俗。由信置（0083）、招商局置地（0978）及市建局合發展的紅磡瑅海，樓花期長約22個月，過去3日累積收逾4800票，以首兩張價單138伙計，超購逾33倍，料日內公布銷售安排。另恒地（0012）旗下已獲批入伙紙的大角嘴利奧坊6期逸里1號，對外開放示",
+     "g": ""
+    },
+    {
+     "t": "美聯：今年首10月物業註冊「量額」創5年同期新高",
+     "l": "https://news.mingpao.com/pns/%e7%b6%93%e6%bf%9f/article/20261101/s00004/1793463930545/%e7%be%8e%e8%81%af-%e4%bb%8a%e5%b9%b4%e9%a6%9610%e6%9c%88%e7%89%a9%e6%a5%ad%e8%a8%bb%e5%86%8a%e3%80%8c%e9%87%8f%e9%a1%8d%e3%80%8d%e5%89%b55%e5%b9%b4%e5%90%8c%e6%9c%9f%e6%96%b0%e9%ab%98",
+     "s": "明報中國",
+     "d": "2026-11-01T04:30:00+08:00",
+     "ts": 1793478600.0,
+     "x": "【明報專訊】本港樓市交投持續暢旺，整體物業註冊量亦創新高。據美聯物業研究中心綜合土地註冊處資料顯示，截至10月29日，今年整體物業（包括一手私樓、二手住宅、一手公營房屋、工商舖、純車位及其他等）註冊量共錄74,368宗，較去年首10個月64,582宗高出約15.2%；涉及金額達6078億元，亦較去年",
+     "g": ""
+    },
+    {
+     "t": "內地上月製造業PMI報49.3 回落至收縮區間",
+     "l": "https://news.mingpao.com/pns/%e7%b6%93%e6%bf%9f/article/20261101/s00004/1793463930657/%e5%85%a7%e5%9c%b0%e4%b8%8a%e6%9c%88%e8%a3%bd%e9%80%a0%e6%a5%adpmi%e5%a0%b149-3-%e5%9b%9e%e8%90%bd%e8%87%b3%e6%94%b6%e7%b8%ae%e5%8d%80%e9%96%93",
+     "s": "明報中國",
+     "d": "2026-11-01T04:30:00+08:00",
+     "ts": 1793478600.0,
+     "x": "【明報專訊】國家統計局昨公布，10月製造業採購經理指數（PMI）回落至收縮區間49.3，較上月處於擴張區間的50.1下降0.8，反映製造業景氣水平有所回落。該數字低於市場預期的49.9，並是近3個月的低位。",
+     "g": ""
+    },
+    {
+     "t": "香港電訊據報同意停美業務",
+     "l": "https://news.mingpao.com/pns/%e7%b6%93%e6%bf%9f/article/20261101/s00004/1793463930765/%e9%a6%99%e6%b8%af%e9%9b%bb%e8%a8%8a%e6%93%9a%e5%a0%b1%e5%90%8c%e6%84%8f%e5%81%9c%e7%be%8e%e6%a5%ad%e5%8b%99",
+     "s": "明報中國",
+     "d": "2026-11-01T04:30:00+08:00",
+     "ts": 1793478600.0,
+     "x": "【明報專訊】據路透社報道，電訊盈科（0008）旗下香港電訊（6823）已同意停止在美國境內提供國際及本地電訊服務。香港電訊須於30天內向美國聯邦通訊委員會（FCC）提交停止服務申請，並須在2027年9月1日前全面終止美國業務。這為香港首次有電訊商，需要停止在美國進行業務運作。",
+     "g": ""
+    },
+    {
+     "t": "美零售商疑用AI 不同客賣不同價",
+     "l": "https://news.mingpao.com/pns/%e7%b6%93%e6%bf%9f/article/20261101/s00004/1793463930969/%e7%be%8e%e9%9b%b6%e5%94%ae%e5%95%86%e7%96%91%e7%94%a8ai-%e4%b8%8d%e5%90%8c%e5%ae%a2%e8%b3%a3%e4%b8%8d%e5%90%8c%e5%83%b9",
+     "s": "明報中國",
+     "d": "2026-11-01T04:30:00+08:00",
+     "ts": 1793478600.0,
+     "x": "【明報專訊】人工智能愈來愈普及，美國消費者開始懷疑各大商店正運用科技，按照消費者個別需要與背景，抬高產品價格，情况橫跨零售業、餐飲業、叫車服務等行業，在社交媒體亦陸續出現類似帖文引發熱議。去年有智庫找來逾400名用家測試，同一時間於同一平台就同一貨品下單，價格竟因人而異，相差最多逾兩成。各大零售商否",
+     "g": ""
+    },
+    {
+     "t": "電商對AI代理取態不一 亞馬遜禁用 沃爾瑪藉AI工具吸客",
+     "l": "https://news.mingpao.com/pns/%e7%b6%93%e6%bf%9f/article/20261101/s00004/1793463931392/%e9%9b%bb%e5%95%86%e5%b0%8dai%e4%bb%a3%e7%90%86%e5%8f%96%e6%85%8b%e4%b8%8d%e4%b8%80-%e4%ba%9e%e9%a6%ac%e9%81%9c%e7%a6%81%e7%94%a8-%e6%b2%83%e7%88%be%e7%91%aa%e8%97%89ai%e5%b7%a5%e5%85%b7%e5%90%b8%e5%ae%a2",
+     "s": "明報中國",
+     "d": "2026-11-01T04:30:00+08:00",
+     "ts": 1793478600.0,
+     "x": "【明報專訊】AI代理興起，為繁忙的都市人代勞購物，對消費者而言可節省時間，但對電商來說，則未知是否好事。有外媒報道，電商對AI代理取態不一，有重視生態系統的電商拒絕多家AI代理，亦有電商開門歡迎AI代理，聲稱刺激顧客下單效果理想，惟現時走向仍有待觀察。",
+     "g": ""
+    },
+    {
+     "t": "張宗永：消失中的方向盤",
+     "l": "https://news.mingpao.com/pns/%e7%b6%93%e6%bf%9f/article/20261101/s00004/1793463931620/%e5%bc%b5%e5%ae%97%e6%b0%b8-%e6%b6%88%e5%a4%b1%e4%b8%ad%e7%9a%84%e6%96%b9%e5%90%91%e7%9b%a4",
+     "s": "明報中國",
+     "d": "2026-11-01T04:30:00+08:00",
+     "ts": 1793478600.0,
+     "x": "【明報專訊】香港網約車條例出台在即，大眾正討論這對的士司機生計的衝擊。然而，真正的巨浪其實還在後頭。在美中兩大AI領先國，無人駕駛出租車（Robotaxi）已日漸普及，這才是傳統司機真正的「喪鐘」。",
+     "g": ""
+    },
+    {
+     "t": "薛偉傑：AI＋3D打印 重塑逝者遺容",
+     "l": "https://news.mingpao.com/pns/%e7%b6%93%e6%bf%9f/article/20261101/s00004/1793463931923/%e8%96%9b%e5%81%89%e5%82%91-ai-3d%e6%89%93%e5%8d%b0-%e9%87%8d%e5%a1%91%e9%80%9d%e8%80%85%e9%81%ba%e5%ae%b9",
+     "s": "明報中國",
+     "d": "2026-11-01T04:30:00+08:00",
+     "ts": 1793478600.0,
+     "x": "【明報專訊】安顏科技服務有限公司（OnAn Technology Service Limited Company）創辦人徐沛慈表示，該公司研發了一個結合人工智能（AI）和高精度3D打印技術的方案，可以令逝世者「重現」生前良好狀態時容貌，以最美和最安詳方式告別世界，讓家屬留低體面的記憶，減少傷感和遺憾",
+     "g": ""
+    },
+    {
+     "t": "馮其十：內地研究政策利率「換錨」 調控框架對標全球主要央行",
+     "l": "https://news.mingpao.com/pns/%e7%b6%93%e6%bf%9f/article/20261101/s00004/1793463932125/%e9%a6%ae%e5%85%b6%e5%8d%81-%e5%85%a7%e5%9c%b0%e7%a0%94%e7%a9%b6%e6%94%bf%e7%ad%96%e5%88%a9%e7%8e%87%e3%80%8c%e6%8f%9b%e9%8c%a8%e3%80%8d-%e8%aa%bf%e6%8e%a7%e6%a1%86%e6%9e%b6%e5%b0%8d%e6%a8%99%e5%85%a8%e7%90%83%e4%b8%bb%e8%a6%81%e5%a4%ae%e8%a1%8c",
+     "s": "明報中國",
+     "d": "2026-11-01T04:30:00+08:00",
+     "ts": 1793478600.0,
+     "x": "【明報專訊】內地主要政策利率的錨點，將從7天挪向隔夜。中國人民銀行近期公開表示，研究擇機把人行公開市場主要操作品種的期限切換為隔夜，公開市場隔夜回購利率將相應成為主要政策利率。",
+     "g": ""
+    },
+    {
+     "t": "中國多地傳柴油限售 加油站供應緊張",
+     "l": "https://www.cna.com.tw/news/acn/202610310203.aspx",
+     "s": "中央社兩岸",
+     "d": "2026-10-31T22:06:25+08:00",
+     "ts": 1793455585.0,
+     "x": "（中央社台北31日電）網路近日流傳有關中國多地出現柴油荒的影片，不少加油站對柴油實施臨時限量供應甚至停售。有分析指出，國際地緣局勢影響原油供應，導致中國部分煉油廠減少開工；加上近期農業收割旺季增加對柴油需求，令部分加油站庫存快速見底。",
+     "g": ""
+    },
+    {
+     "t": "东西问·知味东方丨德国总统在安徽的菜单里，有个“包袱”",
+     "l": "https://www.chinanews.com.cn/dxw/2026/10-31/10724061.shtml",
+     "s": "中新網要聞",
+     "d": "2026-10-31T21:02:29+08:00",
+     "ts": 1793451749.0,
+     "x": "中新社合肥10月31日电 题：德国总统在安徽的菜单里，有个“包袱”",
+     "g": ""
+    },
+    {
+     "t": "姆巴佩之後換Hello Kitty 網友諷：中國迎大道歉時代",
+     "l": "https://www.cna.com.tw/news/acn/202610310189.aspx",
+     "s": "中央社兩岸",
+     "d": "2026-10-31T20:58:52+08:00",
+     "ts": 1793451532.0,
+     "x": "（中央社台北31日電）「姆巴佩道完歉，輪到Hello Kitty道歉了」，日本企業三麗鷗近日在官網發表致歉聲明的消息在中國網上引起熱議，外媒披露，有中國網友如此總結本週接連發生的兩起「道歉」風波，還有人調侃「歡迎來到大道歉時代」。",
+     "g": ""
+    },
+    {
+     "t": "四川华蓥大摆荡项目事故调查报告公布",
+     "l": "https://www.chinanews.com.cn/sh/2026/10-31/10724049.shtml",
+     "s": "中新網要聞",
+     "d": "2026-10-31T20:36:57+08:00",
+     "ts": 1793450217.0,
+     "x": "记者获悉，华蓥市人民政府事故调查组发布了华蓥市溪口玛琉岩大摆荡项目“5·3”一般高处坠落事故调查报告。经调查认定，该事故是一起因项目运营企业安全生产主体责任悬空、管理缺位，未有效辨识管控安全风险，违规安排未经安全生产教育和培训合格人员上岗，属地政府及监管部门安全监管不到位、监督检查存在漏洞而导致的一",
+     "g": ""
+    }
+   ],
+   "sources": [
+    "中央社兩岸",
+    "中新網即時",
+    "中新網要聞",
+    "明報中國"
+   ],
+   "stale": false
+  },
+  "intl": {
+   "items": [
+    {
+     "t": "德國生活成本抗議演變成暴力事件 商店遭洗劫",
+     "l": "https://www.bbc.com/zhongwen/articles/c8vgxe1nq7w7o/trad?at_medium=RSS&at_campaign=rss",
+     "s": "BBC 中文",
+     "d": "2026-11-01T20:36:01+08:00",
+     "ts": 1793536561.0,
+     "x": "德國多座城市，包括柏林、漢堡和法蘭克福，都爆發了抗議活動。同一天，法國也有數十萬人走上街頭示威。",
+     "g": ""
+    },
+    {
+     "t": "塞爾維亞議會選舉部分票站重新投票",
+     "l": "https://news.rthk.hk/rthk/ch/component/k2/1876155-20261101.htm",
+     "s": "香港電台國際",
+     "d": "2026-11-01T20:25:15+08:00",
+     "ts": 1793535915.0,
+     "x": "塞爾維亞星期日在首都貝爾格萊德、北部邊境城市蘇博蒂察等地的53個投票站，重新舉行議會選舉投票，但預計不會改變學生團體推動的「學生名單」，獲得議會過半數議席的局面。 投票在當地早上7時開始，預計晚上8時結束，共有大約25000名選民有投票資格，佔全國約645萬名登記選民的0.38%左右。 塞爾維亞上月",
+     "g": ""
+    },
+    {
+     "t": "美期中選舉最後衝刺 川普赴農業帶2紅州拉抬選情",
+     "l": "https://www.cna.com.tw/news/aopl/202611010150.aspx",
+     "s": "中央社國際",
+     "d": "2026-11-01T20:12:28+08:00",
+     "ts": 1793535148.0,
+     "x": "（中央社華盛頓1日綜合外電報導）美國期中選舉即將於兩天後登場，選舉結果將決定國會掌控權。美國總統川普今天重返造勢舞台，前往愛荷華州及堪薩斯州助選。",
+     "g": ""
+    },
+    {
+     "t": "伊朗軍方宣稱 若與美國爆發新戰事恐比先前更漫長",
+     "l": "https://www.cna.com.tw/news/aopl/202611010147.aspx",
+     "s": "中央社國際",
+     "d": "2026-11-01T19:40:22+08:00",
+     "ts": 1793533222.0,
+     "x": "（中央社德黑蘭1日綜合外電報導）伊朗軍方今天警告，任何跟美國發生的新戰事可能會比先前衝突更為漫長，美國總統川普（Donald Trump）無法單方面決定戰事持續時間。",
+     "g": ""
+    },
+    {
+     "t": "美國中期選舉提前投票踴躍 據報白宮已為民主黨重掌國會做準備",
+     "l": "https://news.rthk.hk/rthk/ch/component/k2/1876154-20261101.htm",
+     "s": "香港電台國際",
+     "d": "2026-11-01T19:39:20+08:00",
+     "ts": 1793533160.0,
+     "x": "星期二是美國中期選舉投票日，佛羅里達大學選舉實驗室的追蹤數據顯示，超過5200萬名美國選民已經提前投票，高於四年前中期選舉的提前投票人數。美國阿克西奧斯新聞網站引述政治學者預計，整體投票率可能超越2022年。 星期六是弗吉尼亞州提前現場投票的最後一日，票站外排起長龍。有民眾希望當選的政客，能夠傾聽一",
+     "g": ""
+    },
+    {
+     "t": "俄總統助理稱解決烏克蘭問題首輪談判必須是俄美烏三方形式",
+     "l": "https://news.rthk.hk/rthk/ch/component/k2/1876152-20261101.htm",
+     "s": "香港電台國際",
+     "d": "2026-11-01T19:07:15+08:00",
+     "ts": 1793531235.0,
+     "x": "俄羅斯總統助理烏沙科夫表示，解決烏克蘭問題的首輪談判，應該以俄羅斯、美國和烏克蘭三方會談的形式舉行。他說，歐洲國家的代表可能會出席談判，但一開始必須是俄美烏三方形式。 烏沙科夫在電視節目中又透露，烏克蘭總統澤連斯基正透過不同渠道，傳遞願意與總統普京對話的信號，普京從未拒絕與澤連斯基對話，既然澤連斯基",
+     "g": ""
+    },
+    {
+     "t": "阿聯：盼美伊談判取得突破 但已做好最壞打算",
+     "l": "https://www.cna.com.tw/news/aopl/202611010142.aspx",
+     "s": "中央社國際",
+     "d": "2026-11-01T19:07:10+08:00",
+     "ts": 1793531230.0,
+     "x": "（中央社巴林首都麥納瑪1日綜合外電報導）在中東恐再度爆發戰事之際，阿拉伯聯合大公國總統外交顧問加爾加希（Anwar Gargash）今天表示，阿聯希望伊朗與美國談判能取得突破，但也已做好最壞打算。",
+     "g": ""
+    },
+    {
+     "t": "印度東北部族群衝突再起 釀5死",
+     "l": "https://www.cna.com.tw/news/aopl/202611010138.aspx",
+     "s": "中央社國際",
+     "d": "2026-11-01T18:45:02+08:00",
+     "ts": 1793529902.0,
+     "x": "（中央社新德里1日綜合外電報導）印度警方今天表示，該國東北部曼尼普爾邦（Manipur）發生兩起族群暴力衝突事件，造成5人喪生。",
+     "g": ""
+    },
+    {
+     "t": "「見鬼了」：為什麼我們會產生超自然體驗？",
+     "l": "https://www.bbc.com/zhongwen/articles/cm3vqy5g204vo/trad?at_medium=RSS&at_campaign=rss",
+     "s": "BBC 中文",
+     "d": "2026-11-01T18:23:57+08:00",
+     "ts": 1793528637.0,
+     "x": "人類講述鬼故事已有數千年歷史，科學的進步並未改變這一點。",
+     "g": ""
+    },
+    {
+     "t": "受007電影啟發 墨西哥市亡靈節遊行歡慶10週年",
+     "l": "https://www.cna.com.tw/news/aopl/202611010133.aspx",
+     "s": "中央社國際",
+     "d": "2026-11-01T18:11:50+08:00",
+     "ts": 1793527910.0,
+     "x": "（中央社墨西哥市31日綜合外電報導）墨西哥首都墨西哥市（Mexico City）今天舉行年度亡靈節遊行，預估吸引50萬多名國內外遊客。這個節日在墨西哥已有數百年歷史，但遊行卻是因2015年1部007系列電影才誕生。",
+     "g": ""
+    },
+    {
+     "t": "96歲巴菲特愛喝可樂 傳曾自稱近50年沒喝過白開水",
+     "l": "https://www.cna.com.tw/news/aopl/202611010128.aspx",
+     "s": "中央社國際",
+     "d": "2026-11-01T17:45:39+08:00",
+     "ts": 1793526339.0,
+     "x": "（中央社紐約31日綜合外電報導）現年96歲的傳奇投資人巴菲特是出名地愛喝可口可樂，以每天喝5罐聞名。據億萬富豪艾克曼回憶，巴菲特曾經對他說，自己至少從1970年代起，就再也沒喝過一杯水。",
+     "g": ""
+    },
+    {
+     "t": "特朗普：沒計劃與弗拉維奧會面 對方想逗留美國多久都可以",
+     "l": "https://news.rthk.hk/rthk/ch/component/k2/1876146-20261101.htm",
+     "s": "香港電台國際",
+     "d": "2026-11-01T17:41:25+08:00",
+     "ts": 1793526085.0,
+     "x": "美國總統特朗普表示，沒有計劃與在巴西總統選舉中落敗後前往美國的自由黨候選人弗拉維奧會面，但認為弗拉維奧受到非常不公正的對待，表明對方在美國想逗留多久都可以。 巴西聯邦最高法院在總統選舉結束後，禁止弗拉維奧離境，並要求就弗拉維奧在競選活動中，涉嫌收受外國資金和操控社交媒體展開調查。 報道指，弗拉維奧與",
+     "g": ""
+    },
+    {
+     "t": "泰國總理：泰柬邊境暫不重開 待解決領土與安全問題",
+     "l": "https://www.cna.com.tw/news/aopl/202611010127.aspx",
+     "s": "中央社國際",
+     "d": "2026-11-01T17:37:37+08:00",
+     "ts": 1793525857.0,
+     "x": "（中央社記者李宗憲曼谷1日專電）泰國與柬埔寨邊境持續關閉，泰國總理阿努廷昨天表示，泰柬兩國仍有多項爭議尚待解決，目前無法確定何時重新開放邊境，並強調國家利益與安全應優先於政治考量。",
+     "g": ""
+    },
+    {
+     "t": "艾普斯坦報導案 川普二度控告華爾街日報敗訴",
+     "l": "https://www.cna.com.tw/news/aopl/202611010126.aspx",
+     "s": "中央社國際",
+     "d": "2026-11-01T17:36:35+08:00",
+     "ts": 1793525795.0,
+     "x": "（中央社華盛頓31日綜合外電報導）華爾街日報因報導美國總統川普與已故性犯罪富豪艾普斯坦的關係，遭川普提告誹謗。美國法院今天駁回川普第二度對該報提出的訴訟，且不得再行提告。",
+     "g": ""
+    },
+    {
+     "t": "GMO外匯交易服務遭入侵 旗下資安公司2024年早示警",
+     "l": "https://www.cna.com.tw/news/aopl/202611010111.aspx",
+     "s": "中央社國際",
+     "d": "2026-11-01T17:05:03+08:00",
+     "ts": 1793523903.0,
+     "x": "（中央社東京1日綜合外電報導）日本大型IT企業GMO網路集團旗下服務先前遭不當存取。據GMO幹部透露，旗下資安公司早在2024年4月就指出系統有漏洞，並要求從根本檢討系統，但GMO未採取充分對策，最終釀成此次事件。",
+     "g": ""
+    },
+    {
+     "t": "美国拟为\"影子舰队\"松绑？专家警告莫削弱对俄制裁",
+     "l": "https://www.dw.com/zh/美国拟为-影子舰队-松绑？专家警告莫削弱对俄制裁/a-79806146?maca=chi-rss-chi-all-1127-rdf",
+     "s": "德國之聲",
+     "d": "2026-11-01T16:46:00+08:00",
+     "ts": 1793522760.0,
+     "x": "俄罗斯借助由老旧油轮组成的\"影子舰队\"规避西方制裁。据报道，特朗普政府正考虑解除部分影子舰队油轮的制裁，以缓解创纪录的运费。专家警告，此举将削弱对俄制裁、帮助莫斯科获得收入，并使美欧在战略上分道扬镳。欧盟虽握有航运和保险等工具，但若没有美国支持，执法将更加艰难。",
+     "g": ""
+    },
+    {
+     "t": "墙外文摘：33人被开除党籍，为什么问责到不了习近平？",
+     "l": "https://www.dw.com/zh/墙外文摘：33人被开除党籍，为什么问责到不了习近平？/a-79820930?maca=chi-rss-chi-all-1127-rdf",
+     "s": "德國之聲",
+     "d": "2026-11-01T16:43:00+08:00",
+     "ts": 1793522580.0,
+     "x": "中共二十届五中全会开除33名高官党籍，创改革开放以来之最。有评论指出，这次\"全面从严治党\"的赤裸体现，是纪律可以向下延伸、问责却难以向上追究；当监督的范围与后果仍由被监督者一人独断，反腐就触不到制度根源。",
+     "g": ""
+    },
+    {
+     "t": "波斯灣船隻再遇襲 卡達天然氣油輪遭不明物體攻擊",
+     "l": "https://www.cna.com.tw/news/aopl/202611010104.aspx",
+     "s": "中央社國際",
+     "d": "2026-11-01T16:37:48+08:00",
+     "ts": 1793522268.0,
+     "x": "（中央社杜哈1日綜合外電報導）卡達國營通訊社今天報導，一艘卡達天然氣油輪行經波斯灣（Persian Gulf）海域時，遭「不明物體」攻擊。",
+     "g": ""
+    },
+    {
+     "t": "印度反對派將遊行促選委會主席下台 德里加強維安",
+     "l": "https://www.cna.com.tw/news/aopl/202611010098.aspx",
+     "s": "中央社國際",
+     "d": "2026-11-01T16:07:35+08:00",
+     "ts": 1793520455.0,
+     "x": "（中央社新德里1日綜合外電報導）印度選委會修訂選民名冊引發爭議，反對派預定今天在德里（Delhi）舉行抗議活動，要求選舉首長下台。手持警棍、盾牌的印度維安人員與鎮暴車輛已部署至預定抗議地點周邊。",
+     "g": ""
+    },
+    {
+     "t": "讀賣新聞：中國調查船繞台異常活動 疑蒐集海底電纜情報",
+     "l": "https://www.cna.com.tw/news/aopl/202611010096.aspx",
+     "s": "中央社國際",
+     "d": "2026-11-01T16:02:30+08:00",
+     "ts": 1793520150.0,
+     "x": "（中央社記者戴雅真東京1日專電）日本媒體報導，中國4艘調查船今年5月以來持續在台灣周邊特定海域不尋常活動，包括反覆減速、停船及不規則轉向等，且活動範圍與國際海底電纜鋪設路線重疊。專家分析，中國可能正為「台灣有事」等緊急情況下切斷海底電纜預作準備。",
+     "g": ""
+    },
+    {
+     "t": "调研：欧洲的数字依赖日益严重",
+     "l": "https://www.dw.com/zh/调研：欧洲的数字依赖日益严重/a-79806283?maca=chi-rss-chi-all-1127-rdf",
+     "s": "德國之聲",
+     "d": "2026-11-01T15:59:00+08:00",
+     "ts": 1793519940.0,
+     "x": "操作系统、搜索引擎、云服务：一项最新的调研显示，在数码平台的各大领域，欧洲几乎陷入了对外国供应商的全面依赖。那么，欧洲同中美等国的差距到底有多大呢？",
+     "g": ""
+    },
+    {
+     "t": "日本即日起改用先付後退的新退稅方式",
+     "l": "https://news.rthk.hk/rthk/ch/component/k2/1876133-20261101.htm",
+     "s": "香港電台國際",
+     "d": "2026-11-01T15:39:26+08:00",
+     "ts": 1793518766.0,
+     "x": "日本即日起改用先付後退的新退稅方式。 旅客在免稅店單筆消費滿5000日圓，折合約250港元，出示護照可享有免稅資格，但要先以含稅價格購物商品，並在購買的90日內離境前，到機場或港口的自助機器辦理免稅手續，若果顯示為綠色，即完成海關查核，免稅手續完成，旅客可以到航空公司櫃檯託運行李，之後由免稅店退款，",
+     "g": ""
+    },
+    {
+     "t": "特朗普稱美國仍需處理伊朗一兩個目標 指很快能完成",
+     "l": "https://news.rthk.hk/rthk/ch/component/k2/1876130-20261101.htm",
+     "s": "香港電台國際",
+     "d": "2026-11-01T13:51:34+08:00",
+     "ts": 1793512294.0,
+     "x": "美國總統特朗普在佛羅里達州海湖莊園見傳媒時，被問到是否將重新對伊朗開戰，以及伊朗最高領袖是否其中一個目標。特朗普回應說，美方已摧毀伊朗的核設施，仍需處理一、兩個地點，10分鐘內就能處理，又提到鎬山，表示需要處理，能很快完成。 鎬山位於伊朗中部伊斯法罕省納坦茲核設施附近，被認為是伊朗最堅固的地下核設施",
+     "g": ""
+    },
+    {
+     "t": "「我們從地獄回來」——在俄羅斯佔領城市撤離的烏克蘭人說",
+     "l": "https://www.bbc.com/zhongwen/articles/cwn8dkzrm8lvo/trad?at_medium=RSS&at_campaign=rss",
+     "s": "BBC 中文",
+     "d": "2026-11-01T12:24:47+08:00",
+     "ts": 1793507087.0,
+     "x": "由美國第一夫人梅拉尼婭·特朗普（Melania Trump）斡旋達成的人道停火在赫爾松（Kherson）地區生效，令當地四年來首次出現數天和平時段，並讓奧列什基（Oleshky）居民得以撤離。",
+     "g": ""
+    },
+    {
+     "t": "伊朗官員指萬斯來信語氣徹底轉變 表明伊朗鞏固自身勝利與權威",
+     "l": "https://news.rthk.hk/rthk/ch/component/k2/1876121-20261101.htm",
+     "s": "香港電台國際",
+     "d": "2026-11-01T11:01:44+08:00",
+     "ts": 1793502104.0,
+     "x": "伊朗最高國家安全委員會秘書雷扎伊說，他已收到美國副總統萬斯有關重啟談判提議的信函，但伊方未作出回應。 雷扎伊在接受伊朗國家廣播電視台訪問時說，美方來信的語氣已發生徹底轉變，是一個好跡象，表明伊朗民族已鞏固了自身的勝利與權威。雷扎伊拒絕透露更多細節，只是說既然對方未公開信函的任何內容，伊方目前亦不會透",
+     "g": ""
+    },
+    {
+     "t": "特朗普稱會邀請澤連斯基參加二十國集團領導人峰會",
+     "l": "https://news.rthk.hk/rthk/ch/component/k2/1876120-20261101.htm",
+     "s": "香港電台國際",
+     "d": "2026-11-01T10:59:19+08:00",
+     "ts": 1793501959.0,
+     "x": "美國總統特朗普在佛羅里達州海湖莊園向傳媒表示，他會邀請烏克蘭總統澤連斯基參加將於12月舉行的二十國集團領導人峰會。 特朗普已邀請俄羅斯總統普京出席下月在邁阿密舉行的二十國集團領導人峰會。被問到是否亦會邀請澤連斯基時，特朗普回答說會，又說並無問題。 美國國務卿魯比奧於當地星期六在亞特蘭大舉行的二十國集",
+     "g": ""
+    },
+    {
+     "t": "「我與鬼魂同住」：走進吸引人們撿便宜的日本「鬧鬼」住宅",
+     "l": "https://www.bbc.com/zhongwen/articles/c6vg9k3n5vj4o/trad?at_medium=RSS&at_campaign=rss",
+     "s": "BBC 中文",
+     "d": "2026-11-01T08:03:15+08:00",
+     "ts": 1793491395.0,
+     "x": "日本許多人會開始因為購買打折的「事故物件」（凶宅），他們稱毫不介意與幽靈同住。",
+     "g": ""
+    },
+    {
+     "t": "G20外長會閉幕 各方沒有發表聯合公報",
+     "l": "https://news.rthk.hk/rthk/ch/component/k2/1876109-20261101.htm",
+     "s": "香港電台國際",
+     "d": "2026-11-01T06:48:11+08:00",
+     "ts": 1793486891.0,
+     "x": "二十國集團外長會議閉幕，沒有發表聯合公報。 一連兩天在美國亞特蘭大召開的會議，揭幕前已經出現分歧，多國不滿俄羅斯外長拉夫羅夫獲邀出席會議，杯葛大合照環節。 東道主、美國國務卿魯比奧，會後發表主席聲明，代替聯合公報，聲明列出一系列優先議題，包括能源、糧食、及航行自由；沒有提及各方達成任何形式的協議。 ",
+     "g": ""
+    },
+    {
+     "t": "法國巴黎遊行演變成衝突 有人向警員拋擲磚塊和燃燒彈",
+     "l": "https://news.rthk.hk/rthk/ch/component/k2/1876108-20261101.htm",
+     "s": "香港電台國際",
+     "d": "2026-11-01T06:11:37+08:00",
+     "ts": 1793484697.0,
+     "x": "法國當地星期六再次出現示威遊行，在首都巴黎，由於正值萬聖節，有遊行人士打扮成不同角色，高舉標語，反對生活成本及燃油價格高企。 巴黎警方表示，有數萬人參加遊行活動，起初秩序大致良好，人群沿著當局早前批准的路線前進，但去到尾聲時，有人發起暴力行為。 法新社報道，數十名穿黑衣的人，用工具撬起路面的石塊，再",
+     "g": ""
+    },
+    {
+     "t": "奧列什基居民完成撤離 俄烏同意定期展開人道救援行動",
+     "l": "https://news.rthk.hk/rthk/ch/component/k2/1876107-20261101.htm",
+     "s": "香港電台國際",
+     "d": "2026-11-01T05:08:23+08:00",
+     "ts": 1793480903.0,
+     "x": "俄羅斯與烏克蘭完成從赫爾松州奧列什基撤走居民的行動，烏克蘭總統澤連斯基表示，需要撤離的烏克蘭公民已經透過白俄羅斯入境，將向他們提供援助。 白俄羅斯傳媒報道，3架載有奧列什基居民的飛機，昨日降落白俄，有醫護人員及紅十字會義工在場協助居民，安排他們前往邊境檢查站，入境烏克蘭。 曾到奧列什基協調人道援助行",
+     "g": ""
+    },
+    {
+     "t": "德國多個主要城市有年輕人上街 據報部分集會現場有人燃放煙火",
+     "l": "https://news.rthk.hk/rthk/ch/component/k2/1876106-20261101.htm",
+     "s": "香港電台國際",
+     "d": "2026-11-01T04:10:17+08:00",
+     "ts": 1793477417.0,
+     "x": "歐洲多國近期的示威浪潮蔓延至德國，當地多個主要城市有年輕人上街，呼籲政府聆聽青年的聲音。 在柏林、法蘭克福及科隆等地，星期六有數以千計民眾上街，參與由Z世代組織主辦的遊行集會。法新社報道，部分集會現場有人燃放煙火，警員一度使用水砲驅散示威者，有人被扣留。 活動發起人表示，號召上街是不滿生活成本上升，",
+     "g": ""
+    },
+    {
+     "t": "波兰宪法法院上演“宫斗”?警方包围法院大楼",
+     "l": "https://www.dw.com/zh/波兰宪法法院上演-宫斗-警方包围法院大楼/a-79817226?maca=chi-rss-chi-all-1127-rdf",
+     "s": "德國之聲",
+     "d": "2026-10-31T23:14:00+08:00",
+     "ts": 1793459640.0,
+     "x": "波兰政坛左右翼围绕宪法法院法官人选的争斗10月30日骤然升级。在出现正副院长被停职的消息后，许多抗议者聚集到法院外，警方随后则对该建筑进行了管控。右翼的总统立刻中止出国访问飞回华沙，左翼的总理则强调重建法治之路注定艰难。",
+     "g": ""
+    },
+    {
+     "t": "马达加斯加捣毁13处电诈园区 148名中国人被引渡回国",
+     "l": "https://www.dw.com/zh/马达加斯加捣毁13处电诈园区-148名中国人被引渡回国/a-79815828?maca=chi-rss-chi-all-1127-rdf",
+     "s": "德國之聲",
+     "d": "2026-10-31T21:56:00+08:00",
+     "ts": 1793454960.0,
+     "x": "马达加斯加与美国司法部合作，于8月和9月捣毁了13处由中国人经营的网络诈骗园区，148名中国公民已被引渡回中国。调查显示，这些园区与此前在柬埔寨运营的犯罪集团有关，后者在柬泰边境遭到打击后转移到非洲。肯尼亚、卢旺达等国约20名非洲人疑似被以高薪诱骗而来、被迫从事诈骗活动，目前仍被羁押。",
+     "g": ""
+    },
+    {
+     "t": "出口订单走弱 中国10月PMI回落至荣枯线以下",
+     "l": "https://www.dw.com/zh/出口订单走弱-中国10月pmi回落至荣枯线以下/a-79815809?maca=chi-rss-chi-all-1127-rdf",
+     "s": "德國之聲",
+     "d": "2026-10-31T21:29:00+08:00",
+     "ts": 1793453340.0,
+     "x": "中国10月制造业活动出现收缩，新出口订单走软，上月的回升势头就此逆转。中国作为全球第二大经济体，因为对多国贸易顺差不断扩大，而面临来自贸易伙伴的压力。",
+     "g": ""
+    },
+    {
+     "t": "蔣萬安、沈伯洋台北市長選舉辯論會交鋒",
+     "l": "https://www.bbc.com/zhongwen/watch/cm3el2ewgvx0o/trad?at_medium=RSS&at_campaign=rss",
+     "s": "BBC 中文",
+     "d": "2026-10-31T21:20:00+08:00",
+     "ts": 1793452800.0,
+     "x": "距離台灣「九合一」地方選舉不足一個月，在台北，中國國民黨籍現任市長蔣萬安將與台灣執政民進黨候選人沈伯洋出席首場電視辯論會。",
+     "g": ""
+    },
+    {
+     "t": "欧洲外长拒与拉夫罗夫合影 美国主办G20外长会开局不顺",
+     "l": "https://www.dw.com/zh/欧洲外长拒与拉夫罗夫合影-美国主办g20外长会开局不顺/a-79815204?maca=chi-rss-chi-all-1127-rdf",
+     "s": "德國之聲",
+     "d": "2026-10-31T19:56:00+08:00",
+     "ts": 1793447760.0,
+     "x": "二十国集团外长会议周五在美国亚特兰大开幕。由于欧洲国家外长拒绝与俄罗斯外长拉夫罗夫合影，东道主美国取消了“全家福”。卢比奥呼吁团结应对相互交织的危机，但各方分歧明显。拉夫罗夫对德国之声表示，泽连斯基如愿意可赴莫斯科与普京会面。南非未获邀请，会议预计不发表联合宣言。",
+     "g": ""
+    },
+    {
+     "t": "加拿大总理接受DW专访：我们过度依赖美国",
+     "l": "https://www.dw.com/zh/加拿大总理接受dw专访：我们过度依赖美国/a-79815000?maca=chi-rss-chi-all-1127-rdf",
+     "s": "德國之聲",
+     "d": "2026-10-31T18:13:00+08:00",
+     "ts": 1793441580.0,
+     "x": "10月30日，刚刚与欧盟领导人进行会谈的加拿大总理卡尼接受了德国之声专访。他表示，加拿大对美国的依赖度过高，现在亟需深化与志同道合国家的多样化伙伴关系。",
+     "g": ""
+    },
+    {
+     "t": "裝扮成哈利波特，公開質疑泰國王室——他如今面臨34年監禁",
+     "l": "https://www.bbc.com/zhongwen/articles/ck3r52e814pqo/trad?at_medium=RSS&at_campaign=rss",
+     "s": "BBC 中文",
+     "d": "2026-10-31T15:55:00+08:00",
+     "ts": 1793433300.0,
+     "x": "自2020年以來，泰國已有294人因涉嫌違反冒犯君主罪而被起訴，刑期最長達50年。",
+     "g": ""
+    },
+    {
+     "t": "朝鮮「精英」黑客為何成為幣安63億美元盜竊案的頭號嫌犯？",
+     "l": "https://www.bbc.com/zhongwen/articles/cqe8rpl8wjd0o/trad?at_medium=RSS&at_campaign=rss",
+     "s": "BBC 中文",
+     "d": "2026-10-31T15:02:07+08:00",
+     "ts": 1793430127.0,
+     "x": "如果有關指控屬實，這宗破紀錄的盜竊案顯示，涉嫌來自朝鮮的黑客如今已擁有多麼強大的能力。",
+     "g": ""
+    },
+    {
+     "t": "意大利数万学生和工人上街 要求缓解教育与生活成本",
+     "l": "https://www.dw.com/zh/意大利数万学生和工人上街　要求缓解教育与生活成本/a-79809834?maca=chi-rss-chi-all-1127-rdf",
+     "s": "德國之聲",
+     "d": "2026-10-30T23:24:00+08:00",
+     "ts": 1793373840.0,
+     "x": "周五，数万名学生和工人在罗马、米兰、都灵等数十个意大利城市游行，要求增加教育经费、缓解不断上涨的生活成本。此前，学生们已经连续数周搭帐篷露营、占领学校。工会同日发动总罢工，卡车司机、出租车司机和农民也加入抗议。示威者批评梅洛尼右翼政府工资低、燃油价格上涨和军费开支。受法国和西班牙类似运动的带动，这场",
+     "g": ""
+    },
+    {
+     "t": "欧盟对入境小包裹再加税 每年财政增收60亿欧元",
+     "l": "https://www.dw.com/zh/欧盟对入境小包裹再加税-每年财政增收60亿欧元/a-79809890?maca=chi-rss-chi-all-1127-rdf",
+     "s": "德國之聲",
+     "d": "2026-10-30T23:24:00+08:00",
+     "ts": 1793373840.0,
+     "x": "11月1日，欧盟对入境小包裹的征税额即将从每件3欧元上涨到5欧元。欧盟委员会一份内部文件显示，这项今年7月刚刚引入的新税收每年将带来60亿欧元财政收入。SHEIN等中国电商正在扩建本地仓储来规避这项费用。",
+     "g": ""
+    },
+    {
+     "t": "德语媒体：习近平的清洗行动仍在继续",
+     "l": "https://www.dw.com/zh/德语媒体：习近平的清洗行动仍在继续/a-79809662?maca=chi-rss-chi-all-1127-rdf",
+     "s": "德國之聲",
+     "d": "2026-10-30T23:11:00+08:00",
+     "ts": 1793373060.0,
+     "x": "《法兰克福汇报》指出，本周闭幕的中共中央五中全会出席人数之少刷新了记录，也从一个侧面了印证了习近平清洗行动的巨大规模。《日报》评论称，姆巴佩事件足以说明，中国共产党正在将其“言论红线”的适用范围扩展至全世界。",
+     "g": ""
+    },
+    {
+     "t": "国际冲裁法庭裁决允许俄罗斯冰球队参加国际赛事",
+     "l": "https://www.dw.com/zh/国际冲裁法庭裁决允许俄罗斯冰球队参加国际赛事/a-79809179?maca=chi-rss-chi-all-1127-rdf",
+     "s": "德國之聲",
+     "d": "2026-10-30T22:16:00+08:00",
+     "ts": 1793369760.0,
+     "x": "俄罗斯的冰球队实力很强，一直被列入国际第一梯队。俄罗斯入侵乌克兰之后，国际冰联禁止俄罗斯国家队参加国际赛事，然而，该禁令被国际体育仲裁法庭取消了。",
+     "g": ""
+    },
+    {
+     "t": "中共五中全會「空椅子」背後：常態化高壓反腐如何改變官場？",
+     "l": "https://www.bbc.com/zhongwen/articles/c3j47p5gwj5lo/trad?at_medium=RSS&at_campaign=rss",
+     "s": "BBC 中文",
+     "d": "2026-10-30T21:23:25+08:00",
+     "ts": 1793366605.0,
+     "x": "「這次全會進一步表明，習近平的反腐運動沒有終點。」專家說，「持續施加紀律壓力不應只是階段性運動，而必須成為中共運作方式中永久存在的一部分。」",
+     "g": ""
+    },
+    {
+     "t": "新北市長選戰：「政二代」還是「專業副手」能拿下關鍵一城？",
+     "l": "https://www.bbc.com/zhongwen/articles/cm9wzeg8ql22o/trad?at_medium=RSS&at_campaign=rss",
+     "s": "BBC 中文",
+     "d": "2026-10-30T19:31:47+08:00",
+     "ts": 1793359907.0,
+     "x": "作為全台人口最多的直轄市，新北市被視為「最關鍵戰場」，將判定藍綠整體勝負，並可能牽動2028年總統大選。",
+     "g": ""
+    },
+    {
+     "t": "習近平之後，中國將走向何方？",
+     "l": "https://www.bbc.com/zhongwen/watch/cm4g197q34l7o/trad?at_medium=RSS&at_campaign=rss",
+     "s": "BBC 中文",
+     "d": "2026-10-30T17:28:01+08:00",
+     "ts": 1793352481.0,
+     "x": "隨著習近平打破傳統任期慣例，未來的權力繼承路徑與接班陣容充滿變數。權力交接、接班人選，以及習近平未來角色的討論，正在成為中國政治最受關注、也最難回答的問題之一。習近平之後，中國會走向何方？",
+     "g": ""
+    },
+    {
+     "t": "「我不希望它成為我的身份」：BBC專訪Hyrox失禁選手",
+     "l": "https://www.bbc.com/zhongwen/articles/cmy932qe3wx3o/trad?at_medium=RSS&at_campaign=rss",
+     "s": "BBC 中文",
+     "d": "2026-10-30T13:40:19+08:00",
+     "ts": 1793338819.0,
+     "x": "這位澳洲運動員承認責任，但表示輿論反彈令她「創傷」。",
+     "g": ""
+    },
+    {
+     "t": "孙悟空爱上林黛玉：中国AI短剧怎么成了“不当婚恋”",
+     "l": "https://cn.nytimes.com/china/20261030/china-ai-videos-sun-wukong-lin-daiyu/?utm_source=RSS",
+     "s": "紐約時報中文",
+     "d": "2026-10-30T12:49:13+08:00",
+     "ts": 1793335753.0,
+     "x": "中国政府要求清理“扭曲”原著、颠覆角色设定的AI魔改视频。分析认为政府要求人们以尊崇的态度诠释经典作品，重新诠释历史、神话和经典仍受“意识形态正确性”的约束。 一段人工智能生成视频的画面截图，画面中的孙悟空和林黛玉分别出自中国古典名著《西游记》和《红楼梦》。这两部作品均于上世纪80年代被改编成电视剧",
+     "g": ""
+    }
+   ],
+   "sources": [
+    "BBC 中文",
+    "中央社國際",
+    "德國之聲",
+    "紐約時報中文",
+    "香港電台國際"
+   ],
+   "stale": false
+  }
+ },
+ "feed_cache": {
+  "https://rthk9.rthk.hk/rthk/news/rss/c_expressnews_cfinance.xml": [
+   {
+    "t": "陳茂波稱本周舉辦兩項國際金融盛事 將公布系列措施和合作計劃",
+    "l": "https://news.rthk.hk/rthk/ch/component/k2/1876126-20261101.htm",
+    "s": "香港電台財經",
+    "d": "2026-11-01T12:52:24+08:00",
+    "ts": 1793508744.0,
+    "x": "財政司司長陳茂波表示，本周二將公布第三季本地生產總值預先估計數字，隨著經濟保持良好勢頭，全年經濟增長預測可望上調。他又說兩項國際金融盛事「香港金融科技周」和「國際金融領袖投資峰會」，以及相關活動明天同步展開，將匯聚數百位國際金融領袖，屆時將公布一系列措施和合作計劃。 談及本港經濟表現，陳茂波在網誌表",
+    "g": "財經"
+   },
+   {
+    "t": "報道指香港電訊同意終止在美相關業務 公司稱繼續遵守監管規定",
+    "l": "https://news.rthk.hk/rthk/ch/component/k2/1876058-20261031.htm",
+    "s": "香港電台財經",
+    "d": "2026-10-31T15:18:46+08:00",
+    "ts": 1793431126.0,
+    "x": "路透社報道，電訊盈科旗下的香港電訊已同意，終止在美國的業務，香港電訊必須在30天內，向美國聯邦通訊委員會提交停止服務的申請，明年9月1日之前，停止在美國境內提供國際及境內電訊服務，而美國當局將不再推進撤銷營運許可的程序。 香港電訊回覆查詢時確認，與美國當局取得共識，對方亦已終止在去年10月發出的「陳",
+    "g": "財經"
+   },
+   {
+    "t": "港股ADR個別發展 滙控跌逾1%",
+    "l": "https://news.rthk.hk/rthk/ch/component/k2/1876027-20261031.htm",
+    "s": "香港電台財經",
+    "d": "2026-10-31T07:36:38+08:00",
+    "ts": 1793403398.0,
+    "x": "港股美國預託證券(ADR)個別發展。 滙控ADR較本港昨日收市價跌逾1%。建行及阿里巴巴ADR跌近1%。 美團及友邦ADR升約0.3%至0.5%。 編輯：李意琴",
+    "g": "財經"
+   },
+   {
+    "t": "日圓兌美元靠穩 比特幣跌2.6% 幣安遭到黑客盜竊",
+    "l": "https://news.rthk.hk/rthk/ch/component/k2/1876026-20261031.htm",
+    "s": "香港電台財經",
+    "d": "2026-10-31T07:36:23+08:00",
+    "ts": 1793403383.0,
+    "x": "美元指數曾升至102以上，但未能企穩，較早時變動不大，報101.95。 日圓兌美元報157.51日圓，上升0.11%。日本央行維持利率不變。 英鎊兌美元上升0.15%，報1.3396美元。 歐元兌美元跌0.12%至1.1168美元。 比特幣跌下跌約2.6%，至77000美元以下。全球最大加密貨幣交易",
+    "g": "財經"
+   },
+   {
+    "t": "金價急跌逾3% 失守3900美元",
+    "l": "https://news.rthk.hk/rthk/ch/component/k2/1876025-20261031.htm",
+    "s": "香港電台財經",
+    "d": "2026-10-31T06:21:51+08:00",
+    "ts": 1793398911.0,
+    "x": "金價顯著下跌，失守每盎司3900美元，白銀、鉑金和鈀金等亦跌至技術性超賣。 現貨金創1年新低，較早時報每盎司3875美元，跌3.62%。 12月紐約期金收報每盎司3898.9美元，下跌3.3%。 分析指，科技股大幅下挫，或引發黃金等避險資產被迫平倉，並導致保證金被追收。 編輯：李意琴",
+    "g": "財經"
+   },
+   {
+    "t": "油價10月累升逾13%至15%",
+    "l": "https://news.rthk.hk/rthk/ch/component/k2/1876024-20261031.htm",
+    "s": "香港電台財經",
+    "d": "2026-10-31T06:11:08+08:00",
+    "ts": 1793398268.0,
+    "x": "國際油價升逾2%，市場擔心美國中期選舉後伊朗局勢可能升級，加上霍爾木茲海峽有油輪遇襲，加劇供應不足的風險。 12月倫敦布蘭特期油收報每桶117.64美元，上升2.76美元，升幅2.4% 12月紐約期油收報104.12美元，上升2.12美元，升幅近2.1% 。 10月布蘭特期油累計升13.6%，紐約期",
+    "g": "財經"
+   },
+   {
+    "t": "英特爾重挫近29% 納指跌近2.9% 10月跌逾5%",
+    "l": "https://news.rthk.hk/rthk/ch/component/k2/1876023-20261031.htm",
+    "s": "香港電台財經",
+    "d": "2026-10-31T06:09:35+08:00",
+    "ts": 1793398175.0,
+    "x": "美股3大指數顯著下跌，英特爾及亞馬遜季度業績令人失望，加劇市場對人工智能相關領域巨額資本支出的擔憂，科技股被拋售，納指創6月初以來最大單日跌幅。資金轉向防禦性板塊。 納斯達克指數收報25437點，跌747點，跌幅2.86% 。標普500指數收報7580點，跌140點，跌幅1.82% 。道瓊斯指數收報",
+    "g": "財經"
+   },
+   {
+    "t": "歐洲3大指數個別發展",
+    "l": "https://news.rthk.hk/rthk/ch/component/k2/1876022-20261031.htm",
+    "s": "香港電台財經",
+    "d": "2026-10-31T05:43:03+08:00",
+    "ts": 1793396583.0,
+    "x": "歐洲3大指數收市個別發展。 英國富時100指數收報10729點，升7點，升幅0.07%。 法國CAC指數收報7969點，跌不足1點。 德國DAX指數收報25818點，跌221點，跌幅0.85%。 10月英股升逾1%，德股升2.46%，法股升0.06%。 編輯：李意琴",
+    "g": "財經"
+   },
+   {
+    "t": "內地明年起規定信託產品不得保證最低收益或設置預期收益率",
+    "l": "https://news.rthk.hk/rthk/ch/component/k2/1876008-20261030.htm",
+    "s": "香港電台財經",
+    "d": "2026-10-30T22:45:09+08:00",
+    "ts": 1793371509.0,
+    "x": "國家金融監督管理總局發布資產管理信託管理辦法，明確信託公司管理信託產品，不得以任何方式向投資者承諾本金不受損失，或保證最低收益，不得設置預期收益率，新規定將於明年1月起實施。 當局嚴禁開展違規通道業務、嚴禁開展資金池業務，要求信託公司對不同信託產品單獨管理、單獨建帳、單獨核算，不得以信託產品名義開展",
+    "g": "財經"
+   },
+   {
+    "t": "領展以23億元出售旺角「T.O.P」物業",
+    "l": "https://news.rthk.hk/rthk/ch/component/k2/1876010-20261030.htm",
+    "s": "香港電台財經",
+    "d": "2026-10-30T22:11:18+08:00",
+    "ts": 1793369478.0,
+    "x": "領展宣布，以23億元出售旺角彌敦道700號全部權益，亦即「T.O.P This is Our Place」，買家為本地投資者Han Bliss Global Limited。 領展將簽訂資產管理協議，預計明年首季完成交易，其後繼續管理物業，出售所得擬用於回購基金單位、營運資金、投資核心資產組合。 領",
+    "g": "財經"
+   }
+  ],
+  "https://www.chinanews.com.cn/rss/scroll-news.xml": [
+   {
+    "t": "香港国际机场获颁多个国际奖项",
+    "l": "https://www.chinanews.com.cn/dwq/2026/11-01/10724447.shtml",
+    "s": "中新網即時",
+    "d": "2026-11-01T19:54:42+08:00",
+    "ts": 1793534082.0,
+    "x": "中新网香港11月1日电 香港机场管理局(简称“机管局”)1日公布，在第13届“Payload Asia Awards”中，香港国际机场获颁两项殊荣，包括机场组别最高荣誉“年度全球最佳机场”，以及“年度最佳航空货运技术供应商”。",
+    "g": ""
+   },
+   {
+    "t": "支持粤港澳大湾区国际科技创新中心建设相关举措发布",
+    "l": "https://www.chinanews.com.cn/dwq/2026/11-01/10724453.shtml",
+    "s": "中新網即時",
+    "d": "2026-11-01T19:50:42+08:00",
+    "ts": 1793533842.0,
+    "x": "中新社广州11月1日电 (记者 王坚)中国相关国家部委及中央单位协同推出的粤港澳大湾区国际科技创新中心支持举措11月1日在2026大湾区科学论坛开幕式上发布。其中多项举措支持粤港澳三地科技产业跨境深度融合。",
+    "g": ""
+   },
+   {
+    "t": "刘建国：治水是史前长江中下游定居农业聚落重要社会活动",
+    "l": "https://www.chinanews.com.cn/gn/2026/11-01/10724456.shtml",
+    "s": "中新網即時",
+    "d": "2026-11-01T19:47:25+08:00",
+    "ts": 1793533645.0,
+    "x": "中新网湖北荆门11月1日电 (记者 孙自法)史前治水与中华早期文明演进有何关联？中国社会科学院考古研究所刘建国研究员直言，治水是史前长江中下游地区定居农业聚落的一项重要社会活动，并对史前聚落的形态产生重要影响。",
+    "g": ""
+   },
+   {
+    "t": "614家科创板公司完成三季报披露 净利润同比增约4.7倍",
+    "l": "https://www.chinanews.com.cn/cj/2026/11-01/10724454.shtml",
+    "s": "中新網即時",
+    "d": "2026-11-01T19:45:01+08:00",
+    "ts": 1793533501.0,
+    "x": "中新社上海11月1日电 (高志苗)记者11月1日从上海证券交易所获悉，截至目前，614家科创板公司完成2026年三季报披露(另有3家多地上市红筹企业将于11月披露)，合计实现营业收入15148.92亿元(人民币，下同)，同比增长41.88%；净利润2235.2亿元，同比增长474.56%；扣非后净利",
+    "g": ""
+   },
+   {
+    "t": "上海发布数据跨境流动基础设施 依托区块链支撑企业合规出海",
+    "l": "https://www.chinanews.com.cn/cj/2026/11-01/10724455.shtml",
+    "s": "中新網即時",
+    "d": "2026-11-01T19:43:45+08:00",
+    "ts": 1793533425.0,
+    "x": "中新网上海11月1日电 (记者 许婧)第三届区块链创新高峰论坛10月31日在上海举办。作为2026全球数商大会配套活动，论坛对外发布数据跨境流动基础设施，同步推出六大跨境业务场景、揭牌虹桥跨境授信融资服务站点，一批生态签约、行业标准集中落地，聚焦解决企业跨境经营中的可信数据流通难题。",
+    "g": ""
+   },
+   {
+    "t": "（国际观察）高油价等多重因素推动俄罗斯卢布“逆势走强”",
+    "l": "https://www.chinanews.com.cn/gj/2026/11-01/10724443.shtml",
+    "s": "中新網即時",
+    "d": "2026-11-01T19:38:59+08:00",
+    "ts": 1793533139.0,
+    "x": "中新社莫斯科11月1日电(记者 田冰)11月1日，俄罗斯央行官方网站显示1美元兑换80.56卢布，与10月底汇率基本持平。10月，卢布汇率明显走强，从85.71成功稳固在80关口。市场关注点也随之从“卢布持续走强的逻辑何在”转向“未来存在何种变量”。",
+    "g": ""
+   },
+   {
+    "t": "以杭州马拉松为窗：在奔跑中读懂一座城",
+    "l": "https://www.chinanews.com.cn/ty/2026/11-01/10724452.shtml",
+    "s": "中新網即時",
+    "d": "2026-11-01T19:38:49+08:00",
+    "ts": 1793533129.0,
+    "x": "中新网杭州11月1日电(张煜欢)11月1日，2026杭州马拉松在黄龙体育中心鸣枪开跑，约3万名跑者踏上赛道，用脚步铺开一幅流动的城市长卷。",
+    "g": ""
+   },
+   {
+    "t": "合成生物学产业化如何突围？院士建言走好自主创新之路",
+    "l": "https://www.chinanews.com.cn/gn/2026/11-01/10724450.shtml",
+    "s": "中新網即時",
+    "d": "2026-11-01T19:35:27+08:00",
+    "ts": 1793532927.0,
+    "x": "中新网北京11月1日电 题：合成生物学产业化如何突围？院士建言走好自主创新之路",
+    "g": ""
+   },
+   {
+    "t": "浙江深耕新型婚育文化建设：搭起幸福桥 共育和美家",
+    "l": "https://www.chinanews.com.cn/sh/2026/11-01/10724448.shtml",
+    "s": "中新網即時",
+    "d": "2026-11-01T19:34:43+08:00",
+    "ts": 1793532883.0,
+    "x": "中新网杭州11月1日电(张煜欢)红绸轻展，礼乐和鸣。11月1日，一场简约庄重的集体婚礼在浙江杭州举行，一对对新人以雅致仪式许下相守之约，没有繁复排场，只留真诚祝福。这场由浙江省妇联主办的2026年“浙里幸福荟”集体婚礼融入宋韵美学，将家国同庆、婚事简办的理念娓娓道来，生动诠释了婚育新风的独特魅力。",
+    "g": ""
+   },
+   {
+    "t": "从“场景机会”到出海保障 第六届长沙“企业家日”活动举行",
+    "l": "https://www.chinanews.com.cn/cj/2026/11-01/10724446.shtml",
+    "s": "中新網即時",
+    "d": "2026-11-01T19:32:35+08:00",
+    "ts": 1793532755.0,
+    "x": "中新网长沙11月1日电 (刘曼)11月1日，以“培优育强·星城远航”为主题的第六届长沙“企业家日”活动举行，集中发布系列服务清单、“长e企”平台、“五星服务行动”等，致力让企业发展有空间、创新有支撑、出海有保障。",
+    "g": ""
+   },
+   {
+    "t": "2026斯巴达勇士儿童赛杭州站落幕",
+    "l": "https://www.chinanews.com.cn/ty/2026/11-01/10724445.shtml",
+    "s": "中新網即時",
+    "d": "2026-11-01T19:27:34+08:00",
+    "ts": 1793532454.0,
+    "x": "中新网杭州11月1日电(肖健)10月31日至11月1日，2026斯巴达勇士儿童赛杭州站举行，赛事共吸引超过3000名来自国内各地的小勇士参赛。经过激烈的角逐，精英组各年龄段冠军均有归属。13-14岁组男女子冠军由陈宥廷(28:38)和DeCeuster Lynne(32:46)获得，11-12岁组男",
+    "g": ""
+   },
+   {
+    "t": "世界杰出华人颁奖典礼在香港举行",
+    "l": "https://www.chinanews.com.cn/tp/2026/11-01/10724440.shtml",
+    "s": "中新網即時",
+    "d": "2026-11-01T19:26:20+08:00",
+    "ts": 1793532380.0,
+    "x": "图为香港艺人胡枫（中）获得世界杰出华人终身成就奖。中新网记者 陈永诺 摄 图为香港艺人梁家辉（中）获得世界杰出华人奖。中新网记者 陈永诺 摄 图为中银国际高级顾问林广兆（中）获得世界杰出华人崇高荣誉大奖。中新网记者 陈永诺 摄 图为香港艺人曾志伟（中）获得世界杰出华人奖。中新网记者 陈永诺 摄",
+    "g": ""
+   },
+   {
+    "t": "浙VA，让城乡球友“打成一片”",
+    "l": "https://www.chinanews.com.cn/ty/2026/11-01/10724442.shtml",
+    "s": "中新網即時",
+    "d": "2026-11-01T19:24:46+08:00",
+    "ts": 1793532286.0,
+    "x": "中新网金华11月1日电(张煜欢 郦琪琛 章程)10月30日至11月1日，2026年浙江省城乡气排球公开赛(浙VA)总决赛在浙江金华磐安文体中心举行，54支队伍会师山城，争夺年度荣誉。",
+    "g": ""
+   },
+   {
+    "t": "第十一届世界妈祖文化论坛在福建湄洲岛开幕",
+    "l": "https://www.chinanews.com.cn/tp/2026/11-01/10724437.shtml",
+    "s": "中新網即時",
+    "d": "2026-11-01T19:24:00+08:00",
+    "ts": 1793532240.0,
+    "x": "11月1日，第十一届世界妈祖文化论坛在“妈祖故里”福建莆田湄洲岛开幕。本届论坛紧扣永久总主题“大爱和平·文明互鉴”，以“四海安澜·爱创未来”为年度主题，设置一个核心主论坛、十大专题分论坛及多项配套活动，并在马来西亚、新加坡、法国等国家及港澳台地区设立13个分会场。图为“妈祖”海洋预报数值模式2.0版",
+    "g": ""
+   },
+   {
+    "t": "西安举办警营开放日活动",
+    "l": "https://www.chinanews.com.cn/tp/2026/11-01/10724432.shtml",
+    "s": "中新網即時",
+    "d": "2026-11-01T19:22:22+08:00",
+    "ts": 1793532142.0,
+    "x": "11月1日，西安公安“警心守护 乐享长安”第四届警营开放日在大明宫国家遗址公园举办，各类警用装备集中亮相，吸引众多市民到场体验打卡。图为现场展出的警用装备。中新社记者 梅镱泷 摄 11月1日，西安公安“警心守护 乐享长安”第四届警营开放日在大明宫国家遗址公园举办，各类警用装备集中亮相，吸引众多市民到",
+    "g": ""
+   },
+   {
+    "t": "沈阳故宫2026年参观人数已突破600万人次",
+    "l": "https://www.chinanews.com.cn/cul/2026/11-01/10724441.shtml",
+    "s": "中新網即時",
+    "d": "2026-11-01T19:21:46+08:00",
+    "ts": 1793532106.0,
+    "x": "中新社沈阳11月1日电 (记者 韩宏)沈阳故宫博物院11月1日发布消息称，截至11月1日，沈阳故宫博物院今年接待参观人数突破600万人次，创历史新高，已超过2025年全年参观人数，参观人数同比增长14.76%。",
+    "g": ""
+   },
+   {
+    "t": "128名制鞋能手在河南商丘展开比拼",
+    "l": "https://www.chinanews.com.cn/tp/2026/11-01/10724427.shtml",
+    "s": "中新網即時",
+    "d": "2026-11-01T19:20:10+08:00",
+    "ts": 1793532010.0,
+    "x": "11月1日，河南商丘，2025年至2026年全国行业职业技能竞赛——第二届全国皮革行业职业技能竞赛（制鞋工）全国总决赛开赛，来自国内9大赛区的128名制鞋能手围绕鞋面划裁、鞋帮缝制、鞋体整型等一线制鞋工序展开比拼。图为职工组参赛选手在竞赛现场进行制鞋实操比拼。中新社发 李恒 摄 11月1日，河南商丘",
+    "g": ""
+   },
+   {
+    "t": "河南郑州：东盟好物吸引市民选购",
+    "l": "https://www.chinanews.com.cn/tp/2026/11-01/10724421.shtml",
+    "s": "中新網即時",
+    "d": "2026-11-01T19:19:14+08:00",
+    "ts": 1793531954.0,
+    "x": "11月1日，河南郑州，一位主播在郑东新区龙湖金融岛东盟好物市集进行直播，向消费者推介东南亚特色商品。作为2026中国（河南）—东盟粮农合作发展大会的系列活动之一，东盟好物市集集中展示和展销来自泰国、马来西亚、印度尼西亚、越南、柬埔寨等国的特色商品，涵盖乳胶制品、护肤洗护用品、咖啡、坚果、糕点等多个品",
+    "g": ""
+   }
+  ],
+  "https://www.chinanews.com.cn/rss/importnews.xml": [
+   {
+    "t": "东西问丨许通元：走过百年，马华文学为何仍有生命力？",
+    "l": "https://www.chinanews.com.cn/dxw/2026/11-01/10724418.shtml",
+    "s": "中新網要聞",
+    "d": "2026-11-01T19:07:15+08:00",
+    "ts": 1793531235.0,
+    "x": "中新社吉隆坡11月1日电 题：走过百年，马华文学为何仍有生命力？",
+    "g": ""
+   },
+   {
+    "t": "中国驻俄罗斯大使馆提醒：切勿在俄非法采金",
+    "l": "https://www.chinanews.com.cn/hr/2026/11-01/10724413.shtml",
+    "s": "中新網要聞",
+    "d": "2026-11-01T18:44:18+08:00",
+    "ts": 1793529858.0,
+    "x": "中新网11月1日电 据中国驻俄罗斯大使馆微信公众号消息，中国驻俄罗斯大使馆1日发布关于切勿在俄非法采金的提醒。",
+    "g": ""
+   },
+   {
+    "t": "10月中国百城新房价格继续上涨 二手房价下跌",
+    "l": "https://www.chinanews.com.cn/cj/2026/11-01/10724408.shtml",
+    "s": "中新網要聞",
+    "d": "2026-11-01T18:33:17+08:00",
+    "ts": 1793529197.0,
+    "x": "中新社北京11月1日电 (记者 庞无忌)10月，中国主要城市房地产市场延续新房价格稳中微升、二手房价下跌态势。",
+    "g": ""
+   },
+   {
+    "t": "前三季度中国物流业总收入达11.1万亿元 保持扩张态势",
+    "l": "https://www.chinanews.com.cn/cj/2026/11-01/10724321.shtml",
+    "s": "中新網要聞",
+    "d": "2026-11-01T16:17:48+08:00",
+    "ts": 1793521068.0,
+    "x": "中新社北京11月1日电 (记者 阮煜琳)中国物流与采购联合会11月1日发布的数据显示，中国物流业总收入保持扩张态势。前三季度全国物流业总收入达11.1万亿元(人民币，下同)，同比增长4.3%。",
+    "g": ""
+   },
+   {
+    "t": "多毒株活跃，今年流感季提前！最新提示→",
+    "l": "https://www.chinanews.com.cn/jk/2026/11-01/10724147.shtml",
+    "s": "中新網要聞",
+    "d": "2026-11-01T09:00:02+08:00",
+    "ts": 1793494802.0,
+    "x": "天气渐冷，正是流感高发季节。今年流行的流感毒株有什么新变化？流感疫苗还管用吗？",
+    "g": ""
+   },
+   {
+    "t": "从“秒回”到“慢递”：年轻人为何重新爱上笔友？",
+    "l": "https://www.chinanews.com.cn/cul/2026/11-01/10724144.shtml",
+    "s": "中新網要聞",
+    "d": "2026-11-01T08:52:02+08:00",
+    "ts": 1793494322.0,
+    "x": "从“秒回”到“慢递”：我们为何重新爱上笔友",
+    "g": ""
+   },
+   {
+    "t": "中东部地区有大风降温 四川盆地江淮江南北部有中到大雨",
+    "l": "https://www.chinanews.com.cn/sh/2026/11-01/10724131.shtml",
+    "s": "中新網要聞",
+    "d": "2026-11-01T08:27:19+08:00",
+    "ts": 1793492839.0,
+    "x": "中新网11月1日电 据中央气象台网站消息，预计11月1日冷空气继续影响我国，中东部有大风降温，渤海、黄海和东海海域风力较大，关注对海陆交通、人体健康等的影响；未来三天，四川盆地、黄淮、江淮等地多降雨，关注对交通运输、城市运行、农业生产等的不利影响。",
+    "g": ""
+   },
+   {
+    "t": "载人月球探测工程采用“两次发射、环月对接”方案",
+    "l": "https://www.chinanews.com.cn/gn/2026/11-01/10724130.shtml",
+    "s": "中新網要聞",
+    "d": "2026-11-01T08:11:32+08:00",
+    "ts": 1793491892.0,
+    "x": "记者从10月31日开幕的第七届载人航天学术大会了解到，我国载人月球探测工程采用“两次发射、环月对接”方案，工程登月阶段任务各项研制建设工作正在扎实稳步推进。",
+    "g": ""
+   },
+   {
+    "t": "东西问·知味东方丨德国总统在安徽的菜单里，有个“包袱”",
+    "l": "https://www.chinanews.com.cn/dxw/2026/10-31/10724061.shtml",
+    "s": "中新網要聞",
+    "d": "2026-10-31T21:02:29+08:00",
+    "ts": 1793451749.0,
+    "x": "中新社合肥10月31日电 题：德国总统在安徽的菜单里，有个“包袱”",
+    "g": ""
+   },
+   {
+    "t": "四川华蓥大摆荡项目事故调查报告公布",
+    "l": "https://www.chinanews.com.cn/sh/2026/10-31/10724049.shtml",
+    "s": "中新網要聞",
+    "d": "2026-10-31T20:36:57+08:00",
+    "ts": 1793450217.0,
+    "x": "记者获悉，华蓥市人民政府事故调查组发布了华蓥市溪口玛琉岩大摆荡项目“5·3”一般高处坠落事故调查报告。经调查认定，该事故是一起因项目运营企业安全生产主体责任悬空、管理缺位，未有效辨识管控安全风险，违规安排未经安全生产教育和培训合格人员上岗，属地政府及监管部门安全监管不到位、监督检查存在漏洞而导致的一",
+    "g": ""
+   },
+   {
+    "t": "旅居荷兰欧维汉动物园大熊猫“朗月”平安回国",
+    "l": "https://www.chinanews.com.cn/sh/2026/10-31/10724027.shtml",
+    "s": "中新網要聞",
+    "d": "2026-10-31T20:27:33+08:00",
+    "ts": 1793449653.0,
+    "x": "中新网成都10月31日电 (记者 安源)记者31日从中国大熊猫保护研究中心获悉，北京时间10月31日10时30分，中国旅居荷兰欧维汉动物园的大熊猫“朗月”平安抵达成都双流国际机场，随即在中荷双方专家的陪同下前往中国大熊猫保护研究中心雅安基地。大熊猫“朗月”将在雅安基地接受为期至少30天的隔离检疫。",
+    "g": ""
+   },
+   {
+    "t": "原中国石油化工集团公司董事长傅成玉被查",
+    "l": "https://www.chinanews.com.cn/gn/2026/10-31/10723998.shtml",
+    "s": "中新網要聞",
+    "d": "2026-10-31T19:05:28+08:00",
+    "ts": 1793444728.0,
+    "x": "中新社北京10月31日电 中国官方10月31日通报，原中国石油化工集团公司党组书记、董事长傅成玉涉嫌严重违纪违法，目前正接受中央纪委国家监委纪律审查和监察调查。",
+    "g": ""
+   },
+   {
+    "t": "道歉可以，赔偿免谈？英国首相回应奴隶贸易历史责任",
+    "l": "https://www.chinanews.com.cn/gj/2026/10-31/10724002.shtml",
+    "s": "中新網要聞",
+    "d": "2026-10-31T19:02:24+08:00",
+    "ts": 1793444544.0,
+    "x": "中新网10月31日电 据英国《卫报》当地时间10月30日报道，英国首相伯纳姆在发表于《卫报》的一篇文章中，就英国为在跨大西洋奴隶贸易中的角色正式道歉一事。",
+    "g": ""
+   },
+   {
+    "t": "广州今年夏天已达225天 11月最高气温或达30℃",
+    "l": "https://www.chinanews.com.cn/sh/2026/10-31/10723994.shtml",
+    "s": "中新網要聞",
+    "d": "2026-10-31T18:52:36+08:00",
+    "ts": 1793443956.0,
+    "x": "中新网广州10月31日电 (记者 王坚)记者31日从广州市气象部门获悉，截至10月30日，该市2026年夏天已达225天。",
+    "g": ""
+   },
+   {
+    "t": "陪诊行业首个国标明起实施 这7件事陪诊员不能做",
+    "l": "https://www.chinanews.com.cn/sh/2026/10-31/10723936.shtml",
+    "s": "中新網要聞",
+    "d": "2026-10-31T16:33:58+08:00",
+    "ts": 1793435638.0,
+    "x": "自助挂号、线上缴费，这些举措方便人们就医的同时，却对一些老年人看病，构成了一堵“数字高墙”，催生出庞大的“陪诊需求”。一段时间以来，患者找陪诊，如同“开盲盒”。谁能干？哪些事能干？缺乏统一的标准和服务边界。",
+    "g": ""
+   }
+  ],
+  "https://news.mingpao.com/rss/pns/s00004.xml": [
+   {
+    "t": "英特爾挫28% 華府持股價值蒸發936億 AI半導體股大震倉 美股三大指數全跌",
+    "l": "https://news.mingpao.com/pns/%e7%b6%93%e6%bf%9f/article/20261101/s00004/1793463929344/%e8%8b%b1%e7%89%b9%e7%88%be%e6%8c%ab28-%e8%8f%af%e5%ba%9c%e6%8c%81%e8%82%a1%e5%83%b9%e5%80%bc%e8%92%b8%e7%99%bc936%e5%84%84-ai%e5%8d%8a%e5%b0%8e%e9%ab%94%e8%82%a1%e5%a4%a7%e9%9c%87%e5%80%89-%e7%be%8e%e8%82%a1%e4%b8%89%e5%a4%a7%e6%8c%87%e6%95%b8%e5%85%a8%e8%b7%8c",
+    "s": "明報經濟",
+    "d": "2026-11-01T04:30:00+08:00",
+    "ts": 1793478600.0,
+    "x": "【明報專訊】上周五美股三大指數全線回落，其中科技股業績令市場失望，納斯達克指數跌近2.9%最多，插穿所有短、中期移動平均線，包括10天線，形勢更弱。晶片股遭洗倉，其中英特爾（美：INTC）插水逾28%，創逾40年最大單日跌幅，股價險守10天線；有份注資的美國政府現所持有的股份蒸發約120億美元（約9",
+    "g": "財經"
+   },
+   {
+    "t": "資金轉債市避險 美長短債息回落",
+    "l": "https://news.mingpao.com/pns/%e7%b6%93%e6%bf%9f/article/20261101/s00004/1793463930055/%e8%b3%87%e9%87%91%e8%bd%89%e5%82%b5%e5%b8%82%e9%81%bf%e9%9a%aa-%e7%be%8e%e9%95%b7%e7%9f%ad%e5%82%b5%e6%81%af%e5%9b%9e%e8%90%bd",
+    "s": "明報經濟",
+    "d": "2026-11-01T04:30:00+08:00",
+    "ts": 1793478600.0,
+    "x": "【明報專訊】美國上周五科技股大震倉的同時，資金轉往債市避險，暫時扯低長短債息，因此美匯轉弱。儘管市場力量壓低債券收益率，10月議息後，包括達拉斯聯儲銀行行長洛根（Lorie Logan）在內的3名美聯儲官員仍支持進一步加息，同時主張採取漸進的貨幣緊縮政策額，儘量減少對金融市場和經濟的衝擊。",
+    "g": "財經"
+   },
+   {
+    "t": "幣安被黑客盜竊 比特幣曾失守7.7萬美元後回升",
+    "l": "https://news.mingpao.com/pns/%e7%b6%93%e6%bf%9f/article/20261101/s00004/1793463930161/%e5%b9%a3%e5%ae%89%e8%a2%ab%e9%bb%91%e5%ae%a2%e7%9b%9c%e7%ab%8a-%e6%af%94%e7%89%b9%e5%b9%a3%e6%9b%be%e5%a4%b1%e5%ae%887-7%e8%90%ac%e7%be%8e%e5%85%83%e5%be%8c%e5%9b%9e%e5%8d%87",
+    "s": "明報經濟",
+    "d": "2026-11-01T04:30:00+08:00",
+    "ts": 1793478600.0,
+    "x": "【明報專訊】幣安被黑客盜竊比特幣，市值高達63億美元，消息震撼虛擬幣圈。影響所及，比特幣曾經跌破7.7萬美元，為過去一個月以來首次，至昨日重返7.7萬美元關口並微升。儘管幣安保證客戶財產安全，但是彭博引述虛擬貨幣存儲公司Ballet Global Inc.創始人Bobby Lee表示，幣安遭狙擊而被",
+    "g": "財經"
+   },
+   {
+    "t": "瑅海3日累收逾4800票 超購33倍",
+    "l": "https://news.mingpao.com/pns/%e7%b6%93%e6%bf%9f/article/20261101/s00004/1793463930375/%e7%91%85%e6%b5%b73%e6%97%a5%e7%b4%af%e6%94%b6%e9%80%be4800%e7%a5%a8-%e8%b6%85%e8%b3%bc33%e5%80%8d",
+    "s": "明報經濟",
+    "d": "2026-11-01T04:30:00+08:00",
+    "ts": 1793478600.0,
+    "x": "【明報專訊】新盤市場持續熱鬧，市區兩新盤收票反應不俗。由信置（0083）、招商局置地（0978）及市建局合發展的紅磡瑅海，樓花期長約22個月，過去3日累積收逾4800票，以首兩張價單138伙計，超購逾33倍，料日內公布銷售安排。另恒地（0012）旗下已獲批入伙紙的大角嘴利奧坊6期逸里1號，對外開放示",
+    "g": "財經"
+   },
+   {
+    "t": "美聯：今年首10月物業註冊「量額」創5年同期新高",
+    "l": "https://news.mingpao.com/pns/%e7%b6%93%e6%bf%9f/article/20261101/s00004/1793463930545/%e7%be%8e%e8%81%af-%e4%bb%8a%e5%b9%b4%e9%a6%9610%e6%9c%88%e7%89%a9%e6%a5%ad%e8%a8%bb%e5%86%8a%e3%80%8c%e9%87%8f%e9%a1%8d%e3%80%8d%e5%89%b55%e5%b9%b4%e5%90%8c%e6%9c%9f%e6%96%b0%e9%ab%98",
+    "s": "明報經濟",
+    "d": "2026-11-01T04:30:00+08:00",
+    "ts": 1793478600.0,
+    "x": "【明報專訊】本港樓市交投持續暢旺，整體物業註冊量亦創新高。據美聯物業研究中心綜合土地註冊處資料顯示，截至10月29日，今年整體物業（包括一手私樓、二手住宅、一手公營房屋、工商舖、純車位及其他等）註冊量共錄74,368宗，較去年首10個月64,582宗高出約15.2%；涉及金額達6078億元，亦較去年",
+    "g": "財經"
+   },
+   {
+    "t": "內地上月製造業PMI報49.3 回落至收縮區間",
+    "l": "https://news.mingpao.com/pns/%e7%b6%93%e6%bf%9f/article/20261101/s00004/1793463930657/%e5%85%a7%e5%9c%b0%e4%b8%8a%e6%9c%88%e8%a3%bd%e9%80%a0%e6%a5%adpmi%e5%a0%b149-3-%e5%9b%9e%e8%90%bd%e8%87%b3%e6%94%b6%e7%b8%ae%e5%8d%80%e9%96%93",
+    "s": "明報經濟",
+    "d": "2026-11-01T04:30:00+08:00",
+    "ts": 1793478600.0,
+    "x": "【明報專訊】國家統計局昨公布，10月製造業採購經理指數（PMI）回落至收縮區間49.3，較上月處於擴張區間的50.1下降0.8，反映製造業景氣水平有所回落。該數字低於市場預期的49.9，並是近3個月的低位。",
+    "g": "財經"
+   },
+   {
+    "t": "香港電訊據報同意停美業務",
+    "l": "https://news.mingpao.com/pns/%e7%b6%93%e6%bf%9f/article/20261101/s00004/1793463930765/%e9%a6%99%e6%b8%af%e9%9b%bb%e8%a8%8a%e6%93%9a%e5%a0%b1%e5%90%8c%e6%84%8f%e5%81%9c%e7%be%8e%e6%a5%ad%e5%8b%99",
+    "s": "明報經濟",
+    "d": "2026-11-01T04:30:00+08:00",
+    "ts": 1793478600.0,
+    "x": "【明報專訊】據路透社報道，電訊盈科（0008）旗下香港電訊（6823）已同意停止在美國境內提供國際及本地電訊服務。香港電訊須於30天內向美國聯邦通訊委員會（FCC）提交停止服務申請，並須在2027年9月1日前全面終止美國業務。這為香港首次有電訊商，需要停止在美國進行業務運作。",
+    "g": "財經"
+   },
+   {
+    "t": "美零售商疑用AI 不同客賣不同價",
+    "l": "https://news.mingpao.com/pns/%e7%b6%93%e6%bf%9f/article/20261101/s00004/1793463930969/%e7%be%8e%e9%9b%b6%e5%94%ae%e5%95%86%e7%96%91%e7%94%a8ai-%e4%b8%8d%e5%90%8c%e5%ae%a2%e8%b3%a3%e4%b8%8d%e5%90%8c%e5%83%b9",
+    "s": "明報經濟",
+    "d": "2026-11-01T04:30:00+08:00",
+    "ts": 1793478600.0,
+    "x": "【明報專訊】人工智能愈來愈普及，美國消費者開始懷疑各大商店正運用科技，按照消費者個別需要與背景，抬高產品價格，情况橫跨零售業、餐飲業、叫車服務等行業，在社交媒體亦陸續出現類似帖文引發熱議。去年有智庫找來逾400名用家測試，同一時間於同一平台就同一貨品下單，價格竟因人而異，相差最多逾兩成。各大零售商否",
+    "g": "財經"
+   },
+   {
+    "t": "電商對AI代理取態不一 亞馬遜禁用 沃爾瑪藉AI工具吸客",
+    "l": "https://news.mingpao.com/pns/%e7%b6%93%e6%bf%9f/article/20261101/s00004/1793463931392/%e9%9b%bb%e5%95%86%e5%b0%8dai%e4%bb%a3%e7%90%86%e5%8f%96%e6%85%8b%e4%b8%8d%e4%b8%80-%e4%ba%9e%e9%a6%ac%e9%81%9c%e7%a6%81%e7%94%a8-%e6%b2%83%e7%88%be%e7%91%aa%e8%97%89ai%e5%b7%a5%e5%85%b7%e5%90%b8%e5%ae%a2",
+    "s": "明報經濟",
+    "d": "2026-11-01T04:30:00+08:00",
+    "ts": 1793478600.0,
+    "x": "【明報專訊】AI代理興起，為繁忙的都市人代勞購物，對消費者而言可節省時間，但對電商來說，則未知是否好事。有外媒報道，電商對AI代理取態不一，有重視生態系統的電商拒絕多家AI代理，亦有電商開門歡迎AI代理，聲稱刺激顧客下單效果理想，惟現時走向仍有待觀察。",
+    "g": "財經"
+   },
+   {
+    "t": "張宗永：消失中的方向盤",
+    "l": "https://news.mingpao.com/pns/%e7%b6%93%e6%bf%9f/article/20261101/s00004/1793463931620/%e5%bc%b5%e5%ae%97%e6%b0%b8-%e6%b6%88%e5%a4%b1%e4%b8%ad%e7%9a%84%e6%96%b9%e5%90%91%e7%9b%a4",
+    "s": "明報經濟",
+    "d": "2026-11-01T04:30:00+08:00",
+    "ts": 1793478600.0,
+    "x": "【明報專訊】香港網約車條例出台在即，大眾正討論這對的士司機生計的衝擊。然而，真正的巨浪其實還在後頭。在美中兩大AI領先國，無人駕駛出租車（Robotaxi）已日漸普及，這才是傳統司機真正的「喪鐘」。",
+    "g": "財經"
+   },
+   {
+    "t": "薛偉傑：AI＋3D打印 重塑逝者遺容",
+    "l": "https://news.mingpao.com/pns/%e7%b6%93%e6%bf%9f/article/20261101/s00004/1793463931923/%e8%96%9b%e5%81%89%e5%82%91-ai-3d%e6%89%93%e5%8d%b0-%e9%87%8d%e5%a1%91%e9%80%9d%e8%80%85%e9%81%ba%e5%ae%b9",
+    "s": "明報經濟",
+    "d": "2026-11-01T04:30:00+08:00",
+    "ts": 1793478600.0,
+    "x": "【明報專訊】安顏科技服務有限公司（OnAn Technology Service Limited Company）創辦人徐沛慈表示，該公司研發了一個結合人工智能（AI）和高精度3D打印技術的方案，可以令逝世者「重現」生前良好狀態時容貌，以最美和最安詳方式告別世界，讓家屬留低體面的記憶，減少傷感和遺憾",
+    "g": "財經"
+   },
+   {
+    "t": "馮其十：內地研究政策利率「換錨」 調控框架對標全球主要央行",
+    "l": "https://news.mingpao.com/pns/%e7%b6%93%e6%bf%9f/article/20261101/s00004/1793463932125/%e9%a6%ae%e5%85%b6%e5%8d%81-%e5%85%a7%e5%9c%b0%e7%a0%94%e7%a9%b6%e6%94%bf%e7%ad%96%e5%88%a9%e7%8e%87%e3%80%8c%e6%8f%9b%e9%8c%a8%e3%80%8d-%e8%aa%bf%e6%8e%a7%e6%a1%86%e6%9e%b6%e5%b0%8d%e6%a8%99%e5%85%a8%e7%90%83%e4%b8%bb%e8%a6%81%e5%a4%ae%e8%a1%8c",
+    "s": "明報經濟",
+    "d": "2026-11-01T04:30:00+08:00",
+    "ts": 1793478600.0,
+    "x": "【明報專訊】內地主要政策利率的錨點，將從7天挪向隔夜。中國人民銀行近期公開表示，研究擇機把人行公開市場主要操作品種的期限切換為隔夜，公開市場隔夜回購利率將相應成為主要政策利率。",
+    "g": "財經"
+   }
+  ],
+  "https://feeds.feedburner.com/rsscna/mainland": [
+   {
+    "t": "中共打貪鎖定領導幹部身邊人 加強核查家庭異常財產",
+    "l": "https://www.cna.com.tw/news/acn/202611010154.aspx",
+    "s": "中央社兩岸",
+    "d": "2026-11-01T20:27:37+08:00",
+    "ts": 1793536057.0,
+    "x": "（中央社台北1日電）中共20屆五中全會日前通過全面從嚴治黨相關決定，其中要求加強對領導幹部及其家屬的監督，重點查處「一把手」、年輕幹部及領導幹部家族式腐敗，並對家庭財產和支出明顯超出正常收入的情況進行查核。",
+    "g": ""
+   },
+   {
+    "t": "前壹傳媒行政總裁張劍虹判刑後首露面 以更生人身分訪深圳",
+    "l": "https://www.cna.com.tw/news/acn/202611010144.aspx",
+    "s": "中央社兩岸",
+    "d": "2026-11-01T19:31:15+08:00",
+    "ts": 1793532675.0,
+    "x": "（中央社台北1日電）因違反香港國安法中「串謀勾結外國勢力」罪被判囚的前壹傳媒集團行政總裁張劍虹，原定2028年3月出獄，近日他以更生人身分參加港府安排的中國大陸體驗團。港媒報導，據了解，張劍虹現在已獲釋。",
+    "g": ""
+   },
+   {
+    "t": "學者：中共五中全會提「黨內民主」對習近平隱晦批評",
+    "l": "https://www.cna.com.tw/news/acn/202611010099.aspx",
+    "s": "中央社兩岸",
+    "d": "2026-11-01T16:12:37+08:00",
+    "ts": 1793520757.0,
+    "x": "（中央社記者陳鎧妤台北1日電）中共五中全會落幕。資深中國觀察家、美國智庫詹姆士敦基金會（Jamestown Foundation）研究員林和立向中央社表示，全會公報對黨內民主等議題的討論「出人意料地詳細」，在中共總書記習近平以推行「集權」著稱、不考慮民主的背景下，公報對習近平一人統治有所「隱晦批評」",
+    "g": ""
+   },
+   {
+    "t": "LGBT影展「北京愛酷電影週」突取消 外媒：遭警方施壓",
+    "l": "https://www.cna.com.tw/news/acn/202611010065.aspx",
+    "s": "中央社兩岸",
+    "d": "2026-11-01T13:30:20+08:00",
+    "ts": 1793511020.0,
+    "x": "（中央社台北1日電）中國唯一聚焦LGBT議題、有25年歷史的北京酷兒影展（現稱愛酷電影週）原定10月30日舉行，卻在前一天深夜突然發布聲明取消。外媒指是因為遭到警方施壓。同日，武漢柏林電影週亦宣布緊急延期。",
+    "g": ""
+   },
+   {
+    "t": "北京A級商辦租金8年來幾腰斬 無AI企業進駐商辦空置率大增",
+    "l": "https://www.cna.com.tw/news/acn/202611010064.aspx",
+    "s": "中央社兩岸",
+    "d": "2026-11-01T13:18:17+08:00",
+    "ts": 1793510297.0,
+    "x": "（中央社台北1日電）港媒報導，受中國經濟表現疲弱影響，首都北京的A級商辦第3季的租金已較2018年的高峰值大跌49.1%，幾近腰斬。至於商辦空置率則呈K型分化，屬科技業聚落的中關村受AI需求帶動，當季商辦空置率降至5.6%，但CBD（中心商業區）地段商辦空置率卻攀升至20.4%，超過20%的國際警戒",
+    "g": ""
+   },
+   {
+    "t": "朱鶴新遞補中委被「跳過」仍主持會議 學者：仕途恐到頂",
+    "l": "https://www.cna.com.tw/news/acn/202611010030.aspx",
+    "s": "中央社兩岸",
+    "d": "2026-11-01T10:56:03+08:00",
+    "ts": 1793501763.0,
+    "x": "（中央社台北1日電）中國人民銀行副行長、國家外匯管理局局長朱鶴新，在中共五中全會遞補中央委員時被「跳過」，但10月30日仍主持外匯管理局黨組會議。學者指出，候補委員遞補時被跳過並不必然意味著涉案落馬，但仕途可能已到頂。",
+    "g": ""
+   },
+   {
+    "t": "中國多地傳柴油限售 加油站供應緊張",
+    "l": "https://www.cna.com.tw/news/acn/202610310203.aspx",
+    "s": "中央社兩岸",
+    "d": "2026-10-31T22:06:25+08:00",
+    "ts": 1793455585.0,
+    "x": "（中央社台北31日電）網路近日流傳有關中國多地出現柴油荒的影片，不少加油站對柴油實施臨時限量供應甚至停售。有分析指出，國際地緣局勢影響原油供應，導致中國部分煉油廠減少開工；加上近期農業收割旺季增加對柴油需求，令部分加油站庫存快速見底。",
+    "g": ""
+   },
+   {
+    "t": "姆巴佩之後換Hello Kitty 網友諷：中國迎大道歉時代",
+    "l": "https://www.cna.com.tw/news/acn/202610310189.aspx",
+    "s": "中央社兩岸",
+    "d": "2026-10-31T20:58:52+08:00",
+    "ts": 1793451532.0,
+    "x": "（中央社台北31日電）「姆巴佩道完歉，輪到Hello Kitty道歉了」，日本企業三麗鷗近日在官網發表致歉聲明的消息在中國網上引起熱議，外媒披露，有中國網友如此總結本週接連發生的兩起「道歉」風波，還有人調侃「歡迎來到大道歉時代」。",
+    "g": ""
+   },
+   {
+    "t": "中國首次載人登月計畫 2030年前實現兩太空人登陸月球",
+    "l": "https://www.cna.com.tw/news/acn/202610310180.aspx",
+    "s": "中央社兩岸",
+    "d": "2026-10-31T20:14:32+08:00",
+    "ts": 1793448872.0,
+    "x": "（中央社台北31日電）中國載人航天工程副總設計師王翔今天公布，中國計畫在2030年前實現載人登陸月球，將採用「兩次發射，一次登月」的方式，乘組計畫由三人組成，其中兩人登陸月球表面。",
+    "g": ""
+   },
+   {
+    "t": "習近平清算高階將領 學者：解放軍失去干預政局能力",
+    "l": "https://www.cna.com.tw/news/acn/202610310176.aspx",
+    "s": "中央社兩岸",
+    "d": "2026-10-31T19:51:23+08:00",
+    "ts": 1793447483.0,
+    "x": "（中央社記者李雅雯台北31日電）學者馬振坤今天在一場座談會上表示，中共領導人習近平大規模清算高階將領，不管習是有心或無意，實質影響為解放軍失去干預政局發展的能力與實力。",
+    "g": ""
+   },
+   {
+    "t": "退休逾11年 前中國中石化董事長傅成玉受查",
+    "l": "https://www.cna.com.tw/news/acn/202610310175.aspx",
+    "s": "中央社兩岸",
+    "d": "2026-10-31T19:33:21+08:00",
+    "ts": 1793446401.0,
+    "x": "（中央社台北31日電）中共五中全會後，據中共中央紀委國家監委網站，前中國石油化工集團公司黨組書記、董事長傅成玉涉嫌嚴重違紀違法，目前正接受中央紀委國家監委紀律審查和監察調查。",
+    "g": ""
+   },
+   {
+    "t": "習近平大規模整肅 學者：不斷找敵人維持執政正當性",
+    "l": "https://www.cna.com.tw/news/acn/202610310167.aspx",
+    "s": "中央社兩岸",
+    "d": "2026-10-31T18:40:03+08:00",
+    "ts": 1793443203.0,
+    "x": "（中央社記者李雅雯台北31日電）中共20屆五中全會落幕。學者蔡文軒今天在一場座談會上解析，中共領導人習近平反貪腐，也打親自提拔的人，原因在於習必須不斷地在黨內找新敵人以維持長期執政合法性和正當性。",
+    "g": ""
+   }
+  ],
+  "https://feeds.bbci.co.uk/zhongwen/trad/rss.xml": [
+   {
+    "t": "德國生活成本抗議演變成暴力事件 商店遭洗劫",
+    "l": "https://www.bbc.com/zhongwen/articles/c8vgxe1nq7w7o/trad?at_medium=RSS&at_campaign=rss",
+    "s": "BBC 中文",
+    "d": "2026-11-01T20:36:01+08:00",
+    "ts": 1793536561.0,
+    "x": "德國多座城市，包括柏林、漢堡和法蘭克福，都爆發了抗議活動。同一天，法國也有數十萬人走上街頭示威。",
+    "g": ""
+   },
+   {
+    "t": "「見鬼了」：為什麼我們會產生超自然體驗？",
+    "l": "https://www.bbc.com/zhongwen/articles/cm3vqy5g204vo/trad?at_medium=RSS&at_campaign=rss",
+    "s": "BBC 中文",
+    "d": "2026-11-01T18:23:57+08:00",
+    "ts": 1793528637.0,
+    "x": "人類講述鬼故事已有數千年歷史，科學的進步並未改變這一點。",
+    "g": ""
+   },
+   {
+    "t": "「我們從地獄回來」——在俄羅斯佔領城市撤離的烏克蘭人說",
+    "l": "https://www.bbc.com/zhongwen/articles/cwn8dkzrm8lvo/trad?at_medium=RSS&at_campaign=rss",
+    "s": "BBC 中文",
+    "d": "2026-11-01T12:24:47+08:00",
+    "ts": 1793507087.0,
+    "x": "由美國第一夫人梅拉尼婭·特朗普（Melania Trump）斡旋達成的人道停火在赫爾松（Kherson）地區生效，令當地四年來首次出現數天和平時段，並讓奧列什基（Oleshky）居民得以撤離。",
+    "g": ""
+   },
+   {
+    "t": "「我與鬼魂同住」：走進吸引人們撿便宜的日本「鬧鬼」住宅",
+    "l": "https://www.bbc.com/zhongwen/articles/c6vg9k3n5vj4o/trad?at_medium=RSS&at_campaign=rss",
+    "s": "BBC 中文",
+    "d": "2026-11-01T08:03:15+08:00",
+    "ts": 1793491395.0,
+    "x": "日本許多人會開始因為購買打折的「事故物件」（凶宅），他們稱毫不介意與幽靈同住。",
+    "g": ""
+   },
+   {
+    "t": "蔣萬安、沈伯洋台北市長選舉辯論會交鋒",
+    "l": "https://www.bbc.com/zhongwen/watch/cm3el2ewgvx0o/trad?at_medium=RSS&at_campaign=rss",
+    "s": "BBC 中文",
+    "d": "2026-10-31T21:20:00+08:00",
+    "ts": 1793452800.0,
+    "x": "距離台灣「九合一」地方選舉不足一個月，在台北，中國國民黨籍現任市長蔣萬安將與台灣執政民進黨候選人沈伯洋出席首場電視辯論會。",
+    "g": ""
+   },
+   {
+    "t": "裝扮成哈利波特，公開質疑泰國王室——他如今面臨34年監禁",
+    "l": "https://www.bbc.com/zhongwen/articles/ck3r52e814pqo/trad?at_medium=RSS&at_campaign=rss",
+    "s": "BBC 中文",
+    "d": "2026-10-31T15:55:00+08:00",
+    "ts": 1793433300.0,
+    "x": "自2020年以來，泰國已有294人因涉嫌違反冒犯君主罪而被起訴，刑期最長達50年。",
+    "g": ""
+   },
+   {
+    "t": "朝鮮「精英」黑客為何成為幣安63億美元盜竊案的頭號嫌犯？",
+    "l": "https://www.bbc.com/zhongwen/articles/cqe8rpl8wjd0o/trad?at_medium=RSS&at_campaign=rss",
+    "s": "BBC 中文",
+    "d": "2026-10-31T15:02:07+08:00",
+    "ts": 1793430127.0,
+    "x": "如果有關指控屬實，這宗破紀錄的盜竊案顯示，涉嫌來自朝鮮的黑客如今已擁有多麼強大的能力。",
+    "g": ""
+   },
+   {
+    "t": "中共五中全會「空椅子」背後：常態化高壓反腐如何改變官場？",
+    "l": "https://www.bbc.com/zhongwen/articles/c3j47p5gwj5lo/trad?at_medium=RSS&at_campaign=rss",
+    "s": "BBC 中文",
+    "d": "2026-10-30T21:23:25+08:00",
+    "ts": 1793366605.0,
+    "x": "「這次全會進一步表明，習近平的反腐運動沒有終點。」專家說，「持續施加紀律壓力不應只是階段性運動，而必須成為中共運作方式中永久存在的一部分。」",
+    "g": ""
+   },
+   {
+    "t": "新北市長選戰：「政二代」還是「專業副手」能拿下關鍵一城？",
+    "l": "https://www.bbc.com/zhongwen/articles/cm9wzeg8ql22o/trad?at_medium=RSS&at_campaign=rss",
+    "s": "BBC 中文",
+    "d": "2026-10-30T19:31:47+08:00",
+    "ts": 1793359907.0,
+    "x": "作為全台人口最多的直轄市，新北市被視為「最關鍵戰場」，將判定藍綠整體勝負，並可能牽動2028年總統大選。",
+    "g": ""
+   },
+   {
+    "t": "習近平之後，中國將走向何方？",
+    "l": "https://www.bbc.com/zhongwen/watch/cm4g197q34l7o/trad?at_medium=RSS&at_campaign=rss",
+    "s": "BBC 中文",
+    "d": "2026-10-30T17:28:01+08:00",
+    "ts": 1793352481.0,
+    "x": "隨著習近平打破傳統任期慣例，未來的權力繼承路徑與接班陣容充滿變數。權力交接、接班人選，以及習近平未來角色的討論，正在成為中國政治最受關注、也最難回答的問題之一。習近平之後，中國會走向何方？",
+    "g": ""
+   },
+   {
+    "t": "「我不希望它成為我的身份」：BBC專訪Hyrox失禁選手",
+    "l": "https://www.bbc.com/zhongwen/articles/cmy932qe3wx3o/trad?at_medium=RSS&at_campaign=rss",
+    "s": "BBC 中文",
+    "d": "2026-10-30T13:40:19+08:00",
+    "ts": 1793338819.0,
+    "x": "這位澳洲運動員承認責任，但表示輿論反彈令她「創傷」。",
+    "g": ""
+   },
+   {
+    "t": "為什麼歐洲各國年輕人走上街頭？背後的共同訴求和暴力隱憂",
+    "l": "https://www.bbc.com/zhongwen/articles/cv8ez8w9edzxo/trad?at_medium=RSS&at_campaign=rss",
+    "s": "BBC 中文",
+    "d": "2026-10-30T11:52:26+08:00",
+    "ts": 1793332346.0,
+    "x": "過去一個月，歐洲各地爆發了由青年主導的示威遊行。這些遊行活動有何共同點？",
+    "g": ""
+   },
+   {
+    "t": "中國施壓下姆巴佩道歉，但許多人仍不知道他究竟說了什麼",
+    "l": "https://www.bbc.com/zhongwen/articles/ck4g18ql0vj9o/trad?at_medium=RSS&at_campaign=rss",
+    "s": "BBC 中文",
+    "d": "2026-10-30T08:23:04+08:00",
+    "ts": 1793319784.0,
+    "x": "姆巴佩有關一名「中國領導人」的言論引發眾怒，但網絡審查令許多人仍不清楚事件究竟是怎麼回事。",
+    "g": ""
+   },
+   {
+    "t": "如何不刻意鍛煉，也能增加活動量？",
+    "l": "https://www.bbc.com/zhongwen/articles/c3lylxpp7vjzo/trad?at_medium=RSS&at_campaign=rss",
+    "s": "BBC 中文",
+    "d": "2026-10-30T08:20:50+08:00",
+    "ts": 1793319650.0,
+    "x": "日常零星活動正顯現出保護健康的強大作用，其效果令人意外。它有助於我們消耗更多熱量，降低患心血管疾病的風險，甚至降低死亡風險。",
+    "g": ""
+   },
+   {
+    "t": "巴西前總統博索納羅之子敗給盧拉後，為何飛往美國？",
+    "l": "https://www.bbc.com/zhongwen/articles/cx5ynjr6q6gzo/trad?at_medium=RSS&at_campaign=rss",
+    "s": "BBC 中文",
+    "d": "2026-10-30T00:19:30+08:00",
+    "ts": 1793290770.0,
+    "x": "這位參議員離開巴西後，被拍到在美國走下飛機。他在巴西因涉嫌洗錢而接受調查。",
+    "g": ""
+   }
+  ],
+  "https://cn.nytimes.com/rss/": [
+   {
+    "t": "孙悟空爱上林黛玉：中国AI短剧怎么成了“不当婚恋”",
+    "l": "https://cn.nytimes.com/china/20261030/china-ai-videos-sun-wukong-lin-daiyu/?utm_source=RSS",
+    "s": "紐約時報中文",
+    "d": "2026-10-30T12:49:13+08:00",
+    "ts": 1793335753.0,
+    "x": "中国政府要求清理“扭曲”原著、颠覆角色设定的AI魔改视频。分析认为政府要求人们以尊崇的态度诠释经典作品，重新诠释历史、神话和经典仍受“意识形态正确性”的约束。 一段人工智能生成视频的画面截图，画面中的孙悟空和林黛玉分别出自中国古典名著《西游记》和《红楼梦》。这两部作品均于上世纪80年代被改编成电视剧",
+    "g": ""
+   },
+   {
+    "t": "大选未产生明确获胜者，谁能最终成为以色列总理？",
+    "l": "https://cn.nytimes.com/world/20261030/israel-election-coalition-scenarios/?utm_source=RSS",
+    "s": "紐約時報中文",
+    "d": "2026-10-30T11:18:36+08:00",
+    "ts": 1793330316.0,
+    "x": "初步结果显示，没有任何政党赢得议会绝对多数席位，这意味着政党间需要组成联盟。这可能意味着激烈的谈判，或者僵局，而再次选举的可能性也真实存在。 注：数据更新至美东时间10月29日5时。各党派必须赢得至少3.25%的全国选票才能进入拥有120个席位的以色列议会。来源：以色列中央选举委员会，经以色列公共广",
+    "g": ""
+   },
+   {
+    "t": "特朗普帮助博索纳罗逃离巴西前往美国",
+    "l": "https://cn.nytimes.com/world/20261030/flavio-bolsonaro-trump-brazil-us/?utm_source=RSS",
+    "s": "紐約時報中文",
+    "d": "2026-10-30T10:21:20+08:00",
+    "ts": 1793326880.0,
+    "x": "博索纳罗目前以特朗普下令授予的临时身份滞留佛罗里达，并有望获得永久居留权。白宫对博索纳罗的援助可能加剧美国与巴西的紧张关系，巴西总统卢拉指责特朗普干涉内政。 Ricardo Arduengo/Agence France-Presse — Getty Images 弗拉维奥·博索纳罗周三抵达迈阿密附近",
+    "g": ""
+   },
+   {
+    "t": "习近平清洗行动继续：中共宣布33名高官被开除党籍",
+    "l": "https://cn.nytimes.com/china/20261030/china-communist-party-purges/?utm_source=RSS",
+    "s": "紐約時報中文",
+    "d": "2026-10-30T09:06:09+08:00",
+    "ts": 1793322369.0,
+    "x": "此次被公告开除党籍的很多官员此前已消失数月甚至更长时间，官方一直没有作出解释。其中包括前高级外事官员刘建超，以及曾担任习近平军方秘书的钟绍军。 Florence Lo/Reuters 中国领导人习近平，上月摄于北京。中国共产党将于2027年召开下一次全国代表大会，届时习近平预计将谋求第四个为期五年的",
+    "g": ""
+   },
+   {
+    "t": "黄仁勋被认为是中国间谍行动的目标",
+    "l": "https://cn.nytimes.com/usa/20261030/nvidia-china-jensen-huang-trump/?utm_source=RSS",
+    "s": "紐約時報中文",
+    "d": "2026-10-30T08:42:58+08:00",
+    "ts": 1793320978.0,
+    "x": "美国情报机构发现，一名与黄仁勋建立了密切联系的中国籍高管是一名向北京传递信息的情报人员。特朗普约一年前听取了相关情报，但他选择不采取任何行动。 Manuel Orbegozo for The New York Times 英伟达首席执行官黄仁勋对白宫的技术政策颇具影响力，并与特朗普总统建立了密切关系",
+    "g": ""
+   },
+   {
+    "t": "一场“无人获胜”的选举：以色列大选的四个初步结论",
+    "l": "https://cn.nytimes.com/world/20261029/israel-election-vote-results-takeaways/?utm_source=RSS",
+    "s": "紐約時報中文",
+    "d": "2026-10-30T07:30:04+08:00",
+    "ts": 1793316604.0,
+    "x": "内塔尼亚胡的执政联盟议席大幅缩水，但其主要对手埃森科特也未能实现目标。阿拉伯裔公民的投票人数创历史新高。新政府最终如何组建可能还需要数周时间才能明朗。 Amir Cohen/Reuters; Alexi J. Rosenfeld/Getty Images 左：前以色列国防军总参谋长埃森科特；右：以色",
+    "g": ""
+   },
+   {
+    "t": "探访加密货币大佬赵长鹏：亿万富翁天堂里的前罪犯",
+    "l": "https://cn.nytimes.com/business/20261026/changpeng-zhao-binance/?utm_source=RSS",
+    "s": "紐約時報中文",
+    "d": "2026-10-30T02:00:21+08:00",
+    "ts": 1793296821.0,
+    "x": "赵长鹏曾因金融犯罪入狱，后被特朗普赦免，如今在阿联酋过着奢华的生活，仍是加密货币行业的权势人物。在一个肆无忌惮地打破规则却能获得奖励的时代，他堪称常胜赢家。 Laura Boushnak for The New York Times 币安创始人赵长鹏承认违反反洗钱法，并于去年10月获得特朗普总统的赦",
+    "g": ""
+   },
+   {
+    "t": "玻璃摩天大楼：壮丽的城市天际线有多“热”？",
+    "l": "https://cn.nytimes.com/climate/20261030/glass-skyscrapers-heat-climate-change/?utm_source=RSS",
+    "s": "紐約時報中文",
+    "d": "2026-10-30T01:26:28+08:00",
+    "ts": 1793294788.0,
+    "x": "闪闪发光的玻璃摩天大楼正用价值百万美元的景观和现代化的理念改造城市，但气候变化使得为这些建筑降温变得棘手且成本高昂。是时候重新思考城市天际线了吗？ Ulet Ifansasti for The New York Times",
+    "g": ""
+   },
+   {
+    "t": "博索纳罗败选后逃往美国，宣称自己为巴西合法领导人",
+    "l": "https://cn.nytimes.com/world/20261029/flavio-bolsonaro-us-miami-brazil-trump/?utm_source=RSS",
+    "s": "紐約時報中文",
+    "d": "2026-10-29T11:50:19+08:00",
+    "ts": 1793245819.0,
+    "x": "博索纳罗此前在巴西大选中落败。他经由阿根廷逃往美国迈阿密，称自己输掉的选举存在舞弊，并称自己遭到巴西司法机构的“猎巫”。巴西当局此前曾要求他交出护照。 Eva Marie Uzcategui/Reuters 弗拉维奥·博尔索纳罗周三抵达迈阿密奥帕洛卡机场。",
+    "g": ""
+   },
+   {
+    "t": "“被困在扭曲的金属和残骸中”：西班牙致命列车事故现场",
+    "l": "https://cn.nytimes.com/world/20261029/spain-train-crash-rescue-victims/?utm_source=RSS",
+    "s": "紐約時報中文",
+    "d": "2026-10-29T10:08:17+08:00",
+    "ts": 1793239697.0,
+    "x": "这是西班牙历史上最致命的列车事故之一，也是该国一年内第二次发生类似事故。这起悲剧动摇了人们对铁路系统安全性的信心，也损害了西班牙作为旅游胜地的国际形象。 Manu Fernandez/Associated Press 周三，在西班牙乌尔达发生的一起两列火车相撞事故现场，应急救援人员正在开展救援工作。",
+    "g": ""
+   },
+   {
+    "t": "ChatGPT的致命“用药指导”和一名华人女子的悲剧死亡",
+    "l": "https://cn.nytimes.com/health/20261028/ai-chatgpt-medication-epilepsy-death/?utm_source=RSS",
+    "s": "紐約時報中文",
+    "d": "2026-10-29T09:53:01+08:00",
+    "ts": 1793238781.0,
+    "x": "万博雯在癫痫复发、药物失效、孤立无援之际向ChatGPT求助，三年间与ChatGPT对话超过27万条。ChatGPT建议她减少抗癫痫药物的用量，最终导致了毁灭性的后果。 via Qun Wan and Meiqin Xu 亚利桑那州立大学毕业典礼上的万博雯。",
+    "g": ""
+   },
+   {
+    "t": "美国将中国基因组学公司华大列入贸易黑名单",
+    "l": "https://cn.nytimes.com/business/20261029/us-china-biotech-trade-ban/?utm_source=RSS",
+    "s": "紐約時報中文",
+    "d": "2026-10-29T09:40:09+08:00",
+    "ts": 1793238009.0,
+    "x": "近年来，美国两党人士均曾公开批评华大，称其与北京关系密切，且能获取大量基因数据，对美国国家安全构成威胁。美国官员还将华大子公司与新疆侵犯人权行为联系起来。 Ren Chao/Xinhua, via Getty Images 去年，华大在北京一场展览上的展台。特朗普政府将这家长期受到美国官员质疑的中国",
+    "g": ""
+   }
+  ],
+  "https://feeds.feedburner.com/rsscna/intworld": [
+   {
+    "t": "美期中選舉最後衝刺 川普赴農業帶2紅州拉抬選情",
+    "l": "https://www.cna.com.tw/news/aopl/202611010150.aspx",
+    "s": "中央社國際",
+    "d": "2026-11-01T20:12:28+08:00",
+    "ts": 1793535148.0,
+    "x": "（中央社華盛頓1日綜合外電報導）美國期中選舉即將於兩天後登場，選舉結果將決定國會掌控權。美國總統川普今天重返造勢舞台，前往愛荷華州及堪薩斯州助選。",
+    "g": ""
+   },
+   {
+    "t": "伊朗軍方宣稱 若與美國爆發新戰事恐比先前更漫長",
+    "l": "https://www.cna.com.tw/news/aopl/202611010147.aspx",
+    "s": "中央社國際",
+    "d": "2026-11-01T19:40:22+08:00",
+    "ts": 1793533222.0,
+    "x": "（中央社德黑蘭1日綜合外電報導）伊朗軍方今天警告，任何跟美國發生的新戰事可能會比先前衝突更為漫長，美國總統川普（Donald Trump）無法單方面決定戰事持續時間。",
+    "g": ""
+   },
+   {
+    "t": "阿聯：盼美伊談判取得突破 但已做好最壞打算",
+    "l": "https://www.cna.com.tw/news/aopl/202611010142.aspx",
+    "s": "中央社國際",
+    "d": "2026-11-01T19:07:10+08:00",
+    "ts": 1793531230.0,
+    "x": "（中央社巴林首都麥納瑪1日綜合外電報導）在中東恐再度爆發戰事之際，阿拉伯聯合大公國總統外交顧問加爾加希（Anwar Gargash）今天表示，阿聯希望伊朗與美國談判能取得突破，但也已做好最壞打算。",
+    "g": ""
+   },
+   {
+    "t": "印度東北部族群衝突再起 釀5死",
+    "l": "https://www.cna.com.tw/news/aopl/202611010138.aspx",
+    "s": "中央社國際",
+    "d": "2026-11-01T18:45:02+08:00",
+    "ts": 1793529902.0,
+    "x": "（中央社新德里1日綜合外電報導）印度警方今天表示，該國東北部曼尼普爾邦（Manipur）發生兩起族群暴力衝突事件，造成5人喪生。",
+    "g": ""
+   },
+   {
+    "t": "受007電影啟發 墨西哥市亡靈節遊行歡慶10週年",
+    "l": "https://www.cna.com.tw/news/aopl/202611010133.aspx",
+    "s": "中央社國際",
+    "d": "2026-11-01T18:11:50+08:00",
+    "ts": 1793527910.0,
+    "x": "（中央社墨西哥市31日綜合外電報導）墨西哥首都墨西哥市（Mexico City）今天舉行年度亡靈節遊行，預估吸引50萬多名國內外遊客。這個節日在墨西哥已有數百年歷史，但遊行卻是因2015年1部007系列電影才誕生。",
+    "g": ""
+   },
+   {
+    "t": "96歲巴菲特愛喝可樂 傳曾自稱近50年沒喝過白開水",
+    "l": "https://www.cna.com.tw/news/aopl/202611010128.aspx",
+    "s": "中央社國際",
+    "d": "2026-11-01T17:45:39+08:00",
+    "ts": 1793526339.0,
+    "x": "（中央社紐約31日綜合外電報導）現年96歲的傳奇投資人巴菲特是出名地愛喝可口可樂，以每天喝5罐聞名。據億萬富豪艾克曼回憶，巴菲特曾經對他說，自己至少從1970年代起，就再也沒喝過一杯水。",
+    "g": ""
+   },
+   {
+    "t": "泰國總理：泰柬邊境暫不重開 待解決領土與安全問題",
+    "l": "https://www.cna.com.tw/news/aopl/202611010127.aspx",
+    "s": "中央社國際",
+    "d": "2026-11-01T17:37:37+08:00",
+    "ts": 1793525857.0,
+    "x": "（中央社記者李宗憲曼谷1日專電）泰國與柬埔寨邊境持續關閉，泰國總理阿努廷昨天表示，泰柬兩國仍有多項爭議尚待解決，目前無法確定何時重新開放邊境，並強調國家利益與安全應優先於政治考量。",
+    "g": ""
+   },
+   {
+    "t": "艾普斯坦報導案 川普二度控告華爾街日報敗訴",
+    "l": "https://www.cna.com.tw/news/aopl/202611010126.aspx",
+    "s": "中央社國際",
+    "d": "2026-11-01T17:36:35+08:00",
+    "ts": 1793525795.0,
+    "x": "（中央社華盛頓31日綜合外電報導）華爾街日報因報導美國總統川普與已故性犯罪富豪艾普斯坦的關係，遭川普提告誹謗。美國法院今天駁回川普第二度對該報提出的訴訟，且不得再行提告。",
+    "g": ""
+   },
+   {
+    "t": "GMO外匯交易服務遭入侵 旗下資安公司2024年早示警",
+    "l": "https://www.cna.com.tw/news/aopl/202611010111.aspx",
+    "s": "中央社國際",
+    "d": "2026-11-01T17:05:03+08:00",
+    "ts": 1793523903.0,
+    "x": "（中央社東京1日綜合外電報導）日本大型IT企業GMO網路集團旗下服務先前遭不當存取。據GMO幹部透露，旗下資安公司早在2024年4月就指出系統有漏洞，並要求從根本檢討系統，但GMO未採取充分對策，最終釀成此次事件。",
+    "g": ""
+   },
+   {
+    "t": "波斯灣船隻再遇襲 卡達天然氣油輪遭不明物體攻擊",
+    "l": "https://www.cna.com.tw/news/aopl/202611010104.aspx",
+    "s": "中央社國際",
+    "d": "2026-11-01T16:37:48+08:00",
+    "ts": 1793522268.0,
+    "x": "（中央社杜哈1日綜合外電報導）卡達國營通訊社今天報導，一艘卡達天然氣油輪行經波斯灣（Persian Gulf）海域時，遭「不明物體」攻擊。",
+    "g": ""
+   },
+   {
+    "t": "印度反對派將遊行促選委會主席下台 德里加強維安",
+    "l": "https://www.cna.com.tw/news/aopl/202611010098.aspx",
+    "s": "中央社國際",
+    "d": "2026-11-01T16:07:35+08:00",
+    "ts": 1793520455.0,
+    "x": "（中央社新德里1日綜合外電報導）印度選委會修訂選民名冊引發爭議，反對派預定今天在德里（Delhi）舉行抗議活動，要求選舉首長下台。手持警棍、盾牌的印度維安人員與鎮暴車輛已部署至預定抗議地點周邊。",
+    "g": ""
+   },
+   {
+    "t": "讀賣新聞：中國調查船繞台異常活動 疑蒐集海底電纜情報",
+    "l": "https://www.cna.com.tw/news/aopl/202611010096.aspx",
+    "s": "中央社國際",
+    "d": "2026-11-01T16:02:30+08:00",
+    "ts": 1793520150.0,
+    "x": "（中央社記者戴雅真東京1日專電）日本媒體報導，中國4艘調查船今年5月以來持續在台灣周邊特定海域不尋常活動，包括反覆減速、停船及不規則轉向等，且活動範圍與國際海底電纜鋪設路線重疊。專家分析，中國可能正為「台灣有事」等緊急情況下切斷海底電纜預作準備。",
+    "g": ""
+   }
+  ],
+  "https://rthk9.rthk.hk/rthk/news/rss/c_expressnews_cinternational.xml": [
+   {
+    "t": "塞爾維亞議會選舉部分票站重新投票",
+    "l": "https://news.rthk.hk/rthk/ch/component/k2/1876155-20261101.htm",
+    "s": "香港電台國際",
+    "d": "2026-11-01T20:25:15+08:00",
+    "ts": 1793535915.0,
+    "x": "塞爾維亞星期日在首都貝爾格萊德、北部邊境城市蘇博蒂察等地的53個投票站，重新舉行議會選舉投票，但預計不會改變學生團體推動的「學生名單」，獲得議會過半數議席的局面。 投票在當地早上7時開始，預計晚上8時結束，共有大約25000名選民有投票資格，佔全國約645萬名登記選民的0.38%左右。 塞爾維亞上月",
+    "g": ""
+   },
+   {
+    "t": "美國中期選舉提前投票踴躍 據報白宮已為民主黨重掌國會做準備",
+    "l": "https://news.rthk.hk/rthk/ch/component/k2/1876154-20261101.htm",
+    "s": "香港電台國際",
+    "d": "2026-11-01T19:39:20+08:00",
+    "ts": 1793533160.0,
+    "x": "星期二是美國中期選舉投票日，佛羅里達大學選舉實驗室的追蹤數據顯示，超過5200萬名美國選民已經提前投票，高於四年前中期選舉的提前投票人數。美國阿克西奧斯新聞網站引述政治學者預計，整體投票率可能超越2022年。 星期六是弗吉尼亞州提前現場投票的最後一日，票站外排起長龍。有民眾希望當選的政客，能夠傾聽一",
+    "g": ""
+   },
+   {
+    "t": "俄總統助理稱解決烏克蘭問題首輪談判必須是俄美烏三方形式",
+    "l": "https://news.rthk.hk/rthk/ch/component/k2/1876152-20261101.htm",
+    "s": "香港電台國際",
+    "d": "2026-11-01T19:07:15+08:00",
+    "ts": 1793531235.0,
+    "x": "俄羅斯總統助理烏沙科夫表示，解決烏克蘭問題的首輪談判，應該以俄羅斯、美國和烏克蘭三方會談的形式舉行。他說，歐洲國家的代表可能會出席談判，但一開始必須是俄美烏三方形式。 烏沙科夫在電視節目中又透露，烏克蘭總統澤連斯基正透過不同渠道，傳遞願意與總統普京對話的信號，普京從未拒絕與澤連斯基對話，既然澤連斯基",
+    "g": ""
+   },
+   {
+    "t": "特朗普：沒計劃與弗拉維奧會面 對方想逗留美國多久都可以",
+    "l": "https://news.rthk.hk/rthk/ch/component/k2/1876146-20261101.htm",
+    "s": "香港電台國際",
+    "d": "2026-11-01T17:41:25+08:00",
+    "ts": 1793526085.0,
+    "x": "美國總統特朗普表示，沒有計劃與在巴西總統選舉中落敗後前往美國的自由黨候選人弗拉維奧會面，但認為弗拉維奧受到非常不公正的對待，表明對方在美國想逗留多久都可以。 巴西聯邦最高法院在總統選舉結束後，禁止弗拉維奧離境，並要求就弗拉維奧在競選活動中，涉嫌收受外國資金和操控社交媒體展開調查。 報道指，弗拉維奧與",
+    "g": ""
+   },
+   {
+    "t": "日本即日起改用先付後退的新退稅方式",
+    "l": "https://news.rthk.hk/rthk/ch/component/k2/1876133-20261101.htm",
+    "s": "香港電台國際",
+    "d": "2026-11-01T15:39:26+08:00",
+    "ts": 1793518766.0,
+    "x": "日本即日起改用先付後退的新退稅方式。 旅客在免稅店單筆消費滿5000日圓，折合約250港元，出示護照可享有免稅資格，但要先以含稅價格購物商品，並在購買的90日內離境前，到機場或港口的自助機器辦理免稅手續，若果顯示為綠色，即完成海關查核，免稅手續完成，旅客可以到航空公司櫃檯託運行李，之後由免稅店退款，",
+    "g": ""
+   },
+   {
+    "t": "特朗普稱美國仍需處理伊朗一兩個目標 指很快能完成",
+    "l": "https://news.rthk.hk/rthk/ch/component/k2/1876130-20261101.htm",
+    "s": "香港電台國際",
+    "d": "2026-11-01T13:51:34+08:00",
+    "ts": 1793512294.0,
+    "x": "美國總統特朗普在佛羅里達州海湖莊園見傳媒時，被問到是否將重新對伊朗開戰，以及伊朗最高領袖是否其中一個目標。特朗普回應說，美方已摧毀伊朗的核設施，仍需處理一、兩個地點，10分鐘內就能處理，又提到鎬山，表示需要處理，能很快完成。 鎬山位於伊朗中部伊斯法罕省納坦茲核設施附近，被認為是伊朗最堅固的地下核設施",
+    "g": ""
+   },
+   {
+    "t": "伊朗官員指萬斯來信語氣徹底轉變 表明伊朗鞏固自身勝利與權威",
+    "l": "https://news.rthk.hk/rthk/ch/component/k2/1876121-20261101.htm",
+    "s": "香港電台國際",
+    "d": "2026-11-01T11:01:44+08:00",
+    "ts": 1793502104.0,
+    "x": "伊朗最高國家安全委員會秘書雷扎伊說，他已收到美國副總統萬斯有關重啟談判提議的信函，但伊方未作出回應。 雷扎伊在接受伊朗國家廣播電視台訪問時說，美方來信的語氣已發生徹底轉變，是一個好跡象，表明伊朗民族已鞏固了自身的勝利與權威。雷扎伊拒絕透露更多細節，只是說既然對方未公開信函的任何內容，伊方目前亦不會透",
+    "g": ""
+   },
+   {
+    "t": "特朗普稱會邀請澤連斯基參加二十國集團領導人峰會",
+    "l": "https://news.rthk.hk/rthk/ch/component/k2/1876120-20261101.htm",
+    "s": "香港電台國際",
+    "d": "2026-11-01T10:59:19+08:00",
+    "ts": 1793501959.0,
+    "x": "美國總統特朗普在佛羅里達州海湖莊園向傳媒表示，他會邀請烏克蘭總統澤連斯基參加將於12月舉行的二十國集團領導人峰會。 特朗普已邀請俄羅斯總統普京出席下月在邁阿密舉行的二十國集團領導人峰會。被問到是否亦會邀請澤連斯基時，特朗普回答說會，又說並無問題。 美國國務卿魯比奧於當地星期六在亞特蘭大舉行的二十國集",
+    "g": ""
+   },
+   {
+    "t": "G20外長會閉幕 各方沒有發表聯合公報",
+    "l": "https://news.rthk.hk/rthk/ch/component/k2/1876109-20261101.htm",
+    "s": "香港電台國際",
+    "d": "2026-11-01T06:48:11+08:00",
+    "ts": 1793486891.0,
+    "x": "二十國集團外長會議閉幕，沒有發表聯合公報。 一連兩天在美國亞特蘭大召開的會議，揭幕前已經出現分歧，多國不滿俄羅斯外長拉夫羅夫獲邀出席會議，杯葛大合照環節。 東道主、美國國務卿魯比奧，會後發表主席聲明，代替聯合公報，聲明列出一系列優先議題，包括能源、糧食、及航行自由；沒有提及各方達成任何形式的協議。 ",
+    "g": ""
+   },
+   {
+    "t": "法國巴黎遊行演變成衝突 有人向警員拋擲磚塊和燃燒彈",
+    "l": "https://news.rthk.hk/rthk/ch/component/k2/1876108-20261101.htm",
+    "s": "香港電台國際",
+    "d": "2026-11-01T06:11:37+08:00",
+    "ts": 1793484697.0,
+    "x": "法國當地星期六再次出現示威遊行，在首都巴黎，由於正值萬聖節，有遊行人士打扮成不同角色，高舉標語，反對生活成本及燃油價格高企。 巴黎警方表示，有數萬人參加遊行活動，起初秩序大致良好，人群沿著當局早前批准的路線前進，但去到尾聲時，有人發起暴力行為。 法新社報道，數十名穿黑衣的人，用工具撬起路面的石塊，再",
+    "g": ""
+   },
+   {
+    "t": "奧列什基居民完成撤離 俄烏同意定期展開人道救援行動",
+    "l": "https://news.rthk.hk/rthk/ch/component/k2/1876107-20261101.htm",
+    "s": "香港電台國際",
+    "d": "2026-11-01T05:08:23+08:00",
+    "ts": 1793480903.0,
+    "x": "俄羅斯與烏克蘭完成從赫爾松州奧列什基撤走居民的行動，烏克蘭總統澤連斯基表示，需要撤離的烏克蘭公民已經透過白俄羅斯入境，將向他們提供援助。 白俄羅斯傳媒報道，3架載有奧列什基居民的飛機，昨日降落白俄，有醫護人員及紅十字會義工在場協助居民，安排他們前往邊境檢查站，入境烏克蘭。 曾到奧列什基協調人道援助行",
+    "g": ""
+   },
+   {
+    "t": "德國多個主要城市有年輕人上街 據報部分集會現場有人燃放煙火",
+    "l": "https://news.rthk.hk/rthk/ch/component/k2/1876106-20261101.htm",
+    "s": "香港電台國際",
+    "d": "2026-11-01T04:10:17+08:00",
+    "ts": 1793477417.0,
+    "x": "歐洲多國近期的示威浪潮蔓延至德國，當地多個主要城市有年輕人上街，呼籲政府聆聽青年的聲音。 在柏林、法蘭克福及科隆等地，星期六有數以千計民眾上街，參與由Z世代組織主辦的遊行集會。法新社報道，部分集會現場有人燃放煙火，警員一度使用水砲驅散示威者，有人被扣留。 活動發起人表示，號召上街是不滿生活成本上升，",
+    "g": ""
+   }
+  ],
+  "https://rss.dw.com/rdf/rss-chi-all": [
+   {
+    "t": "美国拟为\"影子舰队\"松绑？专家警告莫削弱对俄制裁",
+    "l": "https://www.dw.com/zh/美国拟为-影子舰队-松绑？专家警告莫削弱对俄制裁/a-79806146?maca=chi-rss-chi-all-1127-rdf",
+    "s": "德國之聲",
+    "d": "2026-11-01T16:46:00+08:00",
+    "ts": 1793522760.0,
+    "x": "俄罗斯借助由老旧油轮组成的\"影子舰队\"规避西方制裁。据报道，特朗普政府正考虑解除部分影子舰队油轮的制裁，以缓解创纪录的运费。专家警告，此举将削弱对俄制裁、帮助莫斯科获得收入，并使美欧在战略上分道扬镳。欧盟虽握有航运和保险等工具，但若没有美国支持，执法将更加艰难。",
+    "g": ""
+   },
+   {
+    "t": "墙外文摘：33人被开除党籍，为什么问责到不了习近平？",
+    "l": "https://www.dw.com/zh/墙外文摘：33人被开除党籍，为什么问责到不了习近平？/a-79820930?maca=chi-rss-chi-all-1127-rdf",
+    "s": "德國之聲",
+    "d": "2026-11-01T16:43:00+08:00",
+    "ts": 1793522580.0,
+    "x": "中共二十届五中全会开除33名高官党籍，创改革开放以来之最。有评论指出，这次\"全面从严治党\"的赤裸体现，是纪律可以向下延伸、问责却难以向上追究；当监督的范围与后果仍由被监督者一人独断，反腐就触不到制度根源。",
+    "g": ""
+   },
+   {
+    "t": "调研：欧洲的数字依赖日益严重",
+    "l": "https://www.dw.com/zh/调研：欧洲的数字依赖日益严重/a-79806283?maca=chi-rss-chi-all-1127-rdf",
+    "s": "德國之聲",
+    "d": "2026-11-01T15:59:00+08:00",
+    "ts": 1793519940.0,
+    "x": "操作系统、搜索引擎、云服务：一项最新的调研显示，在数码平台的各大领域，欧洲几乎陷入了对外国供应商的全面依赖。那么，欧洲同中美等国的差距到底有多大呢？",
+    "g": ""
+   },
+   {
+    "t": "波兰宪法法院上演“宫斗”?警方包围法院大楼",
+    "l": "https://www.dw.com/zh/波兰宪法法院上演-宫斗-警方包围法院大楼/a-79817226?maca=chi-rss-chi-all-1127-rdf",
+    "s": "德國之聲",
+    "d": "2026-10-31T23:14:00+08:00",
+    "ts": 1793459640.0,
+    "x": "波兰政坛左右翼围绕宪法法院法官人选的争斗10月30日骤然升级。在出现正副院长被停职的消息后，许多抗议者聚集到法院外，警方随后则对该建筑进行了管控。右翼的总统立刻中止出国访问飞回华沙，左翼的总理则强调重建法治之路注定艰难。",
+    "g": ""
+   },
+   {
+    "t": "马达加斯加捣毁13处电诈园区 148名中国人被引渡回国",
+    "l": "https://www.dw.com/zh/马达加斯加捣毁13处电诈园区-148名中国人被引渡回国/a-79815828?maca=chi-rss-chi-all-1127-rdf",
+    "s": "德國之聲",
+    "d": "2026-10-31T21:56:00+08:00",
+    "ts": 1793454960.0,
+    "x": "马达加斯加与美国司法部合作，于8月和9月捣毁了13处由中国人经营的网络诈骗园区，148名中国公民已被引渡回中国。调查显示，这些园区与此前在柬埔寨运营的犯罪集团有关，后者在柬泰边境遭到打击后转移到非洲。肯尼亚、卢旺达等国约20名非洲人疑似被以高薪诱骗而来、被迫从事诈骗活动，目前仍被羁押。",
+    "g": ""
+   },
+   {
+    "t": "出口订单走弱 中国10月PMI回落至荣枯线以下",
+    "l": "https://www.dw.com/zh/出口订单走弱-中国10月pmi回落至荣枯线以下/a-79815809?maca=chi-rss-chi-all-1127-rdf",
+    "s": "德國之聲",
+    "d": "2026-10-31T21:29:00+08:00",
+    "ts": 1793453340.0,
+    "x": "中国10月制造业活动出现收缩，新出口订单走软，上月的回升势头就此逆转。中国作为全球第二大经济体，因为对多国贸易顺差不断扩大，而面临来自贸易伙伴的压力。",
+    "g": ""
+   },
+   {
+    "t": "欧洲外长拒与拉夫罗夫合影 美国主办G20外长会开局不顺",
+    "l": "https://www.dw.com/zh/欧洲外长拒与拉夫罗夫合影-美国主办g20外长会开局不顺/a-79815204?maca=chi-rss-chi-all-1127-rdf",
+    "s": "德國之聲",
+    "d": "2026-10-31T19:56:00+08:00",
+    "ts": 1793447760.0,
+    "x": "二十国集团外长会议周五在美国亚特兰大开幕。由于欧洲国家外长拒绝与俄罗斯外长拉夫罗夫合影，东道主美国取消了“全家福”。卢比奥呼吁团结应对相互交织的危机，但各方分歧明显。拉夫罗夫对德国之声表示，泽连斯基如愿意可赴莫斯科与普京会面。南非未获邀请，会议预计不发表联合宣言。",
+    "g": ""
+   },
+   {
+    "t": "加拿大总理接受DW专访：我们过度依赖美国",
+    "l": "https://www.dw.com/zh/加拿大总理接受dw专访：我们过度依赖美国/a-79815000?maca=chi-rss-chi-all-1127-rdf",
+    "s": "德國之聲",
+    "d": "2026-10-31T18:13:00+08:00",
+    "ts": 1793441580.0,
+    "x": "10月30日，刚刚与欧盟领导人进行会谈的加拿大总理卡尼接受了德国之声专访。他表示，加拿大对美国的依赖度过高，现在亟需深化与志同道合国家的多样化伙伴关系。",
+    "g": ""
+   },
+   {
+    "t": "意大利数万学生和工人上街 要求缓解教育与生活成本",
+    "l": "https://www.dw.com/zh/意大利数万学生和工人上街　要求缓解教育与生活成本/a-79809834?maca=chi-rss-chi-all-1127-rdf",
+    "s": "德國之聲",
+    "d": "2026-10-30T23:24:00+08:00",
+    "ts": 1793373840.0,
+    "x": "周五，数万名学生和工人在罗马、米兰、都灵等数十个意大利城市游行，要求增加教育经费、缓解不断上涨的生活成本。此前，学生们已经连续数周搭帐篷露营、占领学校。工会同日发动总罢工，卡车司机、出租车司机和农民也加入抗议。示威者批评梅洛尼右翼政府工资低、燃油价格上涨和军费开支。受法国和西班牙类似运动的带动，这场",
+    "g": ""
+   },
+   {
+    "t": "欧盟对入境小包裹再加税 每年财政增收60亿欧元",
+    "l": "https://www.dw.com/zh/欧盟对入境小包裹再加税-每年财政增收60亿欧元/a-79809890?maca=chi-rss-chi-all-1127-rdf",
+    "s": "德國之聲",
+    "d": "2026-10-30T23:24:00+08:00",
+    "ts": 1793373840.0,
+    "x": "11月1日，欧盟对入境小包裹的征税额即将从每件3欧元上涨到5欧元。欧盟委员会一份内部文件显示，这项今年7月刚刚引入的新税收每年将带来60亿欧元财政收入。SHEIN等中国电商正在扩建本地仓储来规避这项费用。",
+    "g": ""
+   },
+   {
+    "t": "德语媒体：习近平的清洗行动仍在继续",
+    "l": "https://www.dw.com/zh/德语媒体：习近平的清洗行动仍在继续/a-79809662?maca=chi-rss-chi-all-1127-rdf",
+    "s": "德國之聲",
+    "d": "2026-10-30T23:11:00+08:00",
+    "ts": 1793373060.0,
+    "x": "《法兰克福汇报》指出，本周闭幕的中共中央五中全会出席人数之少刷新了记录，也从一个侧面了印证了习近平清洗行动的巨大规模。《日报》评论称，姆巴佩事件足以说明，中国共产党正在将其“言论红线”的适用范围扩展至全世界。",
+    "g": ""
+   },
+   {
+    "t": "国际冲裁法庭裁决允许俄罗斯冰球队参加国际赛事",
+    "l": "https://www.dw.com/zh/国际冲裁法庭裁决允许俄罗斯冰球队参加国际赛事/a-79809179?maca=chi-rss-chi-all-1127-rdf",
+    "s": "德國之聲",
+    "d": "2026-10-30T22:16:00+08:00",
+    "ts": 1793369760.0,
+    "x": "俄罗斯的冰球队实力很强，一直被列入国际第一梯队。俄罗斯入侵乌克兰之后，国际冰联禁止俄罗斯国家队参加国际赛事，然而，该禁令被国际体育仲裁法庭取消了。",
+    "g": ""
+   }
+  ],
+  "https://www.reddit.com/r/sidehustle/top/.rss?t=week&limit=15": [
+   {
+    "t": "Free Faceless Channel Video Maker",
+    "l": "https://www.reddit.com/r/sidehustle/comments/1xl0xs8/free_faceless_channel_video_maker/",
+    "s": "Reddit r/sidehustle",
+    "d": "2026-11-01T19:39:25+08:00",
+    "ts": 1793533165.0,
+    "x": "I made a tool with AI to make them AI Generated Niche videos without Any paywall would anyone be interested?? submitted by /u/Glittering-Fennel815 [li",
+    "g": "網民討論"
+   },
+   {
+    "t": "I Play Non DND ttrpgs For a Living.",
+    "l": "https://www.reddit.com/r/sidehustle/comments/1xji33g/i_play_non_dnd_ttrpgs_for_a_living/",
+    "s": "Reddit r/sidehustle",
+    "d": "2026-10-30T23:15:08+08:00",
+    "ts": 1793373308.0,
+    "x": "While I often say I play DnD for a living, I actually play everything but. Daggerheart, Blades in the Dark, Cyberpunk Red, Vampire the Masquerade, etc",
+    "g": "網民討論"
+   },
+   {
+    "t": "remote flexible side hustle",
+    "l": "https://www.reddit.com/r/sidehustle/comments/1xj7eyh/remote_flexible_side_hustle/",
+    "s": "Reddit r/sidehustle",
+    "d": "2026-10-30T13:55:58+08:00",
+    "ts": 1793339758.0,
+    "x": "I have about 2–3 hours free every day and I’m looking for realistic ways to earn a little extra income online. I’m not expecting to get rich , just so",
+    "g": "網民討論"
+   },
+   {
+    "t": "Anything i can do online if i have next to no skills?",
+    "l": "https://www.reddit.com/r/sidehustle/comments/1xiydal/anything_i_can_do_online_if_i_have_next_to_no/",
+    "s": "Reddit r/sidehustle",
+    "d": "2026-10-30T06:31:27+08:00",
+    "ts": 1793313087.0,
+    "x": "I think i dont have any skills that i can earn money from, but computers are sorta my small side hobby but i havent really done it in some time sense ",
+    "g": "網民討論"
+   },
+   {
+    "t": "Extra $$$ as a student with limited time???",
+    "l": "https://www.reddit.com/r/sidehustle/comments/1xixjlb/extra_as_a_student_with_limited_time/",
+    "s": "Reddit r/sidehustle",
+    "d": "2026-10-30T05:58:15+08:00",
+    "ts": 1793311095.0,
+    "x": "Current (unemployed) med student with a minus $102928 income. Turns out I still have expenses (a lot in this economy) and everyone in my household is ",
+    "g": "網民討論"
+   },
+   {
+    "t": "Any Creative Ideas to Make a Stable $200-300/wk?",
+    "l": "https://www.reddit.com/r/sidehustle/comments/1xi7yam/any_creative_ideas_to_make_a_stable_200300wk/",
+    "s": "Reddit r/sidehustle",
+    "d": "2026-10-29T10:24:08+08:00",
+    "ts": 1793240648.0,
+    "x": "Hello, I'm looking for something I can do that maybe someone else here has had success in that would fit in with my particular skillset and schedule. ",
+    "g": "網民討論"
+   },
+   {
+    "t": "Tax Questions for CPA",
+    "l": "https://www.reddit.com/r/sidehustle/comments/1xhyg2b/tax_questions_for_cpa/",
+    "s": "Reddit r/sidehustle",
+    "d": "2026-10-29T03:46:59+08:00",
+    "ts": 1793216819.0,
+    "x": "Hello, I am a CPA and wanted to get everyone’s insight on what scares them the most about taxes around side hustles. Feel free to type anything below!",
+    "g": "網民討論"
+   },
+   {
+    "t": "side hustle or second job?",
+    "l": "https://www.reddit.com/r/sidehustle/comments/1xhpk1n/side_hustle_or_second_job/",
+    "s": "Reddit r/sidehustle",
+    "d": "2026-10-28T22:26:56+08:00",
+    "ts": 1793197616.0,
+    "x": "Not looking for sympathy, just explaining my situation: Due to compulsive gambling I have recently found myself in $6000 of credit card debt (online c",
+    "g": "網民討論"
+   },
+   {
+    "t": "Sidehustle slowchat: What were your wins and fails this week?",
+    "l": "https://www.reddit.com/r/sidehustle/comments/1xh31jo/sidehustle_slowchat_what_were_your_wins_and_fails/",
+    "s": "Reddit r/sidehustle",
+    "d": "2026-10-28T04:00:13+08:00",
+    "ts": 1793131213.0,
+    "x": "submitted by /u/ARoyaleWithCheese [link] [留言]",
+    "g": "網民討論"
+   },
+   {
+    "t": "Any weird remote side hustles out there?",
+    "l": "https://www.reddit.com/r/sidehustle/comments/1xgjosr/any_weird_remote_side_hustles_out_there/",
+    "s": "Reddit r/sidehustle",
+    "d": "2026-10-27T13:02:10+08:00",
+    "ts": 1793077330.0,
+    "x": "I recently tore my ACL and won’t be able to get surgery on it until January. In the meantime, I’m unable to work at my current job due to the physical",
+    "g": "網民討論"
+   }
+  ],
+  "https://hnrss.org/newest?q=side+hustle": [
+   {
+    "t": "The Hottest New Side Hustle Is Stripping Copper Wire and Posting About It",
+    "l": "https://www.wired.com/story/the-hottest-new-side-hustle-is-stripping-copper-wire-and-posting-about-it/",
+    "s": "Hacker News",
+    "d": "2026-10-30T06:47:08+08:00",
+    "ts": 1793314028.0,
+    "x": "",
+    "g": "實戰案例"
+   },
+   {
+    "t": "Side Hustle Tax Calc – Paste your 1099 income, see what you owe in 30 seconds",
+    "l": "https://taxcalc.botlabcollective.com",
+    "s": "Hacker News",
+    "d": "2026-09-29T23:22:37+08:00",
+    "ts": 1790695357.0,
+    "x": "",
+    "g": "實戰案例"
+   },
+   {
+    "t": "I got Opus 5.5 to make a whimsical video ad for my side hustle",
+    "l": "https://www.reddit.com/r/ClaudeAI/comments/1wptwrk/got_opus_55_to_build_an_advert_for_my_side_hustle/",
+    "s": "Hacker News",
+    "d": "2026-09-25T19:49:29+08:00",
+    "ts": 1790336969.0,
+    "x": "",
+    "g": "實戰案例"
+   },
+   {
+    "t": "AT&T store worker gets 16 months inside for SIM-swap side hustle",
+    "l": "https://www.theregister.com/cyber-crime/2026/09/11/att-store-worker-gets-16-months-inside-for-sim-swap-side-hustle/5295898",
+    "s": "Hacker News",
+    "d": "2026-09-12T00:25:45+08:00",
+    "ts": 1789143945.0,
+    "x": "",
+    "g": "實戰案例"
+   },
+   {
+    "t": "Show HN: Sidework – 100% free site for side hustle, live in 2 min mobile/desktop",
+    "l": "https://www.my-sidework.com/",
+    "s": "Hacker News",
+    "d": "2026-09-01T03:43:59+08:00",
+    "ts": 1788205439.0,
+    "x": "What do you guys think of this? Would it be useful for people doing side work? I originally built it because craigslist doesn't have an MCP server.",
+    "g": "實戰案例"
+   },
+   {
+    "t": "Day 2 – Standup on my side hustle",
+    "l": "https://twitter.com/ab44997/status/2078172383978885363",
+    "s": "Hacker News",
+    "d": "2026-07-18T01:39:29+08:00",
+    "ts": 1784309969.0,
+    "x": "",
+    "g": "實戰案例"
+   }
+  ],
+  "https://hnrss.org/newest?q=%22how+I+made%22": [
+   {
+    "t": "Writing GPU kernels in Rust: how I made speakrs 60× faster than pyannote",
+    "l": "https://avencera.com/blog/writing-gpu-kernels-in-rust-speakrs-60x-faster-than-pyannote",
+    "s": "Hacker News",
+    "d": "2026-10-29T02:07:38+08:00",
+    "ts": 1793210858.0,
+    "x": "",
+    "g": "收入故事"
+   },
+   {
+    "t": "How I made it possible to pretrain a 1B LLM on 6GB VRAM",
+    "l": "https://huggingface.co/blog/RitishReal/1b-petrain-llm-in-4gb-vram",
+    "s": "Hacker News",
+    "d": "2026-10-27T02:59:20+08:00",
+    "ts": 1793041160.0,
+    "x": "",
+    "g": "收入故事"
+   },
+   {
+    "t": "How I made a benchmark mined from my own repo that agreed with FrontierCode",
+    "l": "https://www.stet.sh/blog/benchmark-agreed-with-frontier-code",
+    "s": "Hacker News",
+    "d": "2026-10-21T22:10:18+08:00",
+    "ts": 1792591818.0,
+    "x": "",
+    "g": "收入故事"
+   },
+   {
+    "t": "How I Made a Zero Dependency Terminal Text Editor in C Using POSIX System Calls",
+    "l": "https://111nation.github.io/posts/creating-text-editor/",
+    "s": "Hacker News",
+    "d": "2026-09-29T05:50:09+08:00",
+    "ts": 1790632209.0,
+    "x": "",
+    "g": "收入故事"
+   },
+   {
+    "t": "How I made the 2.5D parallax interactive paintings. video and blog",
+    "l": "https://www.echohive.ai/how-we-made-living-paintings",
+    "s": "Hacker News",
+    "d": "2026-09-29T04:52:25+08:00",
+    "ts": 1790628745.0,
+    "x": "",
+    "g": "收入故事"
+   },
+   {
+    "t": "Show HN: Clueless: how I made a scalable freeform crossword generator",
+    "l": "https://clueless.crossword.is/blog/development-history",
+    "s": "Hacker News",
+    "d": "2026-09-24T21:55:44+08:00",
+    "ts": 1790258144.0,
+    "x": "",
+    "g": "收入故事"
+   }
+  ],
+  "https://www.producthunt.com/feed": [
+   {
+    "t": "agentmash",
+    "l": "https://www.producthunt.com/products/agentmash",
+    "s": "Product Hunt",
+    "d": "2026-11-01T02:08:19+08:00",
+    "ts": 1793470099.0,
+    "x": "open-source multiplayer AI for teams' coding agents",
+    "g": "新產品"
+   },
+   {
+    "t": "ernd",
+    "l": "https://www.producthunt.com/products/ernd",
+    "s": "Product Hunt",
+    "d": "2026-10-31T16:07:30+08:00",
+    "ts": 1793434050.0,
+    "x": "The credit card for the AI stack",
+    "g": "新產品"
+   },
+   {
+    "t": "AC Bridge",
+    "l": "https://www.producthunt.com/products/ac-bridge",
+    "s": "Product Hunt",
+    "d": "2026-10-31T12:20:01+08:00",
+    "ts": 1793420401.0,
+    "x": "Your smart lights show when Claude Code or Codex needs you.",
+    "g": "新產品"
+   },
+   {
+    "t": "Godwit",
+    "l": "https://www.producthunt.com/products/godwit",
+    "s": "Product Hunt",
+    "d": "2026-10-31T11:45:26+08:00",
+    "ts": 1793418326.0,
+    "x": "An open-source, AI-native email client",
+    "g": "新產品"
+   },
+   {
+    "t": "AwaitIO",
+    "l": "https://www.producthunt.com/products/awaitio",
+    "s": "Product Hunt",
+    "d": "2026-10-31T08:15:52+08:00",
+    "ts": 1793405752.0,
+    "x": "Write a TypeScript function, get an admin screen",
+    "g": "新產品"
+   },
+   {
+    "t": "Pluto Door",
+    "l": "https://www.producthunt.com/products/pluto-door",
+    "s": "Product Hunt",
+    "d": "2026-10-31T06:10:44+08:00",
+    "ts": 1793398244.0,
+    "x": "SSH client with an AI agent and a desktop for every server",
+    "g": "新產品"
+   },
+   {
+    "t": "Agnos",
+    "l": "https://www.producthunt.com/products/agnos",
+    "s": "Product Hunt",
+    "d": "2026-10-31T04:02:49+08:00",
+    "ts": 1793390569.0,
+    "x": "Clean documents for AI, and see what was removed",
+    "g": "新產品"
+   },
+   {
+    "t": "Secret Key",
+    "l": "https://www.producthunt.com/products/secret-key",
+    "s": "Product Hunt",
+    "d": "2026-10-31T02:54:54+08:00",
+    "ts": 1793386494.0,
+    "x": "Let your family unlock your passwords if you can't",
+    "g": "新產品"
+   },
+   {
+    "t": "ChainPoints",
+    "l": "https://www.producthunt.com/products/chainpoints",
+    "s": "Product Hunt",
+    "d": "2026-10-31T01:51:42+08:00",
+    "ts": 1793382702.0,
+    "x": "Flight Prices in Your Points, on Google Flights",
+    "g": "新產品"
+   },
+   {
+    "t": "Chorin: Ora et Labora",
+    "l": "https://www.producthunt.com/products/chorin-ora-et-labora",
+    "s": "Product Hunt",
+    "d": "2026-10-30T23:04:03+08:00",
+    "ts": 1793372643.0,
+    "x": "Build a real medieval abbey, from 1258 to today",
+    "g": "新產品"
+   },
+   {
+    "t": "Screen Studio 4.0",
+    "l": "https://www.producthunt.com/products/screen-studio",
+    "s": "Product Hunt",
+    "d": "2026-10-30T22:42:02+08:00",
+    "ts": 1793371322.0,
+    "x": "Glass Loupe, Camera Cutout, Edit by Transcript, and more",
+    "g": "新產品"
+   },
+   {
+    "t": "SKI",
+    "l": "https://www.producthunt.com/products/ski",
+    "s": "Product Hunt",
+    "d": "2026-10-30T15:45:39+08:00",
+    "ts": 1793346339.0,
+    "x": "Voice-first coding harness",
+    "g": "新產品"
+   }
+  ],
+  "https://www.ftchinese.com/rss/news": [
+   {
+    "t": "香港PE集团收购恒大物业控股权",
+    "l": "https://www.ftchinese.com/story/001111241",
+    "s": "FT 中文網",
+    "d": "2026-10-30T00:00:00+08:00",
+    "ts": 1793289600.0,
+    "x": "太盟投资集团(PAG)拟以5.13亿美元收购恒大物业51%股权，出价约比最后收盘价低30%，这是恒大清盘人追收资产道路上的收获之一。",
+    "g": "財經"
+   },
+   {
+    "t": "“联系成员国”争端给加欧峰会蒙上阴影",
+    "l": "https://www.ftchinese.com/story/001111236",
+    "s": "FT 中文網",
+    "d": "2026-10-30T00:00:00+08:00",
+    "ts": 1793289600.0,
+    "x": "欧盟-加拿大峰会在蒙特利尔开幕之际，欧盟委员会主席冯德莱恩给予加拿大“联系成员国”地位的雄心，使其与自己的祖国德国意见相左。",
+    "g": "財經"
+   },
+   {
+    "t": "内塔尼亚胡所属政党声称选举被“窃取”",
+    "l": "https://www.ftchinese.com/story/001111235",
+    "s": "FT 中文網",
+    "d": "2026-10-30T00:00:00+08:00",
+    "ts": 1793289600.0,
+    "x": "利库德集团祭出这一说法之前，阿拉伯裔以色列公民在本周选举中踊跃投票支持该国阿拉伯政党，导致内塔尼亚胡阵营未能决定性胜出。",
+    "g": "財經"
+   },
+   {
+    "t": "3.4%：美国经济第三季度年化增速超预期",
+    "l": "https://www.ftchinese.com/story/001111234",
+    "s": "FT 中文網",
+    "d": "2026-10-30T00:00:00+08:00",
+    "ts": 1793289600.0,
+    "x": "这一增速较第二季度的2.2%有所加快，并高于华尔街此前预测的3.2%。AI支出热潮继续推动经济增长，消费者也继续大笔消费。",
+    "g": "財經"
+   },
+   {
+    "t": "香港特首就宏福苑大火致歉",
+    "l": "https://www.ftchinese.com/story/001111231",
+    "s": "FT 中文網",
+    "d": "2026-10-29T00:00:00+08:00",
+    "ts": 1793203200.0,
+    "x": "去年的宏福苑火灾是香港数十年来最严重的住宅火灾，造成168人死亡。",
+    "g": "財經"
+   },
+   {
+    "t": "中国需求减弱影响GSK疫苗销售额",
+    "l": "https://www.ftchinese.com/story/001111224",
+    "s": "FT 中文網",
+    "d": "2026-10-29T00:00:00+08:00",
+    "ts": 1793203200.0,
+    "x": "受中国市场对带状疱疹疫苗需求减弱拖累，葛兰素史克第三季度疫苗销售额同比下降4%，这家富时100指数成分股药企的股价随之下跌。",
+    "g": "財經"
+   },
+   {
+    "t": "泡泡玛特季度销售额下降50%，拉布布热度减退",
+    "l": "https://www.ftchinese.com/story/001111218",
+    "s": "FT 中文網",
+    "d": "2026-10-28T00:00:00+08:00",
+    "ts": 1793116800.0,
+    "x": "随着曾经风靡一时的拉布布玩偶需求减弱，这家中国玩具公司报告第三季度销售额同比下降45%至50%，其中西方市场销售额降幅更大。",
+    "g": "財經"
+   },
+   {
+    "t": "英国对中国产挖掘机的关税遭到卡特彼勒挑战",
+    "l": "https://www.ftchinese.com/story/001111211",
+    "s": "FT 中文網",
+    "d": "2026-10-27T00:00:00+08:00",
+    "ts": 1793030400.0,
+    "x": "这家美国建筑设备制造商力争推翻英国贸易救济局对其中国产挖掘机征收的18.81%反倾销关税。",
+    "g": "財經"
+   }
+  ],
+  "https://www.sciencedaily.com/rss/health_medicine.xml": [
+   {
+    "t": "Scientists discover a hidden driver of high cholesterol and a way to stop it",
+    "l": "https://www.sciencedaily.com/releases/2026/10/261030003003.htm",
+    "s": "ScienceDaily 健康",
+    "d": "2026-11-01T09:57:50+08:00",
+    "ts": 1793498270.0,
+    "x": "Scientists have uncovered a hidden mechanism that allows high-cholesterol diets to undermine the body's natural cholesterol defenses, and blocking it ",
+    "g": "研究"
+   },
+   {
+    "t": "Scientists finally discover how a common gut bacterium can trigger colon cancer",
+    "l": "https://www.sciencedaily.com/releases/2026/10/261031012912.htm",
+    "s": "ScienceDaily 健康",
+    "d": "2026-10-31T21:49:23+08:00",
+    "ts": 1793454563.0,
+    "x": "Scientists at Johns Hopkins have uncovered a crucial missing link between a common gut bacterium and colorectal cancer, solving a mystery that has puz",
+    "g": "研究"
+   },
+   {
+    "t": "Scientists discover a bacterial defense so strange they thought it was broken",
+    "l": "https://www.sciencedaily.com/releases/2026/10/261029072123.htm",
+    "s": "ScienceDaily 健康",
+    "d": "2026-10-31T18:38:30+08:00",
+    "ts": 1793443110.0,
+    "x": "Scientists have discovered a bizarre bacterial defense system that works almost completely backward from anything seen before. Unlike typical bacteria",
+    "g": "研究"
+   },
+   {
+    "t": "A surprising vitamin A discovery is changing what scientists know about vision",
+    "l": "https://www.sciencedaily.com/releases/2026/10/261028234813.htm",
+    "s": "ScienceDaily 健康",
+    "d": "2026-10-31T12:31:41+08:00",
+    "ts": 1793421101.0,
+    "x": "Scientists at Johns Hopkins University have uncovered a surprising process that helps humans develop sharp vision before birth, challenging decades of",
+    "g": "研究"
+   },
+   {
+    "t": "A simple blood test could reveal Alzheimer’s risk 10 years before symptoms",
+    "l": "https://www.sciencedaily.com/releases/2026/10/261029072142.htm",
+    "s": "ScienceDaily 健康",
+    "d": "2026-10-31T08:59:52+08:00",
+    "ts": 1793408392.0,
+    "x": "A major international study found that a simple blood test could help predict Alzheimer’s-related cognitive decline years before symptoms appear, with",
+    "g": "研究"
+   },
+   {
+    "t": "Type 2 diabetes breakthrough as 54% achieve remission in just 6 months",
+    "l": "https://www.sciencedaily.com/releases/2026/10/261029072129.htm",
+    "s": "ScienceDaily 健康",
+    "d": "2026-10-30T20:12:46+08:00",
+    "ts": 1793362366.0,
+    "x": "A promising new study suggests that more than half of younger adults with type 2 diabetes could achieve remission in just six months through a combina",
+    "g": "研究"
+   },
+   {
+    "t": "Why some “lower-risk” childhood cancers turn deadly",
+    "l": "https://www.sciencedaily.com/releases/2026/10/261028232717.htm",
+    "s": "ScienceDaily 健康",
+    "d": "2026-10-30T18:15:28+08:00",
+    "ts": 1793355328.0,
+    "x": "Scientists have uncovered hidden aggressive cancer cells in children whose tumors were previously considered lower risk, revealing why some cases of r",
+    "g": "研究"
+   },
+   {
+    "t": "Scientists discover why chronic back pain feels so personal",
+    "l": "https://www.sciencedaily.com/releases/2026/10/261028232706.htm",
+    "s": "ScienceDaily 健康",
+    "d": "2026-10-30T08:26:37+08:00",
+    "ts": 1793319997.0,
+    "x": "A surprising discovery at UC San Diego suggests that chronic lower back pain may become deeply embedded in the brain's sense of personal identity. Res",
+    "g": "研究"
+   }
+  ],
+  "https://www.sciencedaily.com/rss/mind_brain.xml": [
+   {
+    "t": "A simple blood test could reveal Alzheimer’s risk 10 years before symptoms",
+    "l": "https://www.sciencedaily.com/releases/2026/10/261029072142.htm",
+    "s": "ScienceDaily 大腦",
+    "d": "2026-10-31T08:59:52+08:00",
+    "ts": 1793408392.0,
+    "x": "A major international study found that a simple blood test could help predict Alzheimer’s-related cognitive decline years before symptoms appear, with",
+    "g": "心理"
+   },
+   {
+    "t": "Scientists discover why chronic back pain feels so personal",
+    "l": "https://www.sciencedaily.com/releases/2026/10/261028232706.htm",
+    "s": "ScienceDaily 大腦",
+    "d": "2026-10-30T08:26:37+08:00",
+    "ts": 1793319997.0,
+    "x": "A surprising discovery at UC San Diego suggests that chronic lower back pain may become deeply embedded in the brain's sense of personal identity. Res",
+    "g": "心理"
+   },
+   {
+    "t": "A single brain signal may explain schizophrenia's most puzzling symptoms",
+    "l": "https://www.sciencedaily.com/releases/2026/10/261028232659.htm",
+    "s": "ScienceDaily 大腦",
+    "d": "2026-10-29T21:14:52+08:00",
+    "ts": 1793279692.0,
+    "x": "Scientists have identified a weakened brain signal that may connect several seemingly unrelated symptoms of schizophrenia, including sensory processin",
+    "g": "心理"
+   },
+   {
+    "t": "Six popular sugar substitutes linked to faster brain aging",
+    "l": "https://www.sciencedaily.com/releases/2026/10/261028234238.htm",
+    "s": "ScienceDaily 大腦",
+    "d": "2026-10-29T21:04:04+08:00",
+    "ts": 1793279044.0,
+    "x": "A study of nearly 13,000 adults found that people consuming the most artificial sweeteners experienced a 62% faster decline in memory and thinking ski",
+    "g": "心理"
+   },
+   {
+    "t": "Less than 42 minutes of bright daylight linked to higher dementia risk",
+    "l": "https://www.sciencedaily.com/releases/2026/10/261028232707.htm",
+    "s": "ScienceDaily 大腦",
+    "d": "2026-10-29T19:30:32+08:00",
+    "ts": 1793273432.0,
+    "x": "Getting more daylight could be linked to a surprisingly powerful benefit for brain health. In a study of more than 87,000 adults, researchers found th",
+    "g": "心理"
+   },
+   {
+    "t": "Your blood pressure could be dangerous even when your numbers look normal",
+    "l": "https://www.sciencedaily.com/releases/2026/10/261027063814.htm",
+    "s": "ScienceDaily 大腦",
+    "d": "2026-10-29T11:54:37+08:00",
+    "ts": 1793246077.0,
+    "x": "Researchers have discovered a small group of brain cells that prevents dangerous blood pressure swings, even when average readings appear normal. The ",
+    "g": "心理"
+   },
+   {
+    "t": "The autistic brain processes faces differently than scientists thought",
+    "l": "https://www.sciencedaily.com/releases/2026/10/261027063824.htm",
+    "s": "ScienceDaily 大腦",
+    "d": "2026-10-28T11:02:38+08:00",
+    "ts": 1793156558.0,
+    "x": "A major new study reveals that autistic children’s brains process faces differently, and those differences may begin earlier than scientists previousl",
+    "g": "心理"
+   },
+   {
+    "t": "Scientists discover a surprising clue to why some brains resist Alzheimer’s",
+    "l": "https://www.sciencedaily.com/releases/2026/10/261025222538.htm",
+    "s": "ScienceDaily 大腦",
+    "d": "2026-10-27T12:02:26+08:00",
+    "ts": 1793073746.0,
+    "x": "Why do some people stay mentally sharp even when their brains show signs of Alzheimer’s disease? Scientists in the Netherlands may have uncovered an i",
+    "g": "心理"
+   }
+  ],
+  "https://heho.com.tw/feed": [
+   {
+    "t": "健康日曆｜永遠不要提前焦慮，生活無非是見招拆招",
+    "l": "https://heho.com.tw/archives/388530",
+    "s": "Heho 健康",
+    "d": "2026-11-01T00:01:00+08:00",
+    "ts": 1793462460.0,
+    "x": "今天是 11 月 1 日，時序正式進入深秋，正是東方養生特別強調「收斂、養藏」的時節，與其讓思緒到處亂飛，不如學著把心定下來，把精力留給今天。 以東方哲學的觀點來看，「見招拆招」其實是一種最高級的 能量保養 。 我們每個人每天的精力和氣血都是有限的，如果總是去想「明天萬一出包怎麼辦」或是「等一下會不",
+    "g": "中文"
+   },
+   {
+    "t": "健康日曆｜糖果來，煩惱退，快樂翻倍！（萬聖節）",
+    "l": "https://heho.com.tw/archives/388527",
+    "s": "Heho 健康",
+    "d": "2026-10-31T00:31:00+08:00",
+    "ts": 1793377860.0,
+    "x": "今天是 10 月 31 日萬聖節，除了變裝搗蛋，這也是一年之中最能光明正大吃糖、搞怪的日子，讓我們藉著這個充滿魔力的節日，把平時的壓力通通趕走吧！ 為什麼萬聖節的變裝和討糖活動能讓人感到特別放鬆？ 從心理學角度來看，這是一種透過 節慶儀式感 (Ritualistic Behavior) 帶來的療癒過",
+    "g": "中文"
+   },
+   {
+    "t": "戒指變緊、衣袖塞不下？改善乳癌康復後的隱形殺手「淋巴水腫」",
+    "l": "https://heho.com.tw/archives/388626",
+    "s": "Heho 健康",
+    "d": "2026-10-30T11:44:17+08:00",
+    "ts": 1793331857.0,
+    "x": "隨著乳癌篩檢普及與精準醫療進步，乳癌患者的存活率大幅提高，但術後引發的「淋巴水腫」往往成為癌友生活品質的隱形殺手，許多患者在面臨腋下淋巴結廓清或放射線治療後，常出現手臂腫脹、緊繃甚至沉重感；過往觀念多認為只能消極配戴壓力袖套或等到嚴重時才開刀，但國泰綜合醫院整形外科主治醫師羅世倫指出，現代醫學已進入",
+    "g": "中文"
+   },
+   {
+    "t": "秋天特別容易餓？中醫師解析食慾變化原因、掌握飲食原則，實現「聰明吃」",
+    "l": "https://heho.com.tw/archives/388655",
+    "s": "Heho 健康",
+    "d": "2026-10-30T11:39:53+08:00",
+    "ts": 1793331593.0,
+    "x": "夏天看到油膩食物可能提不起興趣，到了轉涼的秋天，明明活動量沒有增加，食慾卻默默變好，因此，秋天也被稱為「食慾之秋」。從中醫角度來看，胃口的變化也與季節轉換有關。 秋天特別容易餓的原因？ 五甲馬光中醫診所主治醫師邱雅笙表示，中醫理論講求「人與天地相參」，自然的節氣變化會直接影響人體臟腑。「脾胃為後天之",
+    "g": "中文"
+   },
+   {
+    "t": "中風帶來癱瘓、失能危機！專家推「中風行動 888」期搶救家庭、擺脫長照陰霾",
+    "l": "https://heho.com.tw/archives/388641",
+    "s": "Heho 健康",
+    "d": "2026-10-30T10:40:33+08:00",
+    "ts": 1793328033.0,
+    "x": "中風最殘酷的地方往往不是死亡，而是「活著卻癱瘓、失能」！依據健保與公衛統計，台灣每年新增約 4.5 萬名缺血性腦中風個案，其中高達 50 至 60% 會演變成重度失能，更是國內長照需求的最主要成因。 60 歲的會計事務所主管阿禕，是家裡的重大經濟支柱。在一個平凡不過的午後，當時他正坐在辦公桌前核對帳",
+    "g": "中文"
+   },
+   {
+    "t": "換季別急著把棉被拿出來蓋！醫師提醒：留意居家「黴菌毒素」暴露風險",
+    "l": "https://heho.com.tw/archives/387903",
+    "s": "Heho 健康",
+    "d": "2026-10-30T10:00:00+08:00",
+    "ts": 1793325600.0,
+    "x": "天氣開始轉涼，不少人會把收在衣櫃、儲藏室裡的厚衣物、棉被拿出來使用。不過，這些換季用品即使表面看起來乾淨，也可能藏有黴菌或孢子。 尤其台灣氣候相對潮濕，衣櫃、儲藏室、浴室、牆面與家具等處，可能因通風不佳、漏水或濕氣累積而成為黴菌滋生的環境。醫師提醒，換季時不要只看「有沒有發黴」，更重要的是從濕度、通",
+    "g": "中文"
+   },
+   {
+    "t": "健康日曆｜TGIF效應：大腦在預期週末時會提前釋放多巴胺，產生特別愉快的「Friday feeling」",
+    "l": "https://heho.com.tw/archives/388522",
+    "s": "Heho 健康",
+    "d": "2026-10-30T00:30:00+08:00",
+    "ts": 1793291400.0,
+    "x": "TGIF 效應：大腦在預期即將到來的週末假期時，會提前釋放多巴胺，產生特別愉快、有幹勁的『Friday feeling』。 —— 出自心理學與神經科學界。 明天就是週末了！這種「期待週末到來」的心情，是不是讓今天的你工作起來特別有精神，甚至比真正放假還要開心呢？ 為什麼我們會在假日前夕充滿幹勁？ 這",
+    "g": "中文"
+   },
+   {
+    "t": "乳癌切乳術後找回自信？醫建議 1 手術方式，將小腹贅肉重塑自然挺拔胸型",
+    "l": "https://heho.com.tw/archives/388628",
+    "s": "Heho 健康",
+    "d": "2026-10-29T17:35:22+08:00",
+    "ts": 1793266522.0,
+    "x": "40 歲王女士確診乳癌後，除了擔心疾病治療，更害怕乳房切除後帶來的身體改變及心理衝擊。經醫療團隊評估後，選擇接受乳房切除手術的同時，進行深下腹動脈穿通枝皮瓣手術（DIEP）乳房重建。 收治個案的奇美醫院整形外科主治醫師張哲睿表示，王女士原以為大手術會痛到無法下床，沒想到術後隔天就能循序漸進下床活動。",
+    "g": "中文"
+   }
+  ],
+  "https://pansci.asia/feed": [
+   {
+    "t": "擊退乳癌大魔王！「智慧導彈」ADC新藥精準打擊三陰性乳癌，台灣實績超越國際",
+    "l": "https://pansci.asia/archives/382475",
+    "s": "泛科學",
+    "d": "2026-10-29T17:44:36+08:00",
+    "ts": 1793267076.0,
+    "x": "三陰性乳癌惡性度高，傳統化療副作用大。「智慧導彈」Trop-2 ADC藥物能精準毒殺癌細胞，台灣患者存活期更達18個月，超越國際數據。醫師盼未來能爭取第一線使用，讓病友兼顧療效與生活品質。",
+    "g": "科普"
+   },
+   {
+    "t": "牙齦長血泡、腿冒紅點？當心免疫性血小板低下症(ITP)拉警報，擺脫類固醇依賴有新解！",
+    "l": "https://pansci.asia/archives/382449",
+    "s": "泛科學",
+    "d": "2026-10-27T08:00:54+08:00",
+    "ts": 1793059254.0,
+    "x": "牙齦長血泡、腿部冒紅點？當心是「免疫性血小板低下症」的出血警訊。若類固醇治療易復發，現有TPO-RA等二線藥物能直接刺激血小板生成，助患者擺脫出血危機與類固醇依賴。",
+    "g": "科普"
+   },
+   {
+    "t": "跨越山海的電力之路：臺灣如何連成「全島一網」？",
+    "l": "https://pansci.asia/archives/382498",
+    "s": "泛科學",
+    "d": "2026-10-26T19:00:00+08:00",
+    "ts": 1793012400.0,
+    "x": "臺灣的「全島一網」並非一夕成形。從 1934 年日月潭第一發電所帶動的西部 154kV 幹線、戰後翻越中央山脈的東西聯絡線，到恆春、臺東併入主電網、超高壓「三路六迴」骨幹成形，再到 2021 年臺澎海纜併網，一條條輸電線路讓原本分散的供電系統逐漸連成一體。",
+    "g": "科普"
+   },
+   {
+    "t": "瘦瘦針只是開頭？一次打十種的「抗老胜肽」風潮，是醫學奇蹟還是拿身體當白老鼠？",
+    "l": "https://pansci.asia/archives/382402",
+    "s": "泛科學",
+    "d": "2026-10-24T10:01:16+08:00",
+    "ts": 1792807276.0,
+    "x": "近年來，印度甚至辦起了「打針派對」，菜單上不是調酒，而是一杯杯號稱能抗老、修復、增強體能的「胜肽雞尾酒」，最後驚動主管機關發函才緊急喊停。打針，正從過去「生病才做」的治療手段，變成現代人「想變更好就做」的日常保養。但先別急著心動，看懂背後的科學證據與風險，才不會花了錢又傷身。",
+    "g": "科普"
+   },
+   {
+    "t": "害怕心臟二次開刀？「經導管瓣中瓣手術」免開胸，高齡瓣膜退化患者的新救星！",
+    "l": "https://pansci.asia/archives/382454",
+    "s": "泛科學",
+    "d": "2026-10-22T08:01:33+08:00",
+    "ts": 1792627293.0,
+    "x": "生物瓣膜退化卻害怕二次開胸？「經導管瓣中瓣手術」讓患者免開胸、免停心跳即可置換新瓣膜。這項微創技術傷口小、恢復快，更獲健保條件給付，為高齡心臟病患帶來全新曙光。",
+    "g": "科普"
+   },
+   {
+    "t": "醫療器材怎麼挑不踩雷？3步驟破除價格迷思，選對真正適合你的醫材！",
+    "l": "https://pansci.asia/archives/382395",
+    "s": "泛科學",
+    "d": "2026-10-20T08:00:44+08:00",
+    "ts": 1792454444.0,
+    "x": "挑選醫療器材不是越貴越好！本文教你透過「釐清自身需求」、「看懂品質安全資訊」及「與專業團隊討論」3個關鍵步驟，打破價格迷思，聰明選出最適合自己的醫材產品。",
+    "g": "科普"
+   }
+  ],
+  "https://www.info.gov.hk/gia/rss/general_zh.xml": [
+   {
+    "t": "衞生防護中心錄得一宗兒童感染流感嚴重個案",
+    "l": "https://www.info.gov.hk/gia/general/202610/31/P2026103100371.htm",
+    "s": "政府新聞公報",
+    "d": "2026-10-31T16:39:08+08:00",
+    "ts": 1793435948.0,
+    "x": "衞生署衞生防護中心（中心）今日（十月三十一日）錄得一宗兒童感染流感嚴重個案。中心呼籲市民不要輕視流感，盡快接種季節性流感疫苗，特別是高風險群組，以預防季節性流感重症及其併發症，保障自己和家人健康。此外，市民亦應時刻保持良好的個人和環境衞生，以預防流感及其他呼吸道疾病。 個案涉及一名有長期病患的七歲女",
+    "g": "官方"
+   },
+   {
+    "t": "醫院管理局回應個人資料私隱專員公署調查報告",
+    "l": "https://www.info.gov.hk/gia/general/202610/30/P2026103000342.htm",
+    "s": "政府新聞公報",
+    "d": "2026-10-30T17:45:00+08:00",
+    "ts": 1793353500.0,
+    "x": "下稿代醫院管理局發出： ​醫院管理局（醫管局）發言人今日（十月三十日）表示，知悉個人資料私隱專員公署（公署）早前就今年四月九龍東醫院聯網一宗懷疑病人資料被盜取及非法上載至第三方平台的事件完成調查，並於今日發表調查報告。醫管局接納有關調查結果及建議，並會嚴肅跟進和採取適當行動。本局亦會持續加強資訊系統",
+    "g": "官方"
+   },
+   {
+    "t": "醫院管理局發布最新一期《風險通報》",
+    "l": "https://www.info.gov.hk/gia/general/202610/30/P2026103000424.htm",
+    "s": "政府新聞公報",
+    "d": "2026-10-30T16:00:00+08:00",
+    "ts": 1793347200.0,
+    "x": "下稿代醫院管理局發出： ​醫院管理局（醫管局）今日（十月三十日）出版第83期《風險通報》（《通報》）季刊，進一步加強公立醫院通報及監察具警示作用的醫療風險事件，以改善公立醫院的安全水平。 今期《通報》臚列了公立醫院在二○二六年第二季（四月至六月）呈報的八宗醫療風險警示事件，分別是五宗手術／介入程序後",
+    "g": "官方"
+   },
+   {
+    "t": "食安中心公布九月份食物安全報告",
+    "l": "https://www.info.gov.hk/gia/general/202610/30/P2026102900331.htm",
+    "s": "政府新聞公報",
+    "d": "2026-10-30T15:00:00+08:00",
+    "ts": 1793343600.0,
+    "x": "食物環境衞生署食物安全中心（中心）今日（十月三十日）公布上月食物安全報告，結果顯示在約七千個檢測的食物樣本中（包括網購食品），除較早前公布的四個樣本外，其餘樣本全部通過檢測，整體合格率為百分之九十九點九。 中心發言人表示，中心對約一千九百個食物樣本作微生物檢測和約五千一百個樣本進行化學及輻射水平檢測",
+    "g": "官方"
+   }
+  ],
+  "https://www.ruanyifeng.com/blog/atom.xml": [
+   {
+    "t": "科技爱好者周刊（第 417 期）：不要让 AI 代表你",
+    "l": "http://www.ruanyifeng.com/blog/2026/10/weekly-issue-417.html",
+    "s": "阮一峰週刊",
+    "d": "2026-10-30T08:13:03+08:00",
+    "ts": 1793319183.0,
+    "x": "这里记录每周值得分享的科技内容，周五发布。...",
+    "g": "週刊"
+   },
+   {
+    "t": "科技爱好者周刊（第 416 期）：编程已经面目全非",
+    "l": "http://www.ruanyifeng.com/blog/2026/10/weekly-issue-416.html",
+    "s": "阮一峰週刊",
+    "d": "2026-10-23T08:06:16+08:00",
+    "ts": 1792713976.0,
+    "x": "这里记录每周值得分享的科技内容，周五发布。...",
+    "g": "週刊"
+   },
+   {
+    "t": "科技爱好者周刊（第 415 期）：3D 版《看不见的城市》",
+    "l": "http://www.ruanyifeng.com/blog/2026/10/weekly-issue-415.html",
+    "s": "阮一峰週刊",
+    "d": "2026-10-16T08:02:56+08:00",
+    "ts": 1792108976.0,
+    "x": "这里记录每周值得分享的科技内容，周五发布。...",
+    "g": "週刊"
+   }
+  ],
+  "https://www.scotthyoung.com/blog/feed/": [
+   {
+    "t": "Should You Study The Solutions Or Solve Problems?",
+    "l": "https://www.scotthyoung.com/blog/2026/10/28/solving-hard-problems/",
+    "s": "Scott H Young",
+    "d": "2026-10-29T04:42:05+08:00",
+    "ts": 1793220125.0,
+    "x": "Watch the video of this essay. Learning requires effort. But not all effort is useful for learning. Consider the following situation. You have some pr",
+    "g": "學習方法"
+   },
+   {
+    "t": "The Key to Creating Learning Projects You’ll Finish",
+    "l": "https://www.scotthyoung.com/blog/2026/10/21/the-key-to-creating-learning-projects-youll-finish/",
+    "s": "Scott H Young",
+    "d": "2026-10-22T04:25:47+08:00",
+    "ts": 1792614347.0,
+    "x": "My three-step process for self-directed learning projects you'll actually complete. The post The Key to Creating Learning Projects You’ll Finish appea",
+    "g": "學習方法"
+   },
+   {
+    "t": "The Best Way to Take Notes",
+    "l": "https://www.scotthyoung.com/blog/2026/10/13/best-way-take-notes/",
+    "s": "Scott H Young",
+    "d": "2026-10-14T06:35:17+08:00",
+    "ts": 1791930917.0,
+    "x": "The best way to take notes may be the method that uses the least technology. I'll explain why notes still matter and how to learn better with them. Th",
+    "g": "學習方法"
+   },
+   {
+    "t": "The Simple Method That Boosts Memory by 50%",
+    "l": "https://www.scotthyoung.com/blog/2026/10/06/boost-memory-50-percent/",
+    "s": "Scott H Young",
+    "d": "2026-10-07T05:33:47+08:00",
+    "ts": 1791322427.0,
+    "x": "Effective learning doesn't need to be complicated. Here's a simple trick that outperforms mind-maps. The post The Simple Method That Boosts Memory by ",
+    "g": "學習方法"
+   },
+   {
+    "t": "Reach the Top 1% of Your Field (Deliberate Practice)",
+    "l": "https://www.scotthyoung.com/blog/2026/09/30/deliberate-practice/",
+    "s": "Scott H Young",
+    "d": "2026-10-01T00:54:51+08:00",
+    "ts": 1790787291.0,
+    "x": "Revisiting one of the most influential theories of mastery and professional excellence. The post Reach the Top 1% of Your Field (Deliberate Practice) ",
+    "g": "學習方法"
+   },
+   {
+    "t": "You Should Care Less About Practical Advice",
+    "l": "https://www.scotthyoung.com/blog/2026/09/21/you-should-care-less-about-practical-advice/",
+    "s": "Scott H Young",
+    "d": "2026-09-22T02:58:23+08:00",
+    "ts": 1790017103.0,
+    "x": "Most readers prefer useful advice to abstract theory. They shouldn't. The post You Should Care Less About Practical Advice appeared first on Scott H Y",
+    "g": "學習方法"
+   }
+  ],
+  "https://nesslabs.com/feed": [
+   {
+    "t": "Never forget what matters with Dr David Urbansky, founder of Linkflare",
+    "l": "https://nesslabs.com/linkflare-featured-tool?utm_source=rss&utm_medium=rss&utm_campaign=linkflare-featured-tool",
+    "s": "Ness Labs",
+    "d": "2026-09-08T17:45:00+08:00",
+    "ts": 1788860700.0,
+    "x": "FEATURED TOOL Welcome to this edition of our Tools for Thought series, where we interview founders on a mission to help us think better and work smart",
+    "g": "思考"
+   },
+   {
+    "t": "Evidence-grounded AI writing with Jim Lau, founder of Flowing",
+    "l": "https://nesslabs.com/flowing-featured-tool?utm_source=rss&utm_medium=rss&utm_campaign=flowing-featured-tool",
+    "s": "Ness Labs",
+    "d": "2026-08-20T21:23:40+08:00",
+    "ts": 1787232220.0,
+    "x": "FEATURED TOOL Welcome to this edition of our Tools for Thought series, where we interview founders on a mission to help us think better and work smart",
+    "g": "思考"
+   },
+   {
+    "t": "Expert-powered self-improvement with Oleksandr Matsiuk, founder of RiseGuide",
+    "l": "https://nesslabs.com/riseguide-featured-tool?utm_source=rss&utm_medium=rss&utm_campaign=riseguide-featured-tool",
+    "s": "Ness Labs",
+    "d": "2026-06-11T11:12:42+08:00",
+    "ts": 1781147562.0,
+    "x": "FEATURED TOOL Welcome to this edition of our Tools for Thought series, where we learn from founders on a mission to help us think and live better. Ole",
+    "g": "思考"
+   },
+   {
+    "t": "The Illusion of Clarity: How to Test Whether you Really Understand Something",
+    "l": "https://nesslabs.com/illusion-of-clarity?utm_source=rss&utm_medium=rss&utm_campaign=illusion-of-clarity",
+    "s": "Ness Labs",
+    "d": "2026-04-08T21:08:07+08:00",
+    "ts": 1775653687.0,
+    "x": "When people ask me why I started the Ness Labs newsletter, I always admit that it was initially for selfish reasons. As a neuroscience student at the ",
+    "g": "思考"
+   },
+   {
+    "t": "Stop explaining yourself to your AI with Alex Green, cofounder of Littlebird",
+    "l": "https://nesslabs.com/littlebird-featured-tool?utm_source=rss&utm_medium=rss&utm_campaign=littlebird-featured-tool",
+    "s": "Ness Labs",
+    "d": "2026-03-26T20:42:00+08:00",
+    "ts": 1774528920.0,
+    "x": "FEATURED TOOL Welcome to this edition of our Tools for Thought series, where we interview founders on a mission to help us think better and work smart",
+    "g": "思考"
+   },
+   {
+    "t": "The Gut Decision Matrix: When to Trust Instinct and Intuition",
+    "l": "https://nesslabs.com/gut-decision-matrix?utm_source=rss&utm_medium=rss&utm_campaign=gut-decision-matrix",
+    "s": "Ness Labs",
+    "d": "2026-03-11T23:02:49+08:00",
+    "ts": 1773241369.0,
+    "x": "We often talk about “trusting our gut.” But the gut feelings people refer to can actually stem from two very different sources: instinct and intuition",
+    "g": "思考"
+   }
+  ],
+  "https://www.learningscientists.org/blog?format=rss": [
+   {
+    "t": "GUEST POST: Premature Cognitive Offloading: The Developmental Blind Spot in K-12 AI Integration",
+    "l": "https://www.learningscientists.org/blog/2026/10/29-1",
+    "s": "Learning Scientists",
+    "d": "2026-10-29T22:30:00+08:00",
+    "ts": 1793284200.0,
+    "x": "When evaluating how the education sector manages generative artificial intelligence, the data reveals a critical misalignment between policy and devel",
+    "g": "學習科學"
+   },
+   {
+    "t": "Wellness and Learning",
+    "l": "https://www.learningscientists.org/blog/2026/10/22-1",
+    "s": "Learning Scientists",
+    "d": "2026-10-23T04:54:37+08:00",
+    "ts": 1792702477.0,
+    "x": "While we spend a good deal of time talking about learning strategies and how to balance note-taking, content review, and active retrieval practice, al",
+    "g": "學習科學"
+   },
+   {
+    "t": "Digest #186: Talking about Learning Styles",
+    "l": "https://www.learningscientists.org/blog/2026/10/15",
+    "s": "Learning Scientists",
+    "d": "2026-10-16T09:00:00+08:00",
+    "ts": 1792112400.0,
+    "x": "As a learning expert, I (Megan) still get asked about learning styles all the time. Recently I was chatting with a colleague and was excited to tell h",
+    "g": "學習科學"
+   },
+   {
+    "t": "Anatomy of Medical School",
+    "l": "https://www.learningscientists.org/blog/2026/10/2/anatomy-of-medical-school",
+    "s": "Learning Scientists",
+    "d": "2026-10-02T21:00:21+08:00",
+    "ts": 1790946021.0,
+    "x": "Cover image by Tara Winstead By Althea Need Kaminske I work as a Medical Education Learning Specialist (MELS) at a large medical school in the US. My ",
+    "g": "學習科學"
+   },
+   {
+    "t": "GUEST POST: When the Body Enters the Classroom: Using Embodied Cognition to Teach Abstract Mathematics",
+    "l": "https://www.learningscientists.org/blog/2026/9/25-1",
+    "s": "Learning Scientists",
+    "d": "2026-09-25T20:17:22+08:00",
+    "ts": 1790338642.0,
+    "x": "Most teachers have experienced the same situation: a student can read a large number correctly but struggles to explain why each digit has a different",
+    "g": "學習科學"
+   },
+   {
+    "t": "Varying Retrieval Practice to Promote Transfer of Learning: A Set of Experiments",
+    "l": "https://www.learningscientists.org/blog/2026/9/17",
+    "s": "Learning Scientists",
+    "d": "2026-09-18T09:24:52+08:00",
+    "ts": 1789694692.0,
+    "x": "In today’s post, I’m covering a set of experiments published by Andrew Butler and colleagues (1) titled Retrieving and Applying Knowledge to Different",
+    "g": "學習科學"
+   }
+  ],
+  "https://www.themarginalian.org/feed/": [
+   {
+    "t": "Meteor of Joy: The Young People’s Chorus of New York City Sings Bird Divinations",
+    "l": "https://www.themarginalian.org/2026/10/31/meteor-of-joy-paola-prestini/",
+    "s": "The Marginalian",
+    "d": "2026-11-01T02:01:08+08:00",
+    "ts": 1793469668.0,
+    "x": "Children know the deepest truths about life, the elemental knowledge we unlearn in the act of living, those inarticulable truths music alone helps us ",
+    "g": "思考"
+   },
+   {
+    "t": "Albert Camus on the Three Antidotes to the Absurdity of Life",
+    "l": "https://www.themarginalian.org/2026/10/31/albert-camus-interview-absurd/",
+    "s": "The Marginalian",
+    "d": "2026-10-31T20:34:44+08:00",
+    "ts": 1793450084.0,
+    "x": "\"In a world whose absurdity appears to be so impenetrable, we simply must reach a greater degree of understanding among men, a greater sincerity.\"",
+    "g": "思考"
+   },
+   {
+    "t": "Music and the Body: Richard Powers on the Power of Song",
+    "l": "https://www.themarginalian.org/2026/10/31/richard-powers-music/",
+    "s": "The Marginalian",
+    "d": "2026-10-31T19:33:17+08:00",
+    "ts": 1793446397.0,
+    "x": "\"The use of music is to remind us how short a time we have a body.\"",
+    "g": "思考"
+   },
+   {
+    "t": "Halloween’s Lost Heroes: Michael Pollan on Radical Gardening and the Insurgent Botanical Origin of the Broomstick in Flying-Witch Legends",
+    "l": "https://www.themarginalian.org/2026/10/30/michael-pollan-witch-broomstick/",
+    "s": "The Marginalian",
+    "d": "2026-10-31T00:41:25+08:00",
+    "ts": 1793378485.0,
+    "x": "\"For most of their history... gardens have been more concerned with the power of plants than with their beauty — with the power, that is, to change us",
+    "g": "思考"
+   },
+   {
+    "t": "Truth, Fact, and the Patterning of Reality: Virginia Woolf on How We Come to Know the World",
+    "l": "https://www.themarginalian.org/2026/10/30/virginia-woolf-truth/",
+    "s": "The Marginalian",
+    "d": "2026-10-31T00:38:17+08:00",
+    "ts": 1793378297.0,
+    "x": "The great myth is that truth is an emergent property of fact, that it bubbles up from the bottom of reality once the mind attains enough fathoms of fa",
+    "g": "思考"
+   }
+  ]
+ }
+}

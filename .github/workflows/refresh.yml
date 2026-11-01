@@ -1,0 +1,31 @@
+name: refresh
+
+on:
+  schedule:
+    - cron: '0 23 * * *'   # 23:00 UTC = 07:00 香港時間
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: 抓取資料
+        run: python refresh.py
+      - name: 提交
+        run: |
+          git config user.name "daily-brief-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data.js data.json
+          if git diff --staged --quiet; then
+            echo "資料無變，唔需要 commit"
+          else
+            git commit -m "data: 每日更新 $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+          fi

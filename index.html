@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-HK">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0a1018">
+<title>每日情報站 · 賺錢 · 健康 · 學習 · 新聞</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230a1018'/%3E%3Ctext x='16' y='23' font-size='19' text-anchor='middle' fill='%234fd1c5' font-family='sans-serif'%3E%E6%97%A5%3C/text%3E%3C/svg%3E">
+<style>
+  :root{
+    --bg:#0a1018; --card:#151d2b; --card2:#1b2537; --line:rgba(255,255,255,.11);
+    --fg:#dee6f2; --fg2:#9fb0c9; --fg3:#b6c4d7;
+    --accent:#4fd1c5; --accent2:#7dd3fc; --warn:#f5b942; --bad:#f87171; --ok:#34d399;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft JhengHei","PingFang HK","Noto Sans CJK TC",sans-serif;
+    -webkit-text-size-adjust:100%;}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 14px 40px}
+
+  header{position:sticky;top:0;z-index:20;background:rgba(10,16,24,.94);
+    backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+  .hd{max-width:1180px;margin:0 auto;padding:9px 14px 0;display:flex;align-items:center;gap:10px}
+  .brand{font-size:16px;font-weight:700;letter-spacing:.5px;white-space:nowrap}
+  .brand b{color:var(--accent)}
+  .badge{margin-left:auto;display:inline-flex;align-items:center;gap:6px;font-size:12px;
+    color:var(--fg3);border:1px solid var(--line);border-radius:20px;padding:4px 10px;white-space:nowrap}
+  .dot{width:7px;height:7px;border-radius:50%;background:var(--ok);flex:none}
+  .dot.snap{background:var(--warn)}
+  button.refresh{background:var(--card2);color:var(--fg);border:1px solid var(--line);
+    border-radius:20px;padding:5px 12px;font-size:12px;cursor:pointer;font-family:inherit}
+  button.refresh:active{background:#243149}
+  nav{display:flex;gap:6px;overflow-x:auto;padding:9px 14px;max-width:1180px;margin:0 auto;
+    scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  nav::-webkit-scrollbar{display:none}
+  nav button{flex:none;background:transparent;border:1px solid var(--line);color:var(--fg3);
+    border-radius:18px;padding:6px 14px;font-size:13.5px;font-family:inherit;cursor:pointer;white-space:nowrap}
+  nav button .n{color:var(--fg2);font-size:11.5px;margin-left:5px}
+  nav button.on{background:var(--accent);border-color:var(--accent);color:#06231f;font-weight:700}
+  nav button.on .n{color:#0b3b34}
+
+  .sec{display:none}
+  .sec.on{display:block}
+  .sh{display:flex;align-items:baseline;gap:10px;margin:16px 0 4px;flex-wrap:wrap}
+  .sh h2{font-size:17px;margin:0;letter-spacing:.3px}
+  .sh .sub{font-size:12px;color:var(--fg2)}
+  .sh .live{margin-left:auto;font-size:12px;color:var(--fg2)}
+  .hint{font-size:12.5px;color:var(--fg2);margin:0 0 12px;line-height:1.65}
+
+  .mgrid{display:grid;grid-template-columns:1fr;gap:10px}
+  .m{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 13px}
+  .m h3{margin:0 0 8px;font-size:14.5px;line-height:1.45;display:flex;gap:8px;align-items:flex-start}
+  .m .rank{flex:none;min-width:20px;height:20px;border-radius:6px;background:var(--card2);
+    color:var(--accent);font-size:11.5px;display:grid;place-items:center;font-weight:700;margin-top:1px}
+  .kv{display:grid;grid-template-columns:70px 1fr;gap:4px 8px;font-size:12.5px;line-height:1.55}
+  .kv dt{color:var(--fg2)}
+  .kv dd{margin:0;color:var(--fg3)}
+  .kv dd.em{color:var(--fg);font-weight:600}
+  .risk-lo{color:var(--ok)} .risk-mid{color:var(--warn)} .risk-hi{color:var(--bad)}
+
+  .list{display:block;margin-top:12px}
+  .item{display:block;background:var(--card);border:1px solid var(--line);border-radius:11px;
+    padding:11px 13px;margin-bottom:8px}
+  .item:active{background:var(--card2)}
+  .meta{display:flex;gap:8px;align-items:center;font-size:11.5px;color:var(--fg2);margin-bottom:5px;flex-wrap:wrap}
+  .tag{border:1px solid var(--line);border-radius:5px;padding:1px 6px;color:var(--fg3);background:var(--card2)}
+  .ttl{font-size:14.5px;line-height:1.5;font-weight:600;color:var(--fg)}
+  .sm{font-size:12.5px;line-height:1.55;color:var(--fg3);margin-top:5px;
+    display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .empty{color:var(--fg2);font-size:13px;padding:24px 0;text-align:center}
+  .warnbar{background:rgba(245,185,66,.12);border:1px solid rgba(245,185,66,.35);color:#f8d68a;
+    border-radius:9px;padding:9px 12px;font-size:12.5px;margin:10px 0}
+
+  .search{display:flex;gap:8px;margin:10px 0 0}
+  .search input{flex:1;min-width:0;background:var(--card);border:1px solid var(--line);color:var(--fg);
+    border-radius:9px;padding:9px 12px;font-size:13.5px;font-family:inherit}
+  .search input::placeholder{color:var(--fg2)}
+
+  footer{margin-top:26px;border-top:1px solid var(--line);padding-top:14px;
+    font-size:12px;color:var(--fg2);line-height:1.75}
+
+  @media (min-width:900px){
+    .mgrid{grid-template-columns:1fr 1fr}
+    .list.two{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+    .list.two .item{margin-bottom:0}
+    .ttl{font-size:15px}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="hd">
+    <div class="brand">每日<b>情報站</b></div>
+    <span class="badge"><span class="dot" id="dot"></span><span id="mode">載入中…</span></span>
+    <button class="refresh" id="btnRefresh">更新</button>
+  </div>
+  <nav id="nav"></nav>
+</header>
+
+<div class="wrap">
+  <section class="sec" data-sec="money">
+    <div class="sh"><h2>賺錢方法</h2><span class="sub">按「幾時收到第一筆錢」排序</span>
+      <span class="live" id="guide-money"></span></div>
+    <p class="hint">數字為 2026 年 10 月核實資料，唔係宣傳數字：中位數、零收入比例、實測時薪都寫埋。</p>
+    <div class="mgrid" id="cards-money"></div>
+    <div class="sh" style="margin-top:26px"><h2>今日賺錢動態</h2>
+      <span class="sub">副業、新產品、財經</span><span class="live" id="news-money"></span></div>
+    <div class="search"><input id="q-money" type="search" placeholder="搜尋關鍵字，例如 pricing、模板、AI"></div>
+    <div class="list two" id="list-money"></div>
+  </section>
+
+  <section class="sec" data-sec="health">
+    <div class="sh"><h2>每日健康微習慣</h2><span class="sub">身體同心情，每次幾分鐘</span>
+      <span class="live" id="guide-health"></span></div>
+    <p class="hint">每項都寫明「做幾多」同「為何有效」。呢啲係一般健康建議，唔係醫療指引；有病請睇醫生。</p>
+    <div class="mgrid" id="cards-health"></div>
+    <div class="sh" style="margin-top:26px"><h2>健康新聞與研究</h2>
+      <span class="sub">今日同近日</span><span class="live" id="news-health"></span></div>
+    <div class="search"><input id="q-health" type="search" placeholder="搜尋關鍵字，例如 睡眠、血糖、壓力"></div>
+    <div class="list two" id="list-health"></div>
+  </section>
+
+  <section class="sec" data-sec="study">
+    <div class="sh"><h2>學習方法</h2><span class="sub">有實證、即刻用得到</span>
+      <span class="live" id="guide-study"></span></div>
+    <p class="hint">每一項都附研究名稱，唔係「勤力啲」式建議。想變強，先改方法，唔係加時數。</p>
+    <div class="mgrid" id="cards-study"></div>
+    <div class="sh" style="margin-top:26px"><h2>課程與文章</h2>
+      <span class="sub">新知、教學、思考</span><span class="live" id="news-study"></span></div>
+    <div class="search"><input id="q-study" type="search" placeholder="搜尋關鍵字，例如 memory、課程、AI"></div>
+    <div class="list two" id="list-study"></div>
+  </section>
+
+  <section class="sec" data-sec="hk">
+    <div class="sh"><h2>香港新聞</h2><span class="sub">本地要聞</span><span class="live" id="news-hk"></span></div>
+    <div class="search"><input id="q-hk" type="search" placeholder="搜尋關鍵字"></div>
+    <div class="list two" id="list-hk"></div>
+  </section>
+
+  <section class="sec" data-sec="cn">
+    <div class="sh"><h2>內地新聞</h2><span class="sub">內地及兩岸要聞</span><span class="live" id="news-cn"></span></div>
+    <div class="search"><input id="q-cn" type="search" placeholder="搜尋關鍵字"></div>
+    <div class="list two" id="list-cn"></div>
+  </section>
+
+  <section class="sec" data-sec="intl">
+    <div class="sh"><h2>國際新聞</h2><span class="sub">今日同近日</span><span class="live" id="news-intl"></span></div>
+    <div class="search"><input id="q-intl" type="search" placeholder="搜尋關鍵字"></div>
+    <div class="list two" id="list-intl"></div>
+  </section>
+
+  <footer>
+    <div id="srcline"></div>
+    <div style="margin-top:6px">資料每小時由 <code>refresh.py</code> 重新抓取；頁面顯示嘅時間就係資料實際時間，唔會扮即時。</div>
+    <div style="margin-top:6px">新聞版權屬原作者，此站只做標題／摘要索引，點擊可跳去原文。賺錢數字係市場統計與實測紀錄，健康內容係一般建議——兩者都唔構成投資或醫療建議。</div>
+  </footer>
+</div>
+
+<script src="data.js"></script>
+<script>
+(function(){
+  var D = window.DAILY || {sections:{}, guides:{}};
+  var SECS = [
+    {k:'money',  label:'賺錢', guide:1},
+    {k:'health', label:'健康', guide:1},
+    {k:'study',  label:'學習', guide:1},
+    {k:'hk',     label:'香港'},
+    {k:'cn',     label:'內地'},
+    {k:'intl',   label:'國際'}
+  ];
+  var mode = 'snapshot';
+
+  function esc(s){ return (s==null?'':String(s)).replace(/[&<>"]/g, function(c){
+    return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+  function nowHKT(){ return new Date(Date.now() + (new Date().getTimezoneOffset()+480)*60000); }
+  function p2(x){ return (x<10?'0':'')+x; }
+  function fmtTime(iso){
+    var d = new Date(iso); if (isNaN(d)) return '—';
+    var n = nowHKT(), t = p2(d.getHours())+':'+p2(d.getMinutes());
+    if (d.getFullYear()===n.getFullYear() && d.getMonth()===n.getMonth() && d.getDate()===n.getDate()) return '今日 '+t;
+    var y = new Date(n.getTime()-864e5);
+    if (d.getFullYear()===y.getFullYear() && d.getMonth()===y.getMonth() && d.getDate()===y.getDate()) return '昨日 '+t;
+    return (d.getMonth()+1)+'-'+p2(d.getDate())+' '+t;
+  }
+  function fmtGen(iso){
+    var d = new Date(iso); if (isNaN(d)) return '—';
+    return p2(d.getHours())+':'+p2(d.getMinutes());
+  }
+
+  var nav = document.getElementById('nav');
+  nav.innerHTML = SECS.map(function(s){
+    var n = ((D.sections[s.k]||{}).items || []).length;
+    return '<button data-k="'+s.k+'">'+s.label+'<span class="n">'+n+'</span></button>';
+  }).join('');
+  nav.addEventListener('click', function(e){
+    var b = e.target.closest('button[data-k]'); if(!b) return;
+    setTab(b.getAttribute('data-k'));
+  });
+  function setTab(k){
+    Array.prototype.forEach.call(document.querySelectorAll('.sec'), function(s){
+      s.classList.toggle('on', s.getAttribute('data-sec')===k);
+    });
+    Array.prototype.forEach.call(nav.querySelectorAll('button'), function(b){
+      b.classList.toggle('on', b.getAttribute('data-k')===k);
+    });
+    window.scrollTo(0,0);
+  }
+
+  // 指引卡：風險行用顏色，其他「hi」代表強調
+  function rowClass(label, cls){
+    if (label.indexOf('風險') === 0)
+      return 'risk-' + ({lo:'lo', mid:'mid', hi:'hi'}[cls] || 'mid');
+    return cls === 'hi' ? 'em' : '';
+  }
+  function renderGuide(k){
+    var el = document.getElementById('cards-'+k);
+    var list = (D.guides||{})[k] || [];
+    if (!list.length){ el.innerHTML = '<div class="empty">未有資料</div>'; return; }
+    el.innerHTML = list.map(function(m,i){
+      return '<article class="m"><h3><span class="rank">'+(i+1)+'</span><span>'+esc(m.n)+'</span></h3>'+
+        '<dl class="kv">' + m.rows.map(function(r){
+          return '<dt>'+esc(r[0])+'</dt><dd class="'+rowClass(r[0], r[2])+'">'+esc(r[1])+'</dd>';
+        }).join('') + '</dl></article>';
+    }).join('');
+  }
+
+  function renderList(k, q){
+    var el = document.getElementById('list-'+k);
+    var sec = D.sections[k] || {items:[]};
+    var items = sec.items || [];
+    if (q){
+      var qq = q.toLowerCase();
+      items = items.filter(function(i){
+        return (i.t+' '+(i.x||'')+' '+(i.s||'')).toLowerCase().indexOf(qq) >= 0;
+      });
+    }
+    var bar = sec.stale ? '<div class="warnbar">這個分類今次抓取失敗，以下係上次成功嘅資料。</div>' : '';
+    if (!items.length){ el.innerHTML = bar + '<div class="empty">'+(q?'搵唔到含「'+esc(q)+'」嘅內容':'這個分類暫時冇資料')+'</div>'; return; }
+    el.innerHTML = bar + items.map(function(i){
+      return '<a class="item" href="'+esc(i.l)+'" target="_blank" rel="noopener">'+
+        '<div class="meta">'+(i.g?'<span class="tag">'+esc(i.g)+'</span>':'')+'<span>'+esc(i.s)+'</span>'+
+        '<span>·</span><span>'+fmtTime(i.d)+'</span></div>'+
+        '<div class="ttl">'+esc(i.t)+'</div>'+
+        (i.x?'<div class="sm">'+esc(i.x)+'</div>':'')+
+        '</a>';
+    }).join('');
+  }
+
+  function renderHeads(){
+    SECS.forEach(function(s){
+      var sec = D.sections[s.k] || {items:[]};
+      var n = (sec.items||[]).length;
+      var newest = '—';
+      if (n){
+        var mx = 0;
+        (sec.items||[]).forEach(function(i){
+          var t = i.ts ? i.ts * 1000 : Date.parse(i.d);
+          if (t > mx) mx = t;
+        });
+        if (mx) newest = fmtTime(new Date(mx).toISOString());
+      }
+      var ne = document.getElementById('news-'+s.k);
+      if (ne) ne.textContent = n+' 條 · 最新 '+newest+' · '+((sec.sources||[]).length)+' 個來源';
+      var ge = document.getElementById('guide-'+s.k);
+      if (ge) ge.textContent = (((D.guides||{})[s.k]||[]).length) + ' 項';
+    });
+    var all = {};
+    SECS.forEach(function(s){ ((D.sections[s.k]||{}).sources||[]).forEach(function(x){ all[x]=1; }); });
+    document.getElementById('srcline').textContent = '資料來源：' + Object.keys(all).join('、');
+  }
+
+  function setMode(txt, cls){
+    document.getElementById('mode').textContent = txt;
+    document.getElementById('dot').className = 'dot ' + (cls||'');
+  }
+  function renderBadge(){
+    var t = fmtGen(D.generated_at);
+    if (mode === 'live') setMode('自動更新 · '+t, '');
+    else setMode('離線快照 · '+t, 'snap');
+  }
+  function probe(){
+    fetch('api/live', {cache:'no-store'}).then(function(r){
+      if (r.ok){ mode = 'live'; renderBadge(); }
+    }).catch(function(){ mode = 'snapshot'; renderBadge(); });
+  }
+  function reloadData(){
+    var s = document.createElement('script');
+    s.src = 'data.js?t=' + Date.now();
+    s.onload = function(){
+      if (window.DAILY && window.DAILY.generated_at !== D.generated_at){
+        D = window.DAILY; renderAll(); renderBadge();
+      }
+    };
+    document.body.appendChild(s);
+  }
+  function renderAll(){
+    SECS.forEach(function(s){
+      if (s.guide) renderGuide(s.k);
+      var q = document.getElementById('q-'+s.k);
+      renderList(s.k, q ? q.value.trim() : '');
+    });
+    renderHeads();
+  }
+
+  SECS.forEach(function(s){
+    var q = document.getElementById('q-'+s.k);
+    if (q) q.addEventListener('input', function(){ renderList(s.k, this.value.trim()); });
+  });
+
+  document.getElementById('btnRefresh').addEventListener('click', function(){
+    var b = this; b.textContent = '更新中…'; b.disabled = true;
+    var done = function(){ b.textContent = '更新'; b.disabled = false; };
+    if (mode === 'live'){
+      fetch('api/refresh', {cache:'no-store'}).then(function(){ reloadData(); done(); })
+        .catch(function(){ reloadData(); done(); });
+    } else { reloadData(); setTimeout(done, 900); }
+  });
+
+  renderAll();
+  setTab('money');
+  renderBadge(); probe();
+  setInterval(function(){ if (mode !== 'live') reloadData(); }, 600000);
+})();
+</script>
+</body>
+</html>
