@@ -66,9 +66,15 @@ schtasks /delete /tn "DailyBrief Refresh" /f
 schtasks /delete /tn "DailyBrief Server" /f
 ```
 
-## 六、想放上網（手機用流動數據都開得）
+## 六、已經放上網（手機用流動數據都開得）
 
-現時手機只可以同一個 Wi-Fi 開。要真正公開網址（免費、24 小時、唔需要開電腦），做法係 GitHub Pages ＋ Actions 每日自動更新：
+**已發佈：** https://victoryuen99999-commits.github.io/daily-brief/
+
+- 獨立 repo：`victoryuen99999-commits/daily-brief`（**唔會影響**原本嘅 `huanggang-port`）
+- GitHub Actions 每日香港時間 07:00 自動跑 `refresh.py` 並 commit，所以唔需要開電腦
+- 想手動更新：去 repo → Actions → refresh → Run workflow
+
+當初設定步驟（已完成，留作記錄）：
 
 1. 裝 `gh` 並登入：`gh auth login`
 2. 開 repo 並推上去：
