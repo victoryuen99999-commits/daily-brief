@@ -340,6 +340,8 @@ def build():
         except Exception as e:
             use = cache.get(key, [])[: f["lim"]]
             cached = bool(use)
+            if cached:            # 失敗都保住上次成功嘅資料，唔會令 cache 條目消失
+                newcache[key] = use
             health.append(dict(src=f["name"], sec=f["sec"], ok=False, err=type(e).__name__,
                                n=len(use), cached=cached))
             print(f"  ! {f['name']}: {type(e).__name__} {e}" + ("（用上次成功資料）" if cached else ""))
