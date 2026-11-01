@@ -20,6 +20,7 @@ FEEDS = [
     # 香港
     dict(sec="hk",  name="香港電台",   url="https://rthk9.rthk.hk/rthk/news/rss/c_expressnews_clocal.xml", lim=18),
     dict(sec="hk",  name="明報要聞",   url="https://news.mingpao.com/rss/pns/s00001.xml", lim=18),
+    dict(sec="hk",  name="星島頭條",   tag="港聞", url="https://std.stheadline.com/rss", lim=15),
     dict(sec="hk",  name="香港電台財經", url="https://rthk9.rthk.hk/rthk/news/rss/c_expressnews_cfinance.xml", lim=10),
     # 內地
     dict(sec="cn",  name="中新網即時", url="https://www.chinanews.com.cn/rss/scroll-news.xml", lim=18),
@@ -287,7 +288,10 @@ def parse_feed(raw, src):
             elif cl in ("pubdate", "published", "updated", "date"):
                 if not date:
                     date = ch.text or ""
+        title = strip_html(title)
         if not title or not link:
+            continue
+        if title.startswith("【重溫】") or "新聞天地" in title:
             continue
         d = parse_date(date)
         sm = strip_html(desc)
