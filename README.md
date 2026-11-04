@@ -69,7 +69,7 @@ schtasks /delete /tn "DailyBrief Server" /f
 
 ## 六、已經放上網（手機用流動數據都開得）
 
-**已發佈：** https://victoryuen99999-commits.github.io/daily-brief/
+**已發佈（Cloudflare）：** https://daily-brief.victoryuen99999.workers.dev/
 
 - 獨立 repo：`victoryuen99999-commits/daily-brief`（**唔會影響**原本嘅 `huanggang-port`）
 - GitHub Actions 每日香港時間 07:00 自動跑 `refresh.py` 並 commit，所以唔需要開電腦
