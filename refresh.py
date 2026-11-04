@@ -211,6 +211,77 @@ GUIDES = {
  ],
 }
 
+# ── 今日精選：與你相關關鍵詞（BMS／機電／數據中心／能源／AI／樓市／iPhone）──
+FOCUS_STRONG = [
+    "數據中心", "数据中心", "DCIM", "BMS", "樓宇管理", "機電", "机电", "冷卻系統", "散熱",
+    "能源", "電力", "电力", "中電", "港燈", "電費", "電價", "停電", "供電", "備用電", "儲能", "太陽能",
+    "碳中和", "減碳", "碳排放", "算力", "晶片", "芯片",
+    "iPhone", "回收價", "炒賣", "樓市", "按揭", "利率", "息口", "商廈",
+    "招標", "承辦商", "消防", "驗樓", "升降機",
+    "副業", "被動收入", "強積金", "報稅",
+]
+FOCUS_MEDIUM = [
+    "AI", "人工智能", "機械人", "工程", "維修", "工程界", "ESG", "租金", "創業", "自由工作者", "稅",
+]
+
+
+def score_item(title, body):
+    hits, score = [], 0
+    for k in FOCUS_STRONG:
+        if k in title:
+            hits.append(k); score += 3
+        elif k in body:
+            hits.append(k); score += 1
+    for k in FOCUS_MEDIUM:
+        if k in title:
+            hits.append(k); score += 2
+    return score, list(dict.fromkeys(hits))[:3]
+
+
+def pick_act(item, prefer):
+    rows = {r[0]: r[1] for r in item["rows"]}
+    for k in prefer:
+        if k in rows:
+            return rows[k]
+    return item["rows"][0][1]
+
+
+def build_today(data):
+    now = datetime.now(HKT)
+    day = now.timetuple().tm_yday
+    scored = []
+    for sec, blk in data["sections"].items():
+        for it in (blk.get("items") or [])[:48]:
+            score, hits = score_item(it["t"], it.get("x") or "")
+            if score < 3:
+                continue
+            scored.append((score, it, hits, sec))
+    scored.sort(key=lambda x: (-x[0], -x[1]["ts"]))
+    focus = []
+    per_sec = {}
+    for score, it, hits, sec in scored:
+        if len(focus) >= 8:
+            break
+        if per_sec.get(sec, 0) >= 3:      # 每個分類最多 3 條，避免偏食
+            continue
+        per_sec[sec] = per_sec.get(sec, 0) + 1
+        focus.append(dict(t=it["t"], l=it["l"], s=it["s"], d=it["d"], g=it.get("g", ""),
+                          why="、".join(hits), sec=sec))
+
+    h = GUIDES["health"][day % len(GUIDES["health"])]
+    st = GUIDES["study"][day % len(GUIDES["study"])]
+    m = GUIDES["money"][day % len(GUIDES["money"])]
+    picks = [
+        dict(k="健康", n=h["n"], act=pick_act(h, ["最低要求", "做幾多"])),
+        dict(k="學習", n=st["n"], act=pick_act(st, ["最小起步", "做法"])),
+        dict(k="賺錢", n=m["n"], act=pick_act(m, ["首筆收入"]) + "｜" + pick_act(m, ["實數"])[:80]),
+    ]
+    wk = "一二三四五六日"[now.weekday()]
+    return dict(date=now.strftime("%Y-%m-%d"),
+                date_label=now.strftime("%m月%d日") + "（星期" + wk + "）",
+                picks=picks, focus=focus)
+
+
 # ── 工具 ───────────────────────────────────────────────
 def fetch(url, tries=2):
     last = None
@@ -383,6 +454,8 @@ def build():
             old = dict(prev["sections"][k]); old["stale"] = True
             block = old
         data["sections"][k] = block
+
+    data["today"] = build_today(data)
 
     with open(os.path.join(HERE, "data.json"), "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=1)

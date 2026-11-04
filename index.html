@@ -77,10 +77,23 @@
     border-radius:9px;padding:9px 12px;font-size:13.5px;font-family:inherit}
   .search input::placeholder{color:var(--fg2)}
 
+  /* 今日三件事 */
+  .tg{display:grid;grid-template-columns:1fr;gap:10px}
+  .tk{display:block;background:var(--card);border:1px solid var(--line);border-radius:12px;
+    padding:12px 13px;cursor:pointer;transition:opacity .15s ease}
+  .tk input{accent-color:var(--accent);width:17px;height:17px;vertical-align:-3px;margin:0 6px 0 0;cursor:pointer}
+  .tk .kb{font-size:11.5px;color:var(--fg2);border:1px solid var(--line);border-radius:5px;
+    padding:1px 6px;background:var(--card2);vertical-align:2px}
+  .tk .kn{display:block;font-size:14.5px;font-weight:600;margin:8px 0 5px;line-height:1.45}
+  .tk .ka{display:block;font-size:12.5px;color:var(--fg3);line-height:1.55}
+  .tk.done{opacity:.55}
+  .tk.done .kn{text-decoration:line-through}
+
   footer{margin-top:26px;border-top:1px solid var(--line);padding-top:14px;
     font-size:12px;color:var(--fg2);line-height:1.75}
 
   @media (min-width:900px){
+    .tg{grid-template-columns:1fr 1fr 1fr}
     .mgrid{grid-template-columns:1fr 1fr}
     .list.two{display:grid;grid-template-columns:1fr 1fr;gap:8px}
     .list.two .item{margin-bottom:0}
@@ -100,6 +113,16 @@
 </header>
 
 <div class="wrap">
+  <section class="sec" data-sec="today">
+    <div class="sh"><h2>今日三件事</h2><span class="sub" id="today-date"></span>
+      <span class="live" id="guide-today"></span></div>
+    <p class="hint">每日自動輪換：一件健康、一件學習、一件賺錢。打勾會記住（存在你部機）。</p>
+    <div class="tg" id="today-picks"></div>
+    <div class="sh" style="margin-top:26px"><h2>與你相關嘅今日資訊</h2>
+      <span class="sub">數據中心・機電・能源・AI・利率・樓市・iPhone</span><span class="live" id="news-today"></span></div>
+    <div class="list two" id="list-today"></div>
+  </section>
+
   <section class="sec" data-sec="money">
     <div class="sh"><h2>賺錢方法</h2><span class="sub">按「幾時收到第一筆錢」排序</span>
       <span class="live" id="guide-money"></span></div>
@@ -163,6 +186,7 @@
 (function(){
   var D = window.DAILY || {sections:{}, guides:{}};
   var SECS = [
+    {k:'today',  label:'今日'},
     {k:'money',  label:'賺錢', guide:1},
     {k:'health', label:'健康', guide:1},
     {k:'study',  label:'學習', guide:1},
@@ -191,7 +215,8 @@
 
   var nav = document.getElementById('nav');
   nav.innerHTML = SECS.map(function(s){
-    var n = ((D.sections[s.k]||{}).items || []).length;
+    var n = s.k === 'today' ? ((D.today||{}).focus || []).length
+                            : ((D.sections[s.k]||{}).items || []).length;
     return '<button data-k="'+s.k+'">'+s.label+'<span class="n">'+n+'</span></button>';
   }).join('');
   nav.addEventListener('click', function(e){
@@ -226,6 +251,40 @@
     }).join('');
   }
 
+  function renderToday(){
+    var T = D.today || {};
+    document.getElementById('today-date').textContent = T.date_label || '';
+    var store = {};
+    try { store = JSON.parse(localStorage.getItem('done-' + T.date) || '{}'); } catch(e){}
+    var picks = T.picks || [];
+    document.getElementById('today-picks').innerHTML = picks.map(function(p,i){
+      var done = store[i] ? ' done' : '';
+      return '<label class="tk'+done+'"><input type="checkbox" data-i="'+i+'"'+(store[i]?' checked':'')+'>'+
+        '<span class="kb">'+esc(p.k)+'</span>'+
+        '<span class="kn">'+esc(p.n)+'</span>'+
+        '<span class="ka">'+esc(p.act)+'</span></label>';
+    }).join('');
+    Array.prototype.forEach.call(document.querySelectorAll('#today-picks input'), function(cb){
+      cb.addEventListener('change', function(){
+        var st = {};
+        try { st = JSON.parse(localStorage.getItem('done-' + T.date) || '{}'); } catch(e){}
+        st[this.getAttribute('data-i')] = this.checked;
+        try { localStorage.setItem('done-' + T.date, JSON.stringify(st)); } catch(e){}
+        this.parentNode.classList.toggle('done', this.checked);
+      });
+    });
+    var f = T.focus || [];
+    document.getElementById('news-today').textContent = f.length + ' 條';
+    document.getElementById('list-today').innerHTML = f.length ? f.map(function(i){
+      return '<a class="item" href="'+esc(i.l)+'" target="_blank" rel="noopener">'+
+        '<div class="meta"><span class="tag">'+esc(i.why||'相關')+'</span><span>'+esc(i.s)+'</span>'+
+        '<span>·</span><span>'+fmtTime(i.d)+'</span></div>'+
+        '<div class="ttl">'+esc(i.t)+'</div>'+
+        (i.x?'<div class="sm">'+esc(i.x)+'</div>':'')+
+        '</a>';
+    }).join('') : '<div class="empty">今日未搵到同你範疇相關嘅新聞</div>';
+  }
+
   function renderList(k, q){
     var el = document.getElementById('list-'+k);
     var sec = D.sections[k] || {items:[]};
@@ -250,6 +309,7 @@
 
   function renderHeads(){
     SECS.forEach(function(s){
+      if (s.k === 'today') return;          // 由 renderToday 負責
       var sec = D.sections[s.k] || {items:[]};
       var n = (sec.items||[]).length;
       var newest = '—';
@@ -296,7 +356,9 @@
     document.body.appendChild(s);
   }
   function renderAll(){
+    renderToday();
     SECS.forEach(function(s){
+      if (s.k === 'today') return;          // 由 renderToday 負責
       if (s.guide) renderGuide(s.k);
       var q = document.getElementById('q-'+s.k);
       renderList(s.k, q ? q.value.trim() : '');
@@ -319,7 +381,7 @@
   });
 
   renderAll();
-  setTab('money');
+  setTab('today');
   renderBadge(); probe();
   setInterval(function(){ if (mode !== 'live') reloadData(); }, 600000);
 })();
