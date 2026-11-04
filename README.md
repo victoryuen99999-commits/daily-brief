@@ -50,6 +50,7 @@
 | `start.bat` | 開伺服器（電腦＋手機） |
 | `update.bat` | 只更新一次資料 |
 | `autostart_server.bat` | 開機自動背景開伺服器（工作排程器用） |
+| `開網上版.bat` | 一鍵開「本機伺服器 ＋ Cloudflare 臨時隧道」，即刻有公開網址（唔需帳號） |
 | `allow_firewall.bat` | 開放防火牆 port 8090（手機連唔到時用，需按一次 UAC） |
 
 ## 五、已裝嘅 Windows 工作排程
