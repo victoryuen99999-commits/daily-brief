@@ -77,6 +77,19 @@
     border-radius:9px;padding:9px 12px;font-size:13.5px;font-family:inherit}
   .search input::placeholder{color:var(--fg2)}
 
+  /* 小按鈕 */
+  .mini-btn{background:var(--card2);border:1px solid var(--line);color:var(--fg3);
+    border-radius:14px;padding:3px 10px;font-size:11.5px;font-family:inherit;cursor:pointer}
+  .mini-btn:active{background:#243149}
+  /* 英文版生字 */
+  .wc{display:inline-block;border:1px solid var(--line);background:var(--card2);color:var(--fg3);
+    border-radius:5px;padding:1px 6px;font-size:11.5px;margin:6px 5px 0 0}
+  .wc b{color:var(--accent2);font-weight:600}
+  .gloss{display:grid;grid-template-columns:repeat(2,1fr);gap:6px;font-size:12.5px}
+  .gloss .gw{border:1px solid var(--line);border-radius:7px;padding:5px 8px;background:var(--card)}
+  .gloss .gw b{color:var(--accent2);font-weight:600;margin-right:6px}
+  @media (min-width:900px){ .gloss{grid-template-columns:repeat(3,1fr)} }
+
   /* 今日三件事 */
   .tg{display:grid;grid-template-columns:1fr;gap:10px}
   .tk{display:block;background:var(--card);border:1px solid var(--line);border-radius:12px;
@@ -125,7 +138,7 @@
 
   <section class="sec" data-sec="money">
     <div class="sh"><h2>賺錢方法</h2><span class="sub">按「幾時收到第一筆錢」排序</span>
-      <span class="live" id="guide-money"></span></div>
+      <span class="live" id="guide-money"></span><button class="mini-btn" data-shuffle="money">換一批</button><button class="mini-btn" data-all="money">顯示全部</button></div>
     <p class="hint">數字為 2026 年 10 月核實資料，唔係宣傳數字：中位數、零收入比例、實測時薪都寫埋。</p>
     <div class="mgrid" id="cards-money"></div>
     <div class="sh" style="margin-top:26px"><h2>今日賺錢動態</h2>
@@ -136,7 +149,7 @@
 
   <section class="sec" data-sec="health">
     <div class="sh"><h2>每日健康微習慣</h2><span class="sub">身體同心情，每次幾分鐘</span>
-      <span class="live" id="guide-health"></span></div>
+      <span class="live" id="guide-health"></span><button class="mini-btn" data-shuffle="health">換一批</button><button class="mini-btn" data-all="health">顯示全部</button></div>
     <p class="hint">每項都寫明「做幾多」同「為何有效」。呢啲係一般健康建議，唔係醫療指引；有病請睇醫生。</p>
     <div class="mgrid" id="cards-health"></div>
     <div class="sh" style="margin-top:26px"><h2>健康新聞與研究</h2>
@@ -147,7 +160,7 @@
 
   <section class="sec" data-sec="study">
     <div class="sh"><h2>學習方法</h2><span class="sub">有實證、即刻用得到</span>
-      <span class="live" id="guide-study"></span></div>
+      <span class="live" id="guide-study"></span><button class="mini-btn" data-shuffle="study">換一批</button><button class="mini-btn" data-all="study">顯示全部</button></div>
     <p class="hint">每一項都附研究名稱，唔係「勤力啲」式建議。想變強，先改方法，唔係加時數。</p>
     <div class="mgrid" id="cards-study"></div>
     <div class="sh" style="margin-top:26px"><h2>課程與文章</h2>
@@ -174,6 +187,16 @@
     <div class="list two" id="list-intl"></div>
   </section>
 
+  <section class="sec" data-sec="en">
+    <div class="sh"><h2>English News</h2><span class="sub">淺白英文 · 生字有中文</span>
+      <span class="live" id="news-en"></span></div>
+    <p class="hint">四份用簡單英文寫嘅新聞：BBC Newsround（寫畀中學生睇）、News in Levels、Breaking News English、Simple English News。每則下面列出文中用到嘅「新聞常用字」＋中文，唔明即刻對照；句子短，一段通常 2–3 句。</p>
+    <div class="search"><input id="q-en" type="search" placeholder="搵字，例如 tariff、court、flood"></div>
+    <div class="list two" id="list-en"></div>
+    <div class="sh" style="margin-top:26px"><h2>新聞常用字</h2><span class="sub" id="gloss-count"></span></div>
+    <div class="gloss" id="glossary"></div>
+  </section>
+
   <footer>
     <div id="srcline"></div>
     <div style="margin-top:6px">資料每小時由 <code>refresh.py</code> 重新抓取；頁面顯示嘅時間就係資料實際時間，唔會扮即時。</div>
@@ -192,7 +215,8 @@
     {k:'study',  label:'學習', guide:1},
     {k:'hk',     label:'香港'},
     {k:'cn',     label:'內地'},
-    {k:'intl',   label:'國際'}
+    {k:'intl',   label:'國際'},
+    {k:'en',     label:'英文'}
   ];
   var mode = 'snapshot';
 
@@ -241,14 +265,86 @@
   }
   function renderGuide(k){
     var el = document.getElementById('cards-'+k);
-    var list = (D.guides||{})[k] || [];
-    if (!list.length){ el.innerHTML = '<div class="empty">未有資料</div>'; return; }
+    var all = (D.guides||{})[k] || [];
+    if (!all.length){ el.innerHTML = '<div class="empty">未有資料</div>'; return; }
+    if (!guideState[k]) guideState[k] = { seed: daySeed() * 7 + k.length, all: false };
+    var st = guideState[k];
+    var arr = shuffled(all, st.seed);
+    var list = st.all ? arr : arr.slice(0, Math.min(GUIDE_SHOW, arr.length));
+    var btn = document.querySelector('[data-all="'+k+'"]');
+    if (btn) btn.textContent = st.all ? '只看精選' : '顯示全部 ' + all.length + ' 項';
     el.innerHTML = list.map(function(m,i){
       return '<article class="m"><h3><span class="rank">'+(i+1)+'</span><span>'+esc(m.n)+'</span></h3>'+
         '<dl class="kv">' + m.rows.map(function(r){
           return '<dt>'+esc(r[0])+'</dt><dd class="'+rowClass(r[0], r[2])+'">'+esc(r[1])+'</dd>';
         }).join('') + '</dl></article>';
     }).join('');
+  }
+
+  // ── 新聞常用字（英文版）──
+  var GLOSSARY = {
+    "government":"政府","minister":"部長／大臣","president":"總統","prime minister":"首相","official":"官員",
+    "election":"選舉","vote":"投票","parliament":"議會","court":"法院","judge":"法官","law":"法律",
+    "police":"警察","army":"軍隊","war":"戰爭","attack":"襲擊","peace":"和平","ceasefire":"停火",
+    "border":"邊境","immigration":"入境","visa":"簽證","refugee":"難民","migrant":"移民",
+    "economy":"經濟","inflation":"通脹","price":"價格","tax":"稅","tariff":"關稅","trade":"貿易",
+    "market":"市場","bank":"銀行","loan":"貸款","debt":"債務","growth":"增長","recession":"衰退",
+    "job":"工作","unemployment":"失業","wage":"工資","strike":"罷工","company":"公司","factory":"工廠",
+    "energy":"能源","oil":"石油","gas":"天然氣","electricity":"電力","climate":"氣候","carbon":"碳",
+    "pollution":"污染","environment":"環境","flood":"水災","storm":"風暴","typhoon":"颱風","hurricane":"颶風",
+    "earthquake":"地震","tsunami":"海嘯","drought":"旱災","fire":"火災","disease":"疾病","virus":"病毒",
+    "vaccine":"疫苗","hospital":"醫院","health":"健康","doctor":"醫生","patient":"病人","medicine":"藥物",
+    "school":"學校","student":"學生","teacher":"老師","university":"大學","exam":"考試","research":"研究",
+    "science":"科學","technology":"科技","computer":"電腦","internet":"互聯網","phone":"電話","data":"數據",
+    "social media":"社交媒體","company profit":"公司利潤","sale":"銷售","customer":"顧客","product":"產品",
+    "agreement":"協議","deal":"協議","talks":"會談","treaty":"條約","sanction":"制裁","ban":"禁令",
+    "protest":"抗議","rights":"權利","freedom":"自由","speech":"演講","report":"報道","accident":"意外",
+    "rescue":"救援","victim":"受害者","damage":"損害","repair":"維修","build":"興建","bridge":"橋",
+    "road":"道路","train":"火車","airport":"機場","flight":"航班","ship":"船","port":"港口"
+  };
+
+  // 每日／每次按「換一批」都會重新洗牌（同一日內穩定）
+  var GUIDE_SHOW = 4;
+  var guideState = {};
+  function daySeed(){
+    var d = new Date();
+    return d.getFullYear() * 10000 + (d.getMonth()+1) * 100 + d.getDate();
+  }
+  function mulberry32(a){
+    return function(){
+      a |= 0; a = a + 0x6D2B79F5 | 0;
+      var t = Math.imul(a ^ a >>> 15, 1 | a);
+      t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t;
+      return ((t ^ t >>> 14) >>> 0) / 4294967296;
+    };
+  }
+  function shuffled(arr, seed){
+    var r = mulberry32(seed), a = arr.slice();
+    for (var i = a.length - 1; i > 0; i--){
+      var j = Math.floor(r() * (i + 1));
+      var tmp = a[i]; a[i] = a[j]; a[j] = tmp;
+    }
+    return a;
+  }
+  function wordChips(text){
+    var out = [], t = ' ' + String(text).toLowerCase() + ' ';
+    Object.keys(GLOSSARY).forEach(function(w){
+      if (out.length >= 5) return;
+      if (t.indexOf(' ' + w.toLowerCase() + ' ') >= 0) out.push(w);
+    });
+    return out.map(function(w){
+      return '<span class="wc"><b>'+esc(w)+'</b>'+esc(GLOSSARY[w])+'</span>';
+    }).join('');
+  }
+  function renderGlossary(){
+    var el = document.getElementById('glossary');
+    if (!el) return;
+    var keys = Object.keys(GLOSSARY).sort();
+    el.innerHTML = keys.map(function(w){
+      return '<div class="gw"><b>'+esc(w)+'</b>'+esc(GLOSSARY[w])+'</div>';
+    }).join('');
+    var c = document.getElementById('gloss-count');
+    if (c) c.textContent = keys.length + ' 個';
   }
 
   function renderToday(){
@@ -281,6 +377,7 @@
         '<span>·</span><span>'+fmtTime(i.d)+'</span></div>'+
         '<div class="ttl">'+esc(i.t)+'</div>'+
         (i.x?'<div class="sm">'+esc(i.x)+'</div>':'')+
+        
         '</a>';
     }).join('') : '<div class="empty">今日未搵到同你範疇相關嘅新聞</div>';
   }
@@ -303,6 +400,7 @@
         '<span>·</span><span>'+fmtTime(i.d)+'</span></div>'+
         '<div class="ttl">'+esc(i.t)+'</div>'+
         (i.x?'<div class="sm">'+esc(i.x)+'</div>':'')+
+        (k === 'en' ? wordChips(i.t + ' ' + (i.x||'')) : '')+
         '</a>';
     }).join('');
   }
@@ -357,6 +455,7 @@
   }
   function renderAll(){
     renderToday();
+    renderGlossary();
     SECS.forEach(function(s){
       if (s.k === 'today') return;          // 由 renderToday 負責
       if (s.guide) renderGuide(s.k);
@@ -378,6 +477,22 @@
       fetch('api/refresh', {cache:'no-store'}).then(function(){ reloadData(); done(); })
         .catch(function(){ reloadData(); done(); });
     } else { reloadData(); setTimeout(done, 900); }
+  });
+
+  Array.prototype.forEach.call(document.querySelectorAll('[data-shuffle]'), function(b){
+    b.addEventListener('click', function(){
+      var k = b.getAttribute('data-shuffle');
+      guideState[k] = { seed: Math.floor(Math.random() * 1e9), all: false };
+      renderGuide(k);
+    });
+  });
+  Array.prototype.forEach.call(document.querySelectorAll('[data-all]'), function(b){
+    b.addEventListener('click', function(){
+      var k = b.getAttribute('data-all');
+      if (!guideState[k]) guideState[k] = { seed: daySeed() * 7 + k.length, all: false };
+      guideState[k].all = !guideState[k].all;
+      renderGuide(k);
+    });
   });
 
   renderAll();

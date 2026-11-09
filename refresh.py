@@ -54,10 +54,16 @@ FEEDS = [
     dict(sec="study", name="Ness Labs", tag="思考", url="https://nesslabs.com/feed", lim=6),
     dict(sec="study", name="Learning Scientists", tag="學習科學", url="https://www.learningscientists.org/blog?format=rss", lim=6),
     dict(sec="study", name="The Marginalian", tag="思考", url="https://www.themarginalian.org/feed/", lim=5),
+    # English (simple)
+    dict(sec="en", name="BBC Newsround", tag="Easy English", url="https://feeds.bbci.co.uk/newsround/rss.xml", lim=12,
+         skip=["Watch Newsround", "signed and subtitled"]),
+    dict(sec="en", name="News in Levels", tag="Level 1-2", url="https://www.newsinlevels.com/feed/", lim=8,
+         skip=["English news and easy articles"]),
+    dict(sec="en", name="BBC World", tag="進階", url="https://feeds.bbci.co.uk/news/world/rss.xml", lim=6),
 ]
 
-SEC_ORDER = ["money", "health", "study", "hk", "cn", "intl"]
-MAX_AGE_DAYS = {"money": 21, "health": 30, "study": 75}
+SEC_ORDER = ["money", "health", "study", "hk", "cn", "intl", "en"]
+MAX_AGE_DAYS = {"money": 21, "health": 30, "study": 75, "en": 14}
 
 # ── 指引庫（數字／做法來自 2026-10 核實資料，需定期覆核）──────────
 GUIDES = {
@@ -406,6 +412,8 @@ def build():
                 items = parse_feed(fetch(f["alt"]), f["name"])
             if f.get("match"):
                 items = [i for i in items if any(k in i["t"] for k in f["match"])]
+            if f.get("skip"):
+                items = [i for i in items if not any(k in i["t"] for k in f["skip"])]
             if not items:
                 raise ValueError("0 items")
             items.sort(key=lambda i: i["ts"], reverse=True)
@@ -445,6 +453,7 @@ def build():
             "money":  {"網民討論": 0, "實戰案例": 0, "收入故事": 1, "新產品": 2},
             "health": {"官方": 0, "研究": 0, "心理": 0, "科普": 1, "中文": 2},
             "study":  {"學習方法": 0, "學習科學": 0, "週刊": 0, "思考": 1},
+            "en":     {"Easy English": 0, "Level 1-2": 1, "進階": 2},
         }.get(k)
         if pri:
             out.sort(key=lambda i: (pri.get(i.get("g", ""), 3), -i["ts"]))
